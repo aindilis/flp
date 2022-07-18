@@ -1,31 +1,31 @@
 
 # Table of Contents
 
-1.  [The Free Life Planner](#org619d2a8)
-    1.  [THIS OVERVIEW PAGE IS UNDER CONSTRUCTION](#orgcff46dd)
-    2.  [Solution Concept](#orgdfab522)
-    3.  [Status](#org8f10f56)
-    4.  [Summary of Some Areas that the Free Life Planner helps with:](#org6a4e650)
-    5.  [In-Depth Overview](#org90cc980)
-        1.  [Health](#org2dbaa02)
-        2.  [Time Management](#org07706a9)
-        3.  [Transportation/Shopping/Errands](#org49b2cf2)
-        4.  [Document Management System](#orgb7169ec)
-        5.  [Financial Planning System](#org0219da0)
-        6.  [Emergency Preparedness](#org88972ce)
+1.  [The Free Life Planner](#org96a7555)
+    1.  [THIS OVERVIEW PAGE IS UNDER CONSTRUCTION](#org8b11278)
+    2.  [Solution Concept](#org24cd1e2)
+    3.  [Status](#org315185d)
+    4.  [Summary of Some Areas that the Free Life Planner helps with:](#orge01dbfd)
+    5.  [In-Depth Overview](#orgd0edc94)
+        1.  [Health](#org8d59e43)
+        2.  [Time Management](#orgdda3939)
+        3.  [Transportation/Shopping/Errands](#org565ed06)
+        4.  [Document Management System](#org992f4f8)
+        5.  [Financial Planning System](#org1b15adc)
+        6.  [Emergency Preparedness](#org2fdfe01)
 
 
-<a id="org619d2a8"></a>
+<a id="org96a7555"></a>
 
 # The Free Life Planner
 
 
-<a id="orgcff46dd"></a>
+<a id="org8b11278"></a>
 
 ## THIS OVERVIEW PAGE IS UNDER CONSTRUCTION
 
 
-<a id="orgdfab522"></a>
+<a id="org24cd1e2"></a>
 
 ## Solution Concept
 
@@ -34,32 +34,32 @@
 -   Cognitive Prosthetic for Executive Function
 
 
-<a id="org8f10f56"></a>
+<a id="org315185d"></a>
 
 ## Status
 
 -   Currently working to release the latest version of FLP onto GitHub
 
 
-<a id="org6a4e650"></a>
+<a id="orge01dbfd"></a>
 
-## DONE Summary of Some Areas that the Free Life Planner helps with:
+## Summary of Some Areas that the Free Life Planner helps with:
 
--   [Health](#org2dbaa02) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
+-   [Health](#org8d59e43) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
     -   [ ] Meal Planning (Nutrition, Taste, Cost, etc)
--   [Time Management](#org07706a9) (Recurrences, Calendaring, SPSE2/Verber/FLP/etc)
+-   [Time Management](#orgdda3939) (Recurrences, Calendaring, SPSE2/Verber/FLP/etc)
 -   Organization and Self-Discipline ()
 -   Paperwork (Mail, Receipts, Doctors Orders etc)
 -   Financial (Bills, Recurrences, Meal)
--   [Emergency Preparedness](#org88972ce) ()
+-   [Emergency Preparedness](#org2fdfe01) ()
 
 
-<a id="org90cc980"></a>
+<a id="orgd0edc94"></a>
 
 ## In-Depth Overview
 
 
-<a id="org2dbaa02"></a>
+<a id="org8d59e43"></a>
 
 ### Health
 
@@ -89,7 +89,7 @@
     -   [PDDL+ Medication Management](https://github.com/fareskalaboud/PDDLPlusBenchmarkDomains)
 
 
-<a id="org07706a9"></a>
+<a id="orgdda3939"></a>
 
 ### Time Management
 
@@ -103,7 +103,7 @@
     
     2.  Plan Monitoring
     
-        -   [Plan Monitoring](https://github.com/aindilis/plan-monitor)
+        -   [Plan Monitoring](https://github.com/aindilis/plan-monitor#readme)
         -   [Interactive Execution Monitoring](https://frdcsa.org/~andrewdo/iem2-3.mp4)
 
 2.  Recurrence System
@@ -114,7 +114,7 @@
         	deltaTime([_Year-_Month-1],days(-1),YMD).
 
 
-<a id="org49b2cf2"></a>
+<a id="org565ed06"></a>
 
 ### Transportation/Shopping/Errands
 
@@ -135,7 +135,7 @@
     -   Integrates with Pantry and Inventory Management
 
 
-<a id="orgb7169ec"></a>
+<a id="org992f4f8"></a>
 
 ### Document Management System
 
@@ -146,7 +146,7 @@
 -   Export selected documents and folders
 
 
-<a id="org0219da0"></a>
+<a id="org1b15adc"></a>
 
 ### Financial Planning System
 
@@ -157,7 +157,7 @@
     -   Cash flow problems and hardships
 
 
-<a id="org88972ce"></a>
+<a id="org2fdfe01"></a>
 
 ### Emergency Preparedness
 
