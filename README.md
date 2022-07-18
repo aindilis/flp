@@ -1,46 +1,46 @@
 
 # Table of Contents
 
-1.  [The Free Life Planner](#org448b20a)
-    1.  [THIS OVERVIEW PAGE IS UNDER CONSTRUCTION](#orged90c2b)
-    2.  [Overview](#orgeb335df)
-    3.  [Status](#org7134b07)
-    4.  [Some Things that the Free Life Planner helps with:](#orgd1d4ff3)
-    5.  [In-Depth Overview](#orgc6904b2)
-        1.  [Workflow Manager](#org29a6b91)
-        2.  [Health](#org19e1a03)
-        3.  [Time Management](#org2ba6c2a)
-        4.  [Organization](#org5079b16)
-        5.  [Self-Discipline](#org82ad984)
-        6.  [Transportation/Shopping/Errands](#org9ddea03)
-        7.  [Document Management](#org48c5adc)
-        8.  [Financial Planner](#org81bb194)
-        9.  [Emergency Preparedness](#org6acd4d5)
+1.  [The Free Life Planner](#org611e319)
+    1.  [THIS README IS UNDER CONSTRUCTION](#orgbb09728)
+    2.  [Overview](#org69e4595)
+    3.  [Status](#org1b25d59)
+    4.  [Some Things that the Free Life Planner helps with:](#org98bb207)
+    5.  [In-Depth Overview](#org0759052)
+        1.  [Workflow Manager](#orga3d6003)
+        2.  [Health](#org80e64e1)
+        3.  [Time Management](#org60ca3c5)
+        4.  [Organization](#org9b188e6)
+        5.  [Self-Discipline](#orgd26c722)
+        6.  [Transportation/Shopping/Errands](#orgdc0ceb6)
+        7.  [Document Management](#org8aae22a)
+        8.  [Financial Planner](#orgea4c29e)
+        9.  [Emergency Preparedness](#orgc519b2d)
 
 
-<a id="org448b20a"></a>
+<a id="org611e319"></a>
 
 # The Free Life Planner
 
 
-<a id="orged90c2b"></a>
+<a id="orgbb09728"></a>
 
-## THIS OVERVIEW PAGE IS UNDER CONSTRUCTION
+## THIS README IS UNDER CONSTRUCTION
 
 
-<a id="orgeb335df"></a>
+<a id="org69e4595"></a>
 
 ## Overview
 
 -   A life planner that helps
--   Automate almost every aspect of your life
+-   Automates almost every aspect of your life
 -   Cognitive prosthetic for executive function
 -   Sample use cases
     -   [Homeless Story](https://frdcsa.org/~andrewdo/writings/homeless-story.html)
     -   [Health Story](https://frdcsa.org/~andrewdo/writings/health-story.html)
 
 
-<a id="org7134b07"></a>
+<a id="org1b25d59"></a>
 
 ## Status
 
@@ -48,34 +48,34 @@
 -   Interoperability between all systems
 
 
-<a id="orgd1d4ff3"></a>
+<a id="org98bb207"></a>
 
 ## Some Things that the Free Life Planner helps with:
 
--   [Workflow Manager](#org29a6b91) (Guides user through all other systems)
--   [Health](#org19e1a03) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
-    -   [Meal Planner](#org0614d2d) (Nutrition, Taste, Cost, etc)
--   [Time Management](#org2ba6c2a) (Recurrences, Calendaring, Planning, Scheduling and Plan Monitoring)
--   [Organization](#org5079b16) (Inventory Management)
--   [Self-Discipline](#org82ad984) (State Machine)
--   [Paperwork](#org48c5adc) (Mail, Receipts, Doctors Orders etc)
--   [Financial](#org81bb194) (Bills, Recurrences, Meal)
--   [Emergency Preparedness](#org6acd4d5) ()
+-   [Workflow Manager](#orga3d6003) (Guides user through all other systems)
+-   [Health](#org80e64e1) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
+    -   [Meal Planner](#orga5551e6) (Nutrition, Taste, Cost, etc)
+-   [Time Management](#org60ca3c5) (Recurrences, Calendaring, Planning, Scheduling and Plan Monitoring)
+-   [Organization](#org9b188e6) (Inventory Management)
+-   [Self-Discipline](#orgd26c722) (State Machine)
+-   [Paperwork](#org8aae22a) (Mail, Receipts, Doctors Orders etc)
+-   [Financial](#orgea4c29e) (Bills, Recurrences, Meal)
+-   [Emergency Preparedness](#orgc519b2d) ()
 
 
-<a id="orgc6904b2"></a>
+<a id="org0759052"></a>
 
 ## In-Depth Overview
 
 
-<a id="org29a6b91"></a>
+<a id="orga3d6003"></a>
 
 ### Workflow Manager
 
 -   [ ] An overarching tool which pages through and helps complete all necessary tasks
 
 
-<a id="org19e1a03"></a>
+<a id="org80e64e1"></a>
 
 ### Health
 
@@ -91,7 +91,7 @@
         -   [ ] [Meal Planning Resources](https://frdcsa.org/~andrewdo/WebWiki/MealPlanningResources.html)
         -   [ ] Improves nutrition and taste
         -   [ ] Reduces cost and prep time 4X
-        -   [ ] [Self-Discipline](#org82ad984) for dieting
+        -   [ ] [Self-Discipline](#orgd26c722) for dieting
         -   [ ] Specialty diets (medical or ethical)
         -   [ ] [Show pictures here]
 
@@ -109,7 +109,7 @@
     -   [ ] [PDDL+ Medication Management](https://github.com/fareskalaboud/PDDLPlusBenchmarkDomains)
 
 
-<a id="org2ba6c2a"></a>
+<a id="org60ca3c5"></a>
 
 ### Time Management
 
@@ -121,7 +121,7 @@
             -   [X] CLG, Colin2<sub>CLP</sub>, HSPS, LPG, LPG<sub>TD</sub><sub>1</sub><sub>4</sub>, MIPS<sub>XXL</sub>, Metric<sub>FF</sub>, OPTIC<sub>CLP</sub>, SGPlan522
         -   1 contingent planner
             -   [X] DNFct
-        -   [X] More than 200 temporal life planning domains
+        -   [X] More than 200 life planning domains
     
     2.  Plan Monitoring
     
@@ -136,7 +136,7 @@
         	deltaTime([_Year-_Month-1],days(-1),YMD).
 
 
-<a id="org5079b16"></a>
+<a id="org9b188e6"></a>
 
 ### Organization
 
@@ -147,14 +147,14 @@
     -   Pantry management
 
 
-<a id="org82ad984"></a>
+<a id="orgd26c722"></a>
 
 ### Self-Discipline
 
 1.  Self-Discipline State Machine
 
 
-<a id="org9ddea03"></a>
+<a id="orgdc0ceb6"></a>
 
 ### Transportation/Shopping/Errands
 
@@ -178,19 +178,19 @@
     -   [ ] Integration with pantry and inventory management
 
 
-<a id="org48c5adc"></a>
+<a id="org8aae22a"></a>
 
 ### Document Management
 
 -   [-] [Document Management System](https://frdcsa.org/~andrewdo/projects/paperless-office/)
     -   [X] Scan and OCR all paperwork
-    -   [X] Extract date and time references (w/ TIMEX3) and integrate with workflow
+    -   [X] [Extract date and time references](https://frdcsa.org/~andrewdo/projects/flp-screencaps/01.jpg) (w/ TIMEX3) and integrate with workflow
     -   [X] Backup w/ git
     -   [X] Export selected documents and folders
     -   [ ] Integration of document-related tasks into Workflow Manager
 
 
-<a id="org81bb194"></a>
+<a id="orgea4c29e"></a>
 
 ### Financial Planner
 
@@ -202,7 +202,7 @@
         -   [ ] Cash flow problems and hardships
 
 
-<a id="org6acd4d5"></a>
+<a id="orgc519b2d"></a>
 
 ### Emergency Preparedness
 
