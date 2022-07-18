@@ -1,38 +1,52 @@
 
 # Table of Contents
 
-1.  [The Free Life Planner](#orgf59d38c)
-    1.  [THIS README IS UNDER CONSTRUCTION](#org032c785)
-    2.  [Overview](#org1dd2406)
-    3.  [Status](#org67e5a5f)
-    4.  [The Free Life Planner helps with:](#org6d6bb06)
-    5.  [Nontechnical Overview](#org27a10bb)
-        1.  [Workflow Manager](#orge9b4ea3)
-        2.  [Health](#org5271a23)
-        3.  [Time Management](#org5d5cc7c)
-        4.  [Organization](#org614bc3c)
-        5.  [Self-Discipline](#orga620051)
-        6.  [Transportation/Shopping/Errands](#org2d9a64c)
-        7.  [Document Management](#org9cb243a)
-        8.  [Financial Planner](#orgbdcd216)
-        9.  [Emergency Preparedness](#org6bd5e3c)
-    6.  [Technical Overview](#org381b23b)
-        1.  [Time Management](#orgdafb716)
+1.  [The Free Life Planner](#org29b61b8)
+2.  [THIS README IS UNDER CONSTRUCTION](#org96eab26)
+3.  [Overview](#orgcfe22c8)
+4.  [Status](#org526733c)
+5.  [The Free Life Planner helps with:](#org777bb28)
+6.  [Overview](#org2a1faaa)
+    1.  [Workflow Manager](#org8fb3495)
+    2.  [Health](#orge3d2560)
+        1.  [Exercise](#orgaddf2e0)
+        2.  [Nutrition](#org308f8c4)
+        3.  [Doctor's Visits and Orders](#org5d7c4be)
+        4.  [Medications](#orgf984532)
+    3.  [Time Management](#org4b42153)
+        1.  [Recurrences](#org27fcb05)
+        2.  [Calendaring](#org1fdc207)
+        3.  [Temporal Planning, Scheduling, and Interactive Plan Execution Monitoring](#orge5bedcb)
+    4.  [Organization](#orgbf601ed)
+        1.  [Inventory Management](#orgefa21cb)
+    5.  [Self-Discipline](#org0b0a3c6)
+        1.  [Self-Discipline State Machine](#org50f9cd4)
+    6.  [Transportation/Shopping/Errands](#org5831f1b)
+        1.  [Transportation](#org6ba49eb)
+        2.  [Shopping](#orgbaed150)
+    7.  [Document Management](#org338c5c9)
+    8.  [Financial Planner](#orgf5a9cc6)
+    9.  [Emergency Preparedness](#org0e086cc)
+7.  [Technical Overview](#orgd57f0c8)
+    1.  [Time Management](#org8abd529)
+        1.  [Recurrences](#org7a8c9ac)
+        2.  [Calendaring](#org5ff5481)
+        3.  [Planning, Scheduling and Execution](#org3a20444)
 
 
-<a id="orgf59d38c"></a>
+<a id="org29b61b8"></a>
 
 # The Free Life Planner
 
 
-<a id="org032c785"></a>
+<a id="org96eab26"></a>
 
-## THIS README IS UNDER CONSTRUCTION
+# THIS README IS UNDER CONSTRUCTION
 
 
-<a id="org1dd2406"></a>
+<a id="orgcfe22c8"></a>
 
-## Overview
+# Overview
 
 -   A life planner that helps
 -   Automates almost every aspect of your life
@@ -42,143 +56,176 @@
     -   [Health Story](https://frdcsa.org/~andrewdo/writings/health-story.html)
 
 
-<a id="org67e5a5f"></a>
+<a id="org526733c"></a>
 
-## Status
+# Status
 
 -   Currently working to release the latest version onto GitHub
 -   Interoperability between all systems
 
 
-<a id="org6d6bb06"></a>
+<a id="org777bb28"></a>
 
-## The Free Life Planner helps with:
+# The Free Life Planner helps with:
 
--   [Workflow Manager](#orge9b4ea3) (Guides user through all other systems)
--   [Health](#org5271a23) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
-    -   [Meal Planner](#org44f6a02) (Nutrition, Taste, Cost, etc)
--   [Time Management](#org5d5cc7c) (Recurrences, Calendaring, Planning, Scheduling and Plan Monitoring)
--   [Organization](#org614bc3c) (Inventory Management)
--   [Self-Discipline](#orga620051) (State Machine)
--   [Paperwork](#org9cb243a) (Mail, Receipts, Doctors Orders etc)
--   [Financial](#orgbdcd216) (Bills, Recurrences, Meal)
--   [Emergency Preparedness](#org6bd5e3c) ()
-
-
-<a id="org27a10bb"></a>
-
-## Nontechnical Overview
+-   [Workflow Manager](#org8fb3495) (Guides user through all other systems)
+-   [Health](#orge3d2560) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
+    -   [Meal Planner](#orge1930ee) (Nutrition, Taste, Cost, etc)
+-   [Time Management](#org4b42153) (Recurrences, Calendaring, Planning, Scheduling and Plan Monitoring)
+-   [Organization](#orgbf601ed) (Inventory Management)
+-   [Self-Discipline](#org0b0a3c6) (State Machine)
+-   [Paperwork](#org338c5c9) (Mail, Receipts, Doctors Orders etc)
+-   [Financial](#orgf5a9cc6) (Bills, Recurrences, Meal)
+-   [Emergency Preparedness](#org0e086cc) ()
 
 
-<a id="orge9b4ea3"></a>
+<a id="org2a1faaa"></a>
 
-### Workflow Manager
+# Overview
+
+
+<a id="org8fb3495"></a>
+
+## Workflow Manager
 
 -   [ ] An overarching tool which pages through and helps complete all necessary tasks
 
 
-<a id="org5271a23"></a>
+<a id="orge3d2560"></a>
 
-### Health
-
-1.  Exercise
-
-    -   [X] Fitness Manager
-    -   [X] Alexa interface: "Alexa, tell David - Andrew did his morning exercises"
-
-2.  Nutrition
-
-    1.  Meal Planner
-    
-        -   [ ] [Meal Planning Resources](https://frdcsa.org/~andrewdo/WebWiki/MealPlanningResources.html)
-        -   [ ] Improves nutrition and taste
-        -   [ ] Reduces cost and prep time 4X
-        -   [ ] [Self-Discipline](#orga620051) for dieting
-        -   [ ] Specialty diets (medical or ethical)
-        -   [ ] [Show pictures here]
-
-3.  Doctor's Visits and Orders
-
-    -   [ ] Tracking visits
-    -   [ ] Following through on instructions
-    -   [ ] For when a physician is unavailable
-        -   [ ] First aid course of action system
-        -   [ ] Symptom and condition tracker
-
-4.  Medications
-
-    -   [ ] Refill Tracker
-    -   [ ] [PDDL+ Medication Management](https://github.com/fareskalaboud/PDDLPlusBenchmarkDomains)
+## Health
 
 
-<a id="org5d5cc7c"></a>
+<a id="orgaddf2e0"></a>
 
-### Time Management
+### Exercise
 
-1.  Recurrences
-
-2.  Calendaring
-
-3.  Temporal Planning, Scheduling, and Interactive Plan Execution Monitoring
-
-    1.  Planning
-    
-        -   [X] [PDDL](https://en.wikipedia.org/wiki/Planning_Domain_Definition_Language) (usually temporal) planning
-        -   [X] Contingent planning
-        -   [X] Behavior tree reactive planning
-        -   [X] [BDI Agent](http://jason.sourceforge.net/)
-    
-    2.  Plan Monitoring
-    
-        -   [X] [Plan Monitoring](https://github.com/aindilis/plan-monitor#readme)
-        -   [X] [Interactive Execution Monitoring](https://frdcsa.org/~andrewdo/iem2-3.mp4)
+-   [X] Fitness Manager
+-   [X] Alexa interface: "Alexa, tell David - Andrew did his morning exercises"
 
 
-<a id="org614bc3c"></a>
+<a id="org308f8c4"></a>
 
-### Organization
+### Nutrition
 
-1.  Inventory Management
+1.  Meal Planner
 
-    <img src="https://frdcsa.org/~andrewdo/projects/flp-screencaps/14.jpg" width="250px">
-    
-    -   Pantry management
-
-
-<a id="orga620051"></a>
-
-### Self-Discipline
-
-1.  Self-Discipline State Machine
+    -   [ ] [Meal Planning Resources](https://frdcsa.org/~andrewdo/WebWiki/MealPlanningResources.html)
+    -   [ ] Improves nutrition and taste
+    -   [ ] Reduces cost and prep time 4X
+    -   [ ] [Self-Discipline](#org0b0a3c6) for dieting
+    -   [ ] Specialty diets (medical or ethical)
+    -   [ ] [Show pictures here]
 
 
-<a id="org2d9a64c"></a>
+<a id="org5d7c4be"></a>
 
-### Transportation/Shopping/Errands
+### Doctor's Visits and Orders
 
-1.  Transportation
-
-    -   [ ] API mashups
-        -   [ ] Hours of operation look-ups
-        -   [ ] Route planning
-    -   [-] Location Logic
-        -   [X] [Owntracks](https://owntracks.org/) integration
-        -   [ ] Reverse geocoding
-        -   [ ] Locational Rules
-            -   [ ] e.g. Silence my phone when at any movie theater
-
-2.  Shopping
-
-    -   [ ] Receipt parsers
-    -   [X] Online order Tracker
-        -   [X] Checks against Bank OFX export
-    -   [X] Online Delivery Tracker
-    -   [ ] Integration with pantry and inventory management
+-   [ ] Tracking visits
+-   [ ] Following through on instructions
+-   [ ] For when a physician is unavailable
+    -   [ ] First aid course of action system
+    -   [ ] Symptom and condition tracker
 
 
-<a id="org9cb243a"></a>
+<a id="orgf984532"></a>
 
-### Document Management
+### Medications
+
+-   [ ] Refill Tracker
+-   [ ] [PDDL+ Medication Management](https://github.com/fareskalaboud/PDDLPlusBenchmarkDomains)
+
+
+<a id="org4b42153"></a>
+
+## Time Management
+
+
+<a id="org27fcb05"></a>
+
+### Recurrences
+
+
+<a id="org1fdc207"></a>
+
+### Calendaring
+
+
+<a id="orge5bedcb"></a>
+
+### Temporal Planning, Scheduling, and Interactive Plan Execution Monitoring
+
+1.  Planning
+
+    -   [X] [PDDL](https://en.wikipedia.org/wiki/Planning_Domain_Definition_Language) (usually temporal) planning
+    -   [X] Contingent planning
+    -   [X] Behavior tree reactive planning
+    -   [X] [BDI Agent](http://jason.sourceforge.net/)
+
+2.  Plan Monitoring
+
+    -   [X] [Plan Monitoring](https://github.com/aindilis/plan-monitor#readme)
+    -   [X] [Interactive Execution Monitoring](https://frdcsa.org/~andrewdo/iem2-3.mp4)
+
+
+<a id="orgbf601ed"></a>
+
+## Organization
+
+
+<a id="orgefa21cb"></a>
+
+### Inventory Management
+
+<img src="https://frdcsa.org/~andrewdo/projects/flp-screencaps/14.jpg" width="250px">
+
+-   Pantry management
+
+
+<a id="org0b0a3c6"></a>
+
+## Self-Discipline
+
+
+<a id="org50f9cd4"></a>
+
+### Self-Discipline State Machine
+
+
+<a id="org5831f1b"></a>
+
+## Transportation/Shopping/Errands
+
+
+<a id="org6ba49eb"></a>
+
+### Transportation
+
+-   [ ] API mashups
+    -   [ ] Hours of operation look-ups
+    -   [ ] Route planning
+-   [-] Location Logic
+    -   [X] [Owntracks](https://owntracks.org/) integration
+    -   [ ] Reverse geocoding
+    -   [ ] Locational Rules
+        -   [ ] e.g. Silence my phone when at any movie theater
+
+
+<a id="orgbaed150"></a>
+
+### Shopping
+
+-   [ ] Receipt parsers
+-   [X] Online order Tracker
+    -   [X] Checks against Bank OFX export
+-   [X] Online Delivery Tracker
+-   [ ] Integration with pantry and inventory management
+
+
+<a id="org338c5c9"></a>
+
+## Document Management
 
 -   [-] [Document Management System](https://frdcsa.org/~andrewdo/projects/paperless-office/)
     -   [X] Scan and OCR all paperwork
@@ -188,9 +235,9 @@
     -   [ ] Integration of document-related tasks into Workflow Manager
 
 
-<a id="orgbdcd216"></a>
+<a id="orgf5a9cc6"></a>
 
-### Financial Planner
+## Financial Planner
 
 -   [-] [Financial Planning](https://github.com/aindilis/financial-planning#readme)
     -   [X] Quickly forecast finances almost indefinitely into the future
@@ -200,44 +247,53 @@
         -   [ ] Cash flow problems and hardships
 
 
-<a id="org6bd5e3c"></a>
+<a id="org0e086cc"></a>
 
-### Emergency Preparedness
+## Emergency Preparedness
 
 -   [ ] [Personal Emergency Management](https://frdcsa.org/~andrewdo/ontolog-20220410-reduced.mp4)
 
 
-<a id="org381b23b"></a>
+<a id="orgd57f0c8"></a>
 
-## Technical Overview
+# Technical Overview
 
 
-<a id="orgdafb716"></a>
+<a id="org8abd529"></a>
 
-### Time Management
+## Time Management
 
-1.  Recurrences
 
-    How to schedule something for the last day of every month:
-    
-        hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
-        	deltaTime([_Year-_Month-1],days(-1),YMD).
+<a id="org7a8c9ac"></a>
 
-2.  Calendaring
+### Recurrences
 
-3.  Planning, Scheduling and Execution
+How to schedule something for the last day of every month:
 
-    -   [X] [PDDL](https://en.wikipedia.org/wiki/Planning_Domain_Definition_Language) planning
-        -   [X] CLG, Colin2<sub>CLP</sub>, HSPS, LPG, LPG<sub>TD</sub><sub>1</sub><sub>4</sub>, MIPS<sub>XXL</sub>, Metric<sub>FF</sub>, OPTIC<sub>CLP</sub>, SGPlan<sub>522</sub>
-            -   [X] [More than 200 PDDL life planning domains](https://github.com/aindilis/verber/tree/master/data-git/worldmodel/templates)
-    -   [X] Contingent planning
-        -   [X] DNFct
-            -   [X] More than 10 contingent life planning domains
-    -   [X] Behavior tree reactive planning
-        -   [X] Plan Monitor
-            -   [ ] Behavior trees
-                -   [ ] Execution of generated (PDDL/AgentSpeak(L)/BT/etc) plans (similar to [this](https://arxiv.org/pdf/2101.01964.pdf))
-    -   [X] BDI Agent
-        -   [X] Jason/AgentSpeak(L) w/ SWIPL integration
-            -   [X] [More than 10 BDI domains](https://github.com/aindilis/jason/tree/master/examples)
+    hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
+    	deltaTime([_Year-_Month-1],days(-1),YMD).
+
+
+<a id="org5ff5481"></a>
+
+### Calendaring
+
+
+<a id="org3a20444"></a>
+
+### Planning, Scheduling and Execution
+
+-   [X] [PDDL](https://en.wikipedia.org/wiki/Planning_Domain_Definition_Language) planning
+    -   [X] CLG, Colin2<sub>CLP</sub>, HSPS, LPG, LPG<sub>TD</sub><sub>1</sub><sub>4</sub>, MIPS<sub>XXL</sub>, Metric<sub>FF</sub>, OPTIC<sub>CLP</sub>, SGPlan<sub>522</sub>
+        -   [X] [More than 200 PDDL life planning domains](https://github.com/aindilis/verber/tree/master/data-git/worldmodel/templates)
+-   [X] Contingent planning
+    -   [X] DNFct
+        -   [X] More than 10 contingent life planning domains
+-   [X] Behavior tree reactive planning
+    -   [X] Plan Monitor
+        -   [ ] Behavior trees
+            -   [ ] Execution of generated (PDDL/AgentSpeak(L)/BT/etc) plans (similar to [this](https://arxiv.org/pdf/2101.01964.pdf))
+-   [X] BDI Agent
+    -   [X] Jason/AgentSpeak(L) w/ SWIPL integration
+        -   [X] [More than 10 BDI domains](https://github.com/aindilis/jason/tree/master/examples)
 
