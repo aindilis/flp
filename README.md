@@ -1,31 +1,31 @@
 
 # Table of Contents
 
-1.  [The Free Life Planner](#org405318d)
-    1.  [THIS OVERVIEW PAGE IS UNDER CONSTRUCTION](#org99c32c7)
-    2.  [Solution Concept](#orgec6319c)
-    3.  [Status](#org4842426)
-    4.  [Summary of Some Areas that the Free Life Planner helps with:](#orgcb0c7dc)
-    5.  [In-Depth Overview](#orgce50d4e)
-        1.  [Health](#orgad32417)
-        2.  [Time Management](#orgde1845b)
-        3.  [Transportation/Shopping/Errands](#org1e717c8)
-        4.  [Document Management System](#org182d788)
-        5.  [Financial Planning System](#org51e322e)
-        6.  [Emergency Management and Preparedness](#org75abbc0)
+1.  [The Free Life Planner](#org619d2a8)
+    1.  [THIS OVERVIEW PAGE IS UNDER CONSTRUCTION](#orgcff46dd)
+    2.  [Solution Concept](#orgdfab522)
+    3.  [Status](#org8f10f56)
+    4.  [Summary of Some Areas that the Free Life Planner helps with:](#org6a4e650)
+    5.  [In-Depth Overview](#org90cc980)
+        1.  [Health](#org2dbaa02)
+        2.  [Time Management](#org07706a9)
+        3.  [Transportation/Shopping/Errands](#org49b2cf2)
+        4.  [Document Management System](#orgb7169ec)
+        5.  [Financial Planning System](#org0219da0)
+        6.  [Emergency Preparedness](#org88972ce)
 
 
-<a id="org405318d"></a>
+<a id="org619d2a8"></a>
 
 # The Free Life Planner
 
 
-<a id="org99c32c7"></a>
+<a id="orgcff46dd"></a>
 
 ## THIS OVERVIEW PAGE IS UNDER CONSTRUCTION
 
 
-<a id="orgec6319c"></a>
+<a id="orgdfab522"></a>
 
 ## Solution Concept
 
@@ -34,66 +34,77 @@
 -   Cognitive Prosthetic for Executive Function
 
 
-<a id="org4842426"></a>
+<a id="org8f10f56"></a>
 
 ## Status
 
 -   Currently working to release the latest version of FLP onto GitHub
 
 
-<a id="orgcb0c7dc"></a>
+<a id="org6a4e650"></a>
 
-## Summary of Some Areas that the Free Life Planner helps with:
+## DONE Summary of Some Areas that the Free Life Planner helps with:
 
--   [Health](#orgad32417) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
--   [Time Management](#orgde1845b) (Recurrences, Calendaring)
+-   [Health](#org2dbaa02) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
+    -   [ ] Meal Planning (Nutrition, Taste, Cost, etc)
+-   [Time Management](#org07706a9) (Recurrences, Calendaring, SPSE2/Verber/FLP/etc)
 -   Organization and Self-Discipline ()
--   Sequencing (SPSE2/Verber/FLP/etc)
--   Meal Planning (Nutrition, Taste, Cost, etc)
 -   Paperwork (Mail, Receipts, Doctors Orders etc)
 -   Financial (Bills, Recurrences, Meal)
--   Emergency Preparedness ()
+-   [Emergency Preparedness](#org88972ce) ()
 
 
-<a id="orgce50d4e"></a>
+<a id="org90cc980"></a>
 
 ## In-Depth Overview
 
 
-<a id="orgad32417"></a>
+<a id="org2dbaa02"></a>
 
 ### Health
 
-1.  Fitness Management
+1.  Exercise
 
-    -   Use Alexa voice interface to say 'Alexa, tell David - Andy did
-        his morning exercises'
+    -   Use Alexa voice interface to say "Alexa, tell David - Andy did his morning exercises"
 
-2.  "Gourmet Meal Planner"
+2.  Nutrition
 
     -   [Meal Planning Resources](https://frdcsa.org/~andrewdo/WebWiki/MealPlanningResources.html)
     -   Improves nutrition and taste
-    -   Reduces cost and time 4X
+    -   Reduces cost and prep time 4X
     -   Self-discipline systems helps you achieve the diet you want
     -   [Show pictures here]
 
-3.  Akahige Medical Expert System
+3.  Doctor's Visits and Orders
 
-    -   Tracking Doctor's Visits
-    -   Following through on Doctor's Instructions
+    -   Tracking visits
+    -   Following through on instructions
     -   For when a physician is unavailable
-        -   Symptom tracker
+        -   First Aid Course Of Action system
+        -   Symptom and Condition tracker
+
+4.  Medications
+
+    -   Refill Tracker
+    -   [PDDL+ Medication Management](https://github.com/fareskalaboud/PDDLPlusBenchmarkDomains)
 
 
-<a id="orgde1845b"></a>
+<a id="org07706a9"></a>
 
 ### Time Management
 
 1.  Temporal Planning, Scheduling, and Interactive Plan Execution Monitoring
 
-    1.  Verber
+    1.  Planners
     
-    2.  IEM
+        -   10 temporal planners
+        -   > 200 temporal life planning domains
+        -   Contingent planning
+    
+    2.  Plan Monitoring
+    
+        -   [Plan Monitoring](https://github.com/aindilis/plan-monitor)
+        -   [Interactive Execution Monitoring](https://frdcsa.org/~andrewdo/iem2-3.mp4)
 
 2.  Recurrence System
 
@@ -103,7 +114,7 @@
         	deltaTime([_Year-_Month-1],days(-1),YMD).
 
 
-<a id="org1e717c8"></a>
+<a id="org49b2cf2"></a>
 
 ### Transportation/Shopping/Errands
 
@@ -124,7 +135,7 @@
     -   Integrates with Pantry and Inventory Management
 
 
-<a id="org182d788"></a>
+<a id="orgb7169ec"></a>
 
 ### Document Management System
 
@@ -135,7 +146,7 @@
 -   Export selected documents and folders
 
 
-<a id="org51e322e"></a>
+<a id="org0219da0"></a>
 
 ### Financial Planning System
 
@@ -146,9 +157,9 @@
     -   Cash flow problems and hardships
 
 
-<a id="org75abbc0"></a>
+<a id="org88972ce"></a>
 
-### Emergency Management and Preparedness
+### Emergency Preparedness
 
 -   [Personal Emergency Management](https://frdcsa.org/~andrewdo/ontolog-20220410-reduced.mp4)
 
