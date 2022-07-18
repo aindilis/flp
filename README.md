@@ -1,34 +1,34 @@
 
 # Table of Contents
 
-1.  [The Free Life Planner](#orgd71fe61)
-    1.  [THIS README IS UNDER CONSTRUCTION](#org04054c3)
-    2.  [Overview](#org06ba9aa)
-    3.  [Status](#orgaff03b7)
-    4.  [Some Things that the Free Life Planner helps with:](#orga0977bc)
-    5.  [In-Depth Overview](#org7fc25d2)
-        1.  [Workflow Manager](#org676f7b1)
-        2.  [Health](#org44cacdb)
-        3.  [Time Management](#orgb81e725)
-        4.  [Organization](#org0dedbb5)
-        5.  [Self-Discipline](#org8494fde)
-        6.  [Transportation/Shopping/Errands](#org1c0385e)
-        7.  [Document Management](#org9df595e)
-        8.  [Financial Planner](#org2e46833)
-        9.  [Emergency Preparedness](#org61d3991)
+1.  [The Free Life Planner](#org9fa46d5)
+    1.  [THIS README IS UNDER CONSTRUCTION](#org76905a3)
+    2.  [Overview](#orgc0a89a6)
+    3.  [Status](#org35b972d)
+    4.  [Some Things that the Free Life Planner helps with:](#orgf3e5a72)
+    5.  [In-Depth Overview](#org89f168c)
+        1.  [Workflow Manager](#org015a7e4)
+        2.  [Health](#orgbd8b0a2)
+        3.  [Time Management](#org2fd145d)
+        4.  [Organization](#orge951302)
+        5.  [Self-Discipline](#org8fb2483)
+        6.  [Transportation/Shopping/Errands](#org7f8813b)
+        7.  [Document Management](#orgc69e700)
+        8.  [Financial Planner](#orgbe579f0)
+        9.  [Emergency Preparedness](#orgc1ba222)
 
 
-<a id="orgd71fe61"></a>
+<a id="org9fa46d5"></a>
 
 # The Free Life Planner
 
 
-<a id="org04054c3"></a>
+<a id="org76905a3"></a>
 
 ## THIS README IS UNDER CONSTRUCTION
 
 
-<a id="org06ba9aa"></a>
+<a id="orgc0a89a6"></a>
 
 ## Overview
 
@@ -40,7 +40,7 @@
     -   [Health Story](https://frdcsa.org/~andrewdo/writings/health-story.html)
 
 
-<a id="orgaff03b7"></a>
+<a id="org35b972d"></a>
 
 ## Status
 
@@ -48,34 +48,34 @@
 -   Interoperability between all systems
 
 
-<a id="orga0977bc"></a>
+<a id="orgf3e5a72"></a>
 
 ## Some Things that the Free Life Planner helps with:
 
--   [Workflow Manager](#org676f7b1) (Guides user through all other systems)
--   [Health](#org44cacdb) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
-    -   [Meal Planner](#orgd1432af) (Nutrition, Taste, Cost, etc)
--   [Time Management](#orgb81e725) (Recurrences, Calendaring, Planning, Scheduling and Plan Monitoring)
--   [Organization](#org0dedbb5) (Inventory Management)
--   [Self-Discipline](#org8494fde) (State Machine)
--   [Paperwork](#org9df595e) (Mail, Receipts, Doctors Orders etc)
--   [Financial](#org2e46833) (Bills, Recurrences, Meal)
--   [Emergency Preparedness](#org61d3991) ()
+-   [Workflow Manager](#org015a7e4) (Guides user through all other systems)
+-   [Health](#orgbd8b0a2) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
+    -   [Meal Planner](#org06a11c0) (Nutrition, Taste, Cost, etc)
+-   [Time Management](#org2fd145d) (Recurrences, Calendaring, Planning, Scheduling and Plan Monitoring)
+-   [Organization](#orge951302) (Inventory Management)
+-   [Self-Discipline](#org8fb2483) (State Machine)
+-   [Paperwork](#orgc69e700) (Mail, Receipts, Doctors Orders etc)
+-   [Financial](#orgbe579f0) (Bills, Recurrences, Meal)
+-   [Emergency Preparedness](#orgc1ba222) ()
 
 
-<a id="org7fc25d2"></a>
+<a id="org89f168c"></a>
 
 ## In-Depth Overview
 
 
-<a id="org676f7b1"></a>
+<a id="org015a7e4"></a>
 
 ### Workflow Manager
 
 -   [ ] An overarching tool which pages through and helps complete all necessary tasks
 
 
-<a id="org44cacdb"></a>
+<a id="orgbd8b0a2"></a>
 
 ### Health
 
@@ -91,7 +91,7 @@
         -   [ ] [Meal Planning Resources](https://frdcsa.org/~andrewdo/WebWiki/MealPlanningResources.html)
         -   [ ] Improves nutrition and taste
         -   [ ] Reduces cost and prep time 4X
-        -   [ ] [Self-Discipline](#org8494fde) for dieting
+        -   [ ] [Self-Discipline](#org8fb2483) for dieting
         -   [ ] Specialty diets (medical or ethical)
         -   [ ] [Show pictures here]
 
@@ -109,7 +109,7 @@
     -   [ ] [PDDL+ Medication Management](https://github.com/fareskalaboud/PDDLPlusBenchmarkDomains)
 
 
-<a id="orgb81e725"></a>
+<a id="org2fd145d"></a>
 
 ### Time Management
 
@@ -122,13 +122,13 @@
         -   1 contingent planner
             -   [X] DNFct
         -   [X] More than 200 PDDL life planning domains
-        -   [ ] Behavior trees
-            -   [ ] Execution of generated (PDDL/etc) plans (similar to [this](https://arxiv.org/pdf/2101.01964.pdf))
-            -   [ ] Routine domains for life planning
+        -   [ ] Behavior trees domains for life planning
     
     2.  Plan Monitoring
     
-        -   [X] [Plan Monitoring](https://github.com/aindilis/plan-monitor#readme)
+        -   [ ] [Plan Monitoring](https://github.com/aindilis/plan-monitor#readme)
+            -   [ ] Behavior trees
+                -   [ ] Execution of generated (PDDL/etc) plans (similar to [this](https://arxiv.org/pdf/2101.01964.pdf))
         -   [X] [Interactive Execution Monitoring](https://frdcsa.org/~andrewdo/iem2-3.mp4)
 
 2.  Recurrence System
@@ -139,7 +139,7 @@
         	deltaTime([_Year-_Month-1],days(-1),YMD).
 
 
-<a id="org0dedbb5"></a>
+<a id="orge951302"></a>
 
 ### Organization
 
@@ -150,14 +150,14 @@
     -   Pantry management
 
 
-<a id="org8494fde"></a>
+<a id="org8fb2483"></a>
 
 ### Self-Discipline
 
 1.  Self-Discipline State Machine
 
 
-<a id="org1c0385e"></a>
+<a id="org7f8813b"></a>
 
 ### Transportation/Shopping/Errands
 
@@ -181,7 +181,7 @@
     -   [ ] Integration with pantry and inventory management
 
 
-<a id="org9df595e"></a>
+<a id="orgc69e700"></a>
 
 ### Document Management
 
@@ -193,7 +193,7 @@
     -   [ ] Integration of document-related tasks into Workflow Manager
 
 
-<a id="org2e46833"></a>
+<a id="orgbe579f0"></a>
 
 ### Financial Planner
 
@@ -205,7 +205,7 @@
         -   [ ] Cash flow problems and hardships
 
 
-<a id="org61d3991"></a>
+<a id="orgc1ba222"></a>
 
 ### Emergency Preparedness
 
