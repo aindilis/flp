@@ -1,32 +1,31 @@
 
 # Table of Contents
 
-1.  [The Free Life Planner](#org0d957f3)
-    1.  [THIS OVERVIEW PAGE IS UNDER CONSTRUCTION](#org7f3e709)
-    2.  [Solution Concept](#org7d2ef25)
-    3.  [Status](#orgd6851b0)
-    4.  [Summary of Some Areas that the Free Life Planner helps with:](#orgea69f4c)
-    5.  [In-Depth Overview](#orga14e184)
-        1.  [Health](#org8584689)
-        2.  [Time Management](#orgfc022e8)
-        3.  [Transportation/Shopping/Errands](#org69310c9)
-        4.  [Document Management System](#org7bde3a8)
-        5.  [Time Management](#org4f9e24c)
-        6.  [Financial Planning System](#orgbe899b2)
-        7.  [Emergency Management and Preparedness](#org10078c0)
+1.  [The Free Life Planner](#org405318d)
+    1.  [THIS OVERVIEW PAGE IS UNDER CONSTRUCTION](#org99c32c7)
+    2.  [Solution Concept](#orgec6319c)
+    3.  [Status](#org4842426)
+    4.  [Summary of Some Areas that the Free Life Planner helps with:](#orgcb0c7dc)
+    5.  [In-Depth Overview](#orgce50d4e)
+        1.  [Health](#orgad32417)
+        2.  [Time Management](#orgde1845b)
+        3.  [Transportation/Shopping/Errands](#org1e717c8)
+        4.  [Document Management System](#org182d788)
+        5.  [Financial Planning System](#org51e322e)
+        6.  [Emergency Management and Preparedness](#org75abbc0)
 
 
-<a id="org0d957f3"></a>
+<a id="org405318d"></a>
 
 # The Free Life Planner
 
 
-<a id="org7f3e709"></a>
+<a id="org99c32c7"></a>
 
 ## THIS OVERVIEW PAGE IS UNDER CONSTRUCTION
 
 
-<a id="org7d2ef25"></a>
+<a id="orgec6319c"></a>
 
 ## Solution Concept
 
@@ -35,19 +34,19 @@
 -   Cognitive Prosthetic for Executive Function
 
 
-<a id="orgd6851b0"></a>
+<a id="org4842426"></a>
 
 ## Status
 
 -   Currently working to release the latest version of FLP onto GitHub
 
 
-<a id="orgea69f4c"></a>
+<a id="orgcb0c7dc"></a>
 
 ## Summary of Some Areas that the Free Life Planner helps with:
 
--   [1.5.1](#org8584689) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
--   [1.5.2](#orgfc022e8) (Recurrences, Calendaring)
+-   [Health](#orgad32417) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
+-   [Time Management](#orgde1845b) (Recurrences, Calendaring)
 -   Organization and Self-Discipline ()
 -   Sequencing (SPSE2/Verber/FLP/etc)
 -   Meal Planning (Nutrition, Taste, Cost, etc)
@@ -56,12 +55,12 @@
 -   Emergency Preparedness ()
 
 
-<a id="orga14e184"></a>
+<a id="orgce50d4e"></a>
 
 ## In-Depth Overview
 
 
-<a id="org8584689"></a>
+<a id="orgad32417"></a>
 
 ### Health
 
@@ -86,14 +85,25 @@
         -   Symptom tracker
 
 
-<a id="orgfc022e8"></a>
+<a id="orgde1845b"></a>
 
 ### Time Management
 
--   blah blah
+1.  Temporal Planning, Scheduling, and Interactive Plan Execution Monitoring
+
+    1.  Verber
+    
+    2.  IEM
+
+2.  Recurrence System
+
+    How to schedule something for the last day of every month:
+    
+        hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
+        	deltaTime([_Year-_Month-1],days(-1),YMD).
 
 
-<a id="org69310c9"></a>
+<a id="org1e717c8"></a>
 
 ### Transportation/Shopping/Errands
 
@@ -114,7 +124,7 @@
     -   Integrates with Pantry and Inventory Management
 
 
-<a id="org7bde3a8"></a>
+<a id="org182d788"></a>
 
 ### Document Management System
 
@@ -125,25 +135,7 @@
 -   Export selected documents and folders
 
 
-<a id="org4f9e24c"></a>
-
-### Time Management
-
-1.  Temporal Planning, Scheduling, and Interactive Plan Execution Monitoring
-
-    1.  Verber
-    
-    2.  IEM
-
-2.  Recurrence System
-
-    How to schedule something for the last day of every month:
-    
-        hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
-        	deltaTime([_Year-_Month-1],days(-1),YMD).
-
-
-<a id="orgbe899b2"></a>
+<a id="org51e322e"></a>
 
 ### Financial Planning System
 
@@ -154,7 +146,7 @@
     -   Cash flow problems and hardships
 
 
-<a id="org10078c0"></a>
+<a id="org75abbc0"></a>
 
 ### Emergency Management and Preparedness
 
