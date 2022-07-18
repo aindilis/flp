@@ -1,52 +1,54 @@
 
 # Table of Contents
 
-1.  [The Free Life Planner](#org55bc757)
-    1.  [THIS OVERVIEW PAGE IS UNDER CONSTRUCTION](#orgeb654b3)
-    2.  [Solution Concept](#org20145b1)
-    3.  [Status](#org1ce2aa2)
-    4.  [Summary of Some Areas that the Free Life Planner helps with:](#org36ee95e)
-    5.  [In-Depth Overview](#org753e368)
-        1.  [Health](#org3b34012)
-        2.  [Transportation/Shopping/Errands](#orgd896fbc)
-        3.  [Document Management System](#org94e27c3)
-        4.  [Time Management](#org728181e)
-        5.  [Financial Planning System](#orgc4c30c1)
-        6.  [Emergency Management and Preparedness](#orge58e0d1)
+1.  [The Free Life Planner](#org0d957f3)
+    1.  [THIS OVERVIEW PAGE IS UNDER CONSTRUCTION](#org7f3e709)
+    2.  [Solution Concept](#org7d2ef25)
+    3.  [Status](#orgd6851b0)
+    4.  [Summary of Some Areas that the Free Life Planner helps with:](#orgea69f4c)
+    5.  [In-Depth Overview](#orga14e184)
+        1.  [Health](#org8584689)
+        2.  [Time Management](#orgfc022e8)
+        3.  [Transportation/Shopping/Errands](#org69310c9)
+        4.  [Document Management System](#org7bde3a8)
+        5.  [Time Management](#org4f9e24c)
+        6.  [Financial Planning System](#orgbe899b2)
+        7.  [Emergency Management and Preparedness](#org10078c0)
 
 
-<a id="org55bc757"></a>
+<a id="org0d957f3"></a>
 
 # The Free Life Planner
 
 
-<a id="orgeb654b3"></a>
+<a id="org7f3e709"></a>
 
 ## THIS OVERVIEW PAGE IS UNDER CONSTRUCTION
 
 
-<a id="org20145b1"></a>
+<a id="org7d2ef25"></a>
 
 ## Solution Concept
 
 -   A Life Planner that helps
 -   Automate almost every aspect of your life
+-   Cognitive Prosthetic for Executive Function
 
 
-<a id="org1ce2aa2"></a>
+<a id="orgd6851b0"></a>
 
 ## Status
 
 -   Currently working to release the latest version of FLP onto GitHub
 
 
-<a id="org36ee95e"></a>
+<a id="orgea69f4c"></a>
 
 ## Summary of Some Areas that the Free Life Planner helps with:
 
--   Health (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
--   Time Management (Recurrences, Calendaring)
--   Organization (????/????)
+-   [1.5.1](#org8584689) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
+-   [1.5.2](#orgfc022e8) (Recurrences, Calendaring)
+-   Organization and Self-Discipline ()
 -   Sequencing (SPSE2/Verber/FLP/etc)
 -   Meal Planning (Nutrition, Taste, Cost, etc)
 -   Paperwork (Mail, Receipts, Doctors Orders etc)
@@ -54,12 +56,12 @@
 -   Emergency Preparedness ()
 
 
-<a id="org753e368"></a>
+<a id="orga14e184"></a>
 
 ## In-Depth Overview
 
 
-<a id="org3b34012"></a>
+<a id="org8584689"></a>
 
 ### Health
 
@@ -84,7 +86,14 @@
         -   Symptom tracker
 
 
-<a id="orgd896fbc"></a>
+<a id="orgfc022e8"></a>
+
+### Time Management
+
+-   blah blah
+
+
+<a id="org69310c9"></a>
 
 ### Transportation/Shopping/Errands
 
@@ -105,7 +114,7 @@
     -   Integrates with Pantry and Inventory Management
 
 
-<a id="org94e27c3"></a>
+<a id="org7bde3a8"></a>
 
 ### Document Management System
 
@@ -116,7 +125,7 @@
 -   Export selected documents and folders
 
 
-<a id="org728181e"></a>
+<a id="org4f9e24c"></a>
 
 ### Time Management
 
@@ -134,17 +143,18 @@
         	deltaTime([_Year-_Month-1],days(-1),YMD).
 
 
-<a id="orgc4c30c1"></a>
+<a id="orgbe899b2"></a>
 
 ### Financial Planning System
 
 -   Quickly forecast finances almost indefinitely into the future
--   Metaplanner helps develop contingency plans for different financial problems
+-   Metaplanners help develop contingency plans for different financial problems
     -   Unexpected delays
     -   Overcharges and Unapproved Charges
+    -   Cash flow problems and hardships
 
 
-<a id="orge58e0d1"></a>
+<a id="org10078c0"></a>
 
 ### Emergency Management and Preparedness
 
