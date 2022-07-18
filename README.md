@@ -1,31 +1,31 @@
 
 # Table of Contents
 
-1.  [The Free Life Planner](#org96a7555)
-    1.  [THIS OVERVIEW PAGE IS UNDER CONSTRUCTION](#org8b11278)
-    2.  [Solution Concept](#org24cd1e2)
-    3.  [Status](#org315185d)
-    4.  [Summary of Some Areas that the Free Life Planner helps with:](#orge01dbfd)
-    5.  [In-Depth Overview](#orgd0edc94)
-        1.  [Health](#org8d59e43)
-        2.  [Time Management](#orgdda3939)
-        3.  [Transportation/Shopping/Errands](#org565ed06)
-        4.  [Document Management System](#org992f4f8)
-        5.  [Financial Planning System](#org1b15adc)
-        6.  [Emergency Preparedness](#org2fdfe01)
+1.  [The Free Life Planner](#org64f4dbb)
+    1.  [THIS OVERVIEW PAGE IS UNDER CONSTRUCTION](#org43b5507)
+    2.  [Solution Concept](#org15b18ac)
+    3.  [Status](#org8a9111d)
+    4.  [Summary of Some Areas that the Free Life Planner helps with:](#org78bac59)
+    5.  [In-Depth Overview](#org62e37ee)
+        1.  [Health](#org537ce28)
+        2.  [Time Management](#orgc855634)
+        3.  [Transportation/Shopping/Errands](#org6a4175e)
+        4.  [Document Management System](#orgaed4f6d)
+        5.  [Financial Planning System](#org38d7b49)
+        6.  [Emergency Preparedness](#org6be3816)
 
 
-<a id="org96a7555"></a>
+<a id="org64f4dbb"></a>
 
 # The Free Life Planner
 
 
-<a id="org8b11278"></a>
+<a id="org43b5507"></a>
 
 ## THIS OVERVIEW PAGE IS UNDER CONSTRUCTION
 
 
-<a id="org24cd1e2"></a>
+<a id="org15b18ac"></a>
 
 ## Solution Concept
 
@@ -34,32 +34,32 @@
 -   Cognitive Prosthetic for Executive Function
 
 
-<a id="org315185d"></a>
+<a id="org8a9111d"></a>
 
 ## Status
 
 -   Currently working to release the latest version of FLP onto GitHub
 
 
-<a id="orge01dbfd"></a>
+<a id="org78bac59"></a>
 
 ## Summary of Some Areas that the Free Life Planner helps with:
 
--   [Health](#org8d59e43) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
+-   [Health](#org537ce28) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
     -   [ ] Meal Planning (Nutrition, Taste, Cost, etc)
--   [Time Management](#orgdda3939) (Recurrences, Calendaring, SPSE2/Verber/FLP/etc)
+-   [Time Management](#orgc855634) (Recurrences, Calendaring, SPSE2/Verber/FLP/etc)
 -   Organization and Self-Discipline ()
 -   Paperwork (Mail, Receipts, Doctors Orders etc)
 -   Financial (Bills, Recurrences, Meal)
--   [Emergency Preparedness](#org2fdfe01) ()
+-   [Emergency Preparedness](#org6be3816) ()
 
 
-<a id="orgd0edc94"></a>
+<a id="org62e37ee"></a>
 
 ## In-Depth Overview
 
 
-<a id="org8d59e43"></a>
+<a id="org537ce28"></a>
 
 ### Health
 
@@ -80,8 +80,8 @@
     -   Tracking visits
     -   Following through on instructions
     -   For when a physician is unavailable
-        -   First Aid Course Of Action system
-        -   Symptom and Condition tracker
+        -   First aid course of action system
+        -   Symptom and condition tracker
 
 4.  Medications
 
@@ -89,7 +89,7 @@
     -   [PDDL+ Medication Management](https://github.com/fareskalaboud/PDDLPlusBenchmarkDomains)
 
 
-<a id="orgdda3939"></a>
+<a id="orgc855634"></a>
 
 ### Time Management
 
@@ -98,6 +98,7 @@
     1.  Planners
     
         -   10 temporal planners
+            -   CLG, Colin2<sub>CLP</sub>, DNFct, HSPS, LPG, LPG<sub>TD</sub><sub>1</sub><sub>4</sub>, MIPS<sub>XXL</sub>, Metric<sub>FF</sub>, OPTIC<sub>CLP</sub>, SGPlan522
         -   > 200 temporal life planning domains
         -   Contingent planning
     
@@ -114,50 +115,52 @@
         	deltaTime([_Year-_Month-1],days(-1),YMD).
 
 
-<a id="org565ed06"></a>
+<a id="org6a4175e"></a>
 
 ### Transportation/Shopping/Errands
 
 1.  Transportation
 
-    -   Location Logic
-        -   Owntracks integration
     -   API mashups
         -   Hours of operation look-ups
         -   Route planning
+    -   Location Logic
+        -   Owntracks integration
         -   Reverse geocoding
+        -   Locational Rules
+            -   e.g. Silence my phone when at any movie theater
 
 2.  Shopping
 
-    -   Order Tracker
-        -   Checks against Bank OFX export
-    -   Online Delivery Tracker
+    -   [X] Order Tracker
+        -   [X] Checks against Bank OFX export
+    -   [X] Online Delivery Tracker
     -   Integrates with Pantry and Inventory Management
 
 
-<a id="org992f4f8"></a>
+<a id="orgaed4f6d"></a>
 
 ### Document Management System
 
--   Scan and OCR all paperwork
--   Extract dates using TIMEX3 parsers and integrate with planning,
+-   [X] Scan and OCR all paperwork
+-   [X] Extract dates using TIMEX3 parsers and integrate with planning,
     scheduling, and execution system
--   Backup in git
--   Export selected documents and folders
+-   [X] Backup in git
+-   [X] Export selected documents and folders
 
 
-<a id="org1b15adc"></a>
+<a id="org38d7b49"></a>
 
 ### Financial Planning System
 
--   Quickly forecast finances almost indefinitely into the future
--   Metaplanners help develop contingency plans for different financial problems
-    -   Unexpected delays
-    -   Overcharges and Unapproved Charges
-    -   Cash flow problems and hardships
+-   [X] Quickly forecast finances almost indefinitely into the future
+-   [ ] Metaplanners help develop contingency plans for different financial problems
+    -   [ ] Unexpected delays
+    -   [ ] Overcharges and unapproved charges
+    -   [ ] Cash flow problems and hardships
 
 
-<a id="org2fdfe01"></a>
+<a id="org6be3816"></a>
 
 ### Emergency Preparedness
 
