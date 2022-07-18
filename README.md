@@ -154,5 +154,5 @@
     -   Unexpected delays
     -   Overcharges and Unapproved Charges
 
-[\![Personal Emergency Management]()](<https://frdcsa.org/~andrewdo/ontolog-20220410-reduced.mp4>)
+[![Personal Emergency Management]()](<https://frdcsa.org/~andrewdo/ontolog-20220410-reduced.mp4>)
 
