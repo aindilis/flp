@@ -1,34 +1,34 @@
 
 # Table of Contents
 
-1.  [The Free Life Planner](#org35db975)
-    1.  [THIS OVERVIEW PAGE IS UNDER CONSTRUCTION](#orgcd2d628)
-    2.  [Overview](#org387ac6f)
-    3.  [Status](#org47a10a2)
-    4.  [Some Things that the Free Life Planner helps with:](#org20fb316)
-    5.  [In-Depth Overview](#org9156349)
-        1.  [Workflow Manager](#org35fb975)
-        2.  [Health](#org2ec9686)
-        3.  [Time Management](#org11ab0a1)
-        4.  [Organization](#org6199f20)
-        5.  [Self-Discipline](#org2773390)
-        6.  [Transportation/Shopping/Errands](#org915c311)
-        7.  [Document Management](#org6cdd833)
-        8.  [Financial Planner](#org4afa77c)
-        9.  [Emergency Preparedness](#orga71280e)
+1.  [The Free Life Planner](#orgf6bffd5)
+    1.  [THIS OVERVIEW PAGE IS UNDER CONSTRUCTION](#org246ce95)
+    2.  [Overview](#org2f95086)
+    3.  [Status](#org547b8fe)
+    4.  [Some Things that the Free Life Planner helps with:](#orgb4a377e)
+    5.  [In-Depth Overview](#org186996e)
+        1.  [Workflow Manager](#org39cb455)
+        2.  [Health](#org9aa27e3)
+        3.  [Time Management](#orgd92f0af)
+        4.  [Organization](#org093088d)
+        5.  [Self-Discipline](#org341978c)
+        6.  [Transportation/Shopping/Errands](#org43cdd79)
+        7.  [Document Management](#org7e2a3a1)
+        8.  [Financial Planner](#org7be7357)
+        9.  [Emergency Preparedness](#orge146b97)
 
 
-<a id="org35db975"></a>
+<a id="orgf6bffd5"></a>
 
 # The Free Life Planner
 
 
-<a id="orgcd2d628"></a>
+<a id="org246ce95"></a>
 
 ## THIS OVERVIEW PAGE IS UNDER CONSTRUCTION
 
 
-<a id="org387ac6f"></a>
+<a id="org2f95086"></a>
 
 ## Overview
 
@@ -37,42 +37,42 @@
 -   Cognitive prosthetic for executive function
 
 
-<a id="org47a10a2"></a>
+<a id="org547b8fe"></a>
 
 ## Status
 
--   Currently working to release the latest version of FLP onto GitHub
+-   Currently working to release the latest version onto GitHub
 -   Interoperability between all systems
 
 
-<a id="org20fb316"></a>
+<a id="orgb4a377e"></a>
 
 ## Some Things that the Free Life Planner helps with:
 
--   [Workflow Manager](#org35fb975) (Guides user through all other systems)
--   [Health](#org2ec9686) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
-    -   [Meal Planner](#org0a380f7) (Nutrition, Taste, Cost, etc)
--   [Time Management](#org11ab0a1) (Recurrences, Calendaring, Planning, Scheduling and Plan Monitoring)
--   [Organization](#org6199f20) (Inventory Management)
--   [Self-Discipline](#org2773390) (State Machine)
--   [Paperwork](#org6cdd833) (Mail, Receipts, Doctors Orders etc)
--   [Financial](#org4afa77c) (Bills, Recurrences, Meal)
--   [Emergency Preparedness](#orga71280e) ()
+-   [Workflow Manager](#org39cb455) (Guides user through all other systems)
+-   [Health](#org9aa27e3) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
+    -   [Meal Planner](#org3a564f0) (Nutrition, Taste, Cost, etc)
+-   [Time Management](#orgd92f0af) (Recurrences, Calendaring, Planning, Scheduling and Plan Monitoring)
+-   [Organization](#org093088d) (Inventory Management)
+-   [Self-Discipline](#org341978c) (State Machine)
+-   [Paperwork](#org7e2a3a1) (Mail, Receipts, Doctors Orders etc)
+-   [Financial](#org7be7357) (Bills, Recurrences, Meal)
+-   [Emergency Preparedness](#orge146b97) ()
 
 
-<a id="org9156349"></a>
+<a id="org186996e"></a>
 
 ## In-Depth Overview
 
 
-<a id="org35fb975"></a>
+<a id="org39cb455"></a>
 
 ### Workflow Manager
 
 -   [ ] An overarching tool which pages through and helps complete all necessary tasks
 
 
-<a id="org2ec9686"></a>
+<a id="org9aa27e3"></a>
 
 ### Health
 
@@ -88,7 +88,7 @@
         -   [ ] [Meal Planning Resources](https://frdcsa.org/~andrewdo/WebWiki/MealPlanningResources.html)
         -   [ ] Improves nutrition and taste
         -   [ ] Reduces cost and prep time 4X
-        -   [ ] [Self-Discipline](#org2773390) for dieting
+        -   [ ] [Self-Discipline](#org341978c) for dieting
         -   [ ] Specialty diets (medical or ethical)
         -   [ ] [Show pictures here]
 
@@ -106,7 +106,7 @@
     -   [ ] [PDDL+ Medication Management](https://github.com/fareskalaboud/PDDLPlusBenchmarkDomains)
 
 
-<a id="org11ab0a1"></a>
+<a id="orgd92f0af"></a>
 
 ### Time Management
 
@@ -133,7 +133,7 @@
         	deltaTime([_Year-_Month-1],days(-1),YMD).
 
 
-<a id="org6199f20"></a>
+<a id="org093088d"></a>
 
 ### Organization
 
@@ -144,14 +144,14 @@
     -   Pantry management
 
 
-<a id="org2773390"></a>
+<a id="org341978c"></a>
 
 ### Self-Discipline
 
 1.  Self-Discipline State Machine
 
 
-<a id="org915c311"></a>
+<a id="org43cdd79"></a>
 
 ### Transportation/Shopping/Errands
 
@@ -175,30 +175,31 @@
     -   [ ] Integration with pantry and inventory management
 
 
-<a id="org6cdd833"></a>
+<a id="org7e2a3a1"></a>
 
 ### Document Management
 
--   [X] Scan and OCR all paperwork
--   [X] Extract date and time references (w/ TIMEX3) and integrate with workflow
--   [X] Backup w/ git
--   [X] Export selected documents and folders
--   [ ] Integration of document-related tasks into Workflow Manager
+-   [-] [Document Management System](https://frdcsa.org/~andrewdo/projects/paperless-office/)
+    -   [X] Scan and OCR all paperwork
+    -   [X] Extract date and time references (w/ TIMEX3) and integrate with workflow
+    -   [X] Backup w/ git
+    -   [X] Export selected documents and folders
+    -   [ ] Integration of document-related tasks into Workflow Manager
 
 
-<a id="org4afa77c"></a>
+<a id="org7be7357"></a>
 
 ### Financial Planner
 
--   [X] [Financial Planning](https://github.com/aindilis/financial-planning#readme)
--   [X] Quickly forecast finances almost indefinitely into the future
--   [ ] Metaplanners help develop contingency plans for different financial problems
-    -   [ ] Unexpected delays
-    -   [ ] Overcharges and unapproved charges
-    -   [ ] Cash flow problems and hardships
+-   [-] [Financial Planning](https://github.com/aindilis/financial-planning#readme)
+    -   [X] Quickly forecast finances almost indefinitely into the future
+    -   [ ] Metaplanners help develop contingency plans for different financial problems
+        -   [ ] Unexpected delays
+        -   [ ] Overcharges and unapproved charges
+        -   [ ] Cash flow problems and hardships
 
 
-<a id="orga71280e"></a>
+<a id="orge146b97"></a>
 
 ### Emergency Preparedness
 
