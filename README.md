@@ -1,65 +1,77 @@
 
 # Table of Contents
 
-1.  [The Free Life Planner](#org6eabda6)
-    1.  [THIS OVERVIEW PAGE IS UNDER CONSTRUCTION](#org7cfea90)
-    2.  [Overview](#orgcaf544c)
-    3.  [Status](#org4140671)
-    4.  [Summary of Some Areas that the Free Life Planner helps with:](#org35a1612)
-    5.  [In-Depth Overview](#org922a495)
-        1.  [Health](#org6a0b9d5)
-        2.  [Time Management](#orga5c135e)
-        3.  [Transportation/Shopping/Errands](#orgf6562d1)
-        4.  [Document Management System](#org9219d38)
-        5.  [Financial Planning System](#orgd6f8391)
-        6.  [Emergency Preparedness](#orgd02d08a)
+1.  [The Free Life Planner](#org8dcb37e)
+    1.  [THIS OVERVIEW PAGE IS UNDER CONSTRUCTION](#org9c13d91)
+    2.  [Overview](#org62dd8df)
+    3.  [Status](#org882930b)
+    4.  [Summary of Some Areas that the Free Life Planner helps with:](#orgcc40037)
+    5.  [In-Depth Overview](#orgdd6ebcd)
+        1.  [Workflow Manager](#orgaa6e2ea)
+        2.  [Health](#org8182748)
+        3.  [Time Management](#org6a12cf2)
+        4.  [Organization](#org4176424)
+        5.  [Self-Discipline](#orgb0f0fe0)
+        6.  [Transportation/Shopping/Errands](#orgb84b569)
+        7.  [Document Management System](#org5de6875)
+        8.  [Financial Planning System](#orge1ba741)
+        9.  [Emergency Preparedness](#org57eaae3)
 
 
-<a id="org6eabda6"></a>
+<a id="org8dcb37e"></a>
 
 # The Free Life Planner
 
 
-<a id="org7cfea90"></a>
+<a id="org9c13d91"></a>
 
 ## THIS OVERVIEW PAGE IS UNDER CONSTRUCTION
 
 
-<a id="orgcaf544c"></a>
+<a id="org62dd8df"></a>
 
 ## Overview
 
--   A Life Planner that helps
+-   A life planner that helps
 -   Automate almost every aspect of your life
--   Cognitive Prosthetic for Executive Function
+-   Cognitive prosthetic for executive function
 
 
-<a id="org4140671"></a>
+<a id="org882930b"></a>
 
 ## Status
 
 -   Currently working to release the latest version of FLP onto GitHub
 
 
-<a id="org35a1612"></a>
+<a id="orgcc40037"></a>
 
 ## Summary of Some Areas that the Free Life Planner helps with:
 
--   [Health](#org6a0b9d5) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
+-   [Workflow Manager](#orgaa6e2ea) (to control all other systems)
+-   [Health](#org8182748) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
     -   Meal Planning (Nutrition, Taste, Cost, etc)
--   [Time Management](#orga5c135e) (Recurrences, Calendaring, SPSE2/Verber/FLP/etc)
--   Organization and Self-Discipline ()
+-   [Time Management](#org6a12cf2) (Recurrences, Calendaring, SPSE2/Verber/FLP/etc)
+-   Organization ()
+-   [Self-Discipline](#orgb0f0fe0) ()
 -   Paperwork (Mail, Receipts, Doctors Orders etc)
 -   Financial (Bills, Recurrences, Meal)
--   [Emergency Preparedness](#orgd02d08a) ()
+-   [Emergency Preparedness](#org57eaae3) ()
 
 
-<a id="org922a495"></a>
+<a id="orgdd6ebcd"></a>
 
 ## In-Depth Overview
 
 
-<a id="org6a0b9d5"></a>
+<a id="orgaa6e2ea"></a>
+
+### Workflow Manager
+
+-   [ ] An overarching FLP subsystem which pages through and helps complete all necessary tasks
+
+
+<a id="org8182748"></a>
 
 ### Health
 
@@ -72,7 +84,7 @@
     -   [ ] [Meal Planning Resources](https://frdcsa.org/~andrewdo/WebWiki/MealPlanningResources.html)
     -   [ ] Improves nutrition and taste
     -   [ ] Reduces cost and prep time 4X
-    -   [ ] Self-discipline systems helps you achieve the diet you want
+    -   [ ] [Self-Discipline](#orgb0f0fe0) systems helps you achieve the diet you want
     -   [ ] [Show pictures here]
 
 3.  Doctor's Visits and Orders
@@ -89,7 +101,7 @@
     -   [ ] [PDDL+ Medication Management](https://github.com/fareskalaboud/PDDLPlusBenchmarkDomains)
 
 
-<a id="orga5c135e"></a>
+<a id="org6a12cf2"></a>
 
 ### Time Management
 
@@ -115,7 +127,17 @@
         	deltaTime([_Year-_Month-1],days(-1),YMD).
 
 
-<a id="orgf6562d1"></a>
+<a id="org4176424"></a>
+
+### Organization
+
+
+<a id="orgb0f0fe0"></a>
+
+### Self-Discipline
+
+
+<a id="orgb84b569"></a>
 
 ### Transportation/Shopping/Errands
 
@@ -125,7 +147,7 @@
         -   [ ] Hours of operation look-ups
         -   [ ] Route planning
     -   [-] Location Logic
-        -   [X] Owntracks integration
+        -   [X] [Owntracks](https://owntracks.org/) integration
         -   [ ] Reverse geocoding
         -   [ ] Locational Rules
             -   [ ] e.g. Silence my phone when at any movie theater
@@ -138,7 +160,7 @@
     -   [ ] Integrates with Pantry and Inventory Management
 
 
-<a id="org9219d38"></a>
+<a id="org5de6875"></a>
 
 ### Document Management System
 
@@ -147,9 +169,10 @@
     scheduling, and execution system
 -   [X] Backup in git
 -   [X] Export selected documents and folders
+-   [ ] Integrate documents into FLP workflow management
 
 
-<a id="orgd6f8391"></a>
+<a id="orge1ba741"></a>
 
 ### Financial Planning System
 
@@ -160,7 +183,7 @@
     -   [ ] Cash flow problems and hardships
 
 
-<a id="orgd02d08a"></a>
+<a id="org57eaae3"></a>
 
 ### Emergency Preparedness
 
