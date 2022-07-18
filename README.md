@@ -1,34 +1,34 @@
 
 # Table of Contents
 
-1.  [The Free Life Planner](#org7442b8d)
-    1.  [THIS OVERVIEW PAGE IS UNDER CONSTRUCTION](#orgffd6db6)
-    2.  [Overview](#orgcacdd51)
-    3.  [Status](#org3338e14)
-    4.  [Summary of Some Areas that the Free Life Planner helps with:](#orga1b753c)
-    5.  [In-Depth Overview](#org84d5fda)
-        1.  [Workflow Manager](#org5a38a6d)
-        2.  [Health](#orgd1bf572)
-        3.  [Time Management](#org302525b)
-        4.  [Organization](#orgfc74e3f)
-        5.  [Self-Discipline](#orgd37b473)
-        6.  [Transportation/Shopping/Errands](#org54f4eae)
-        7.  [Document Management](#org75e0b69)
-        8.  [Financial Planner](#org629c4ce)
-        9.  [Emergency Preparedness](#orge43d655)
+1.  [The Free Life Planner](#org160176b)
+    1.  [THIS OVERVIEW PAGE IS UNDER CONSTRUCTION](#org96c6133)
+    2.  [Overview](#org519f8e2)
+    3.  [Status](#org6b16c5f)
+    4.  [Summary of Some Areas that the Free Life Planner helps with:](#orge7a7a25)
+    5.  [In-Depth Overview](#org20692bc)
+        1.  [Workflow Manager](#org1835448)
+        2.  [Health](#orge101d48)
+        3.  [Time Management](#org9881ff9)
+        4.  [Organization](#orgecc122a)
+        5.  [Self-Discipline](#org7cdae9f)
+        6.  [Transportation/Shopping/Errands](#orgee045cc)
+        7.  [Document Management](#org0c29c9b)
+        8.  [Financial Planner](#orga52da00)
+        9.  [Emergency Preparedness](#org97b167f)
 
 
-<a id="org7442b8d"></a>
+<a id="org160176b"></a>
 
 # The Free Life Planner
 
 
-<a id="orgffd6db6"></a>
+<a id="org96c6133"></a>
 
 ## THIS OVERVIEW PAGE IS UNDER CONSTRUCTION
 
 
-<a id="orgcacdd51"></a>
+<a id="org519f8e2"></a>
 
 ## Overview
 
@@ -37,41 +37,41 @@
 -   Cognitive prosthetic for executive function
 
 
-<a id="org3338e14"></a>
+<a id="org6b16c5f"></a>
 
 ## Status
 
 -   Currently working to release the latest version of FLP onto GitHub
 
 
-<a id="orga1b753c"></a>
+<a id="orge7a7a25"></a>
 
 ## Summary of Some Areas that the Free Life Planner helps with:
 
--   [Workflow Manager](#org5a38a6d) (to control all other systems)
--   [Health](#orgd1bf572) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
-    -   Meal Planning (Nutrition, Taste, Cost, etc)
--   [Time Management](#org302525b) (Recurrences, Calendaring, SPSE2/Verber/FLP/etc)
--   [Organization](#orgfc74e3f) ()
--   [Self-Discipline](#orgd37b473) ()
--   [Paperwork](#org75e0b69) (Mail, Receipts, Doctors Orders etc)
--   [Financial](#org629c4ce) (Bills, Recurrences, Meal)
--   [Emergency Preparedness](#orge43d655) ()
+-   [Workflow Manager](#org1835448) (Guides user through all other systems)
+-   [Health](#orge101d48) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
+    -   [Meal Planner](#org1c6bfe3) (Nutrition, Taste, Cost, etc)
+-   [Time Management](#org9881ff9) (Recurrences, Calendaring, Planning, Scheduling and Plan Monitoring)
+-   [Organization](#orgecc122a) (Inventory Management)
+-   [Self-Discipline](#org7cdae9f) (State Machine)
+-   [Paperwork](#org0c29c9b) (Mail, Receipts, Doctors Orders etc)
+-   [Financial](#orga52da00) (Bills, Recurrences, Meal)
+-   [Emergency Preparedness](#org97b167f) ()
 
 
-<a id="org84d5fda"></a>
+<a id="org20692bc"></a>
 
 ## In-Depth Overview
 
 
-<a id="org5a38a6d"></a>
+<a id="org1835448"></a>
 
 ### Workflow Manager
 
 -   [ ] An overarching tool which pages through and helps complete all necessary tasks
 
 
-<a id="orgd1bf572"></a>
+<a id="orge101d48"></a>
 
 ### Health
 
@@ -81,11 +81,13 @@
 
 2.  Nutrition
 
-    -   [ ] [Meal Planning Resources](https://frdcsa.org/~andrewdo/WebWiki/MealPlanningResources.html)
-    -   [ ] Improves nutrition and taste
-    -   [ ] Reduces cost and prep time 4X
-    -   [ ] [Self-Discipline](#orgd37b473) systems helps you achieve the diet you want
-    -   [ ] [Show pictures here]
+    1.  Meal Planner
+    
+        -   [ ] [Meal Planning Resources](https://frdcsa.org/~andrewdo/WebWiki/MealPlanningResources.html)
+        -   [ ] Improves nutrition and taste
+        -   [ ] Reduces cost and prep time 4X
+        -   [ ] [Self-Discipline](#org7cdae9f) systems helps you achieve the diet you want
+        -   [ ] [Show pictures here]
 
 3.  Doctor's Visits and Orders
 
@@ -101,7 +103,7 @@
     -   [ ] [PDDL+ Medication Management](https://github.com/fareskalaboud/PDDLPlusBenchmarkDomains)
 
 
-<a id="org302525b"></a>
+<a id="org9881ff9"></a>
 
 ### Time Management
 
@@ -128,17 +130,23 @@
         	deltaTime([_Year-_Month-1],days(-1),YMD).
 
 
-<a id="orgfc74e3f"></a>
+<a id="orgecc122a"></a>
 
 ### Organization
 
+1.  Inventory Management
 
-<a id="orgd37b473"></a>
+    -   Pantry management
+
+
+<a id="org7cdae9f"></a>
 
 ### Self-Discipline
 
+1.  Self-Discipline State Machine
 
-<a id="org54f4eae"></a>
+
+<a id="orgee045cc"></a>
 
 ### Transportation/Shopping/Errands
 
@@ -155,13 +163,14 @@
 
 2.  Shopping
 
-    -   [X] Order Tracker
+    -   [ ] Receipt parsers
+    -   [X] Online order Tracker
         -   [X] Checks against Bank OFX export
     -   [X] Online Delivery Tracker
-    -   [ ] Integrates with Pantry and Inventory Management
+    -   [ ] Integration with pantry and inventory management
 
 
-<a id="org75e0b69"></a>
+<a id="org0c29c9b"></a>
 
 ### Document Management
 
@@ -173,7 +182,7 @@
 -   [ ] Integration of document-related tasks into Workflow Manager
 
 
-<a id="org629c4ce"></a>
+<a id="orga52da00"></a>
 
 ### Financial Planner
 
@@ -185,7 +194,7 @@
     -   [ ] Cash flow problems and hardships
 
 
-<a id="orge43d655"></a>
+<a id="org97b167f"></a>
 
 ### Emergency Preparedness
 
