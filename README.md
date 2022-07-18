@@ -1,34 +1,34 @@
 
 # Table of Contents
 
-1.  [The Free Life Planner](#org9ce0ee0)
-    1.  [THIS OVERVIEW PAGE IS UNDER CONSTRUCTION](#org7dd6dd4)
-    2.  [Overview](#orge932575)
-    3.  [Status](#org8a222c9)
-    4.  [Summary of Some Areas that the Free Life Planner helps with:](#org1e64cf2)
-    5.  [In-Depth Overview](#org0cd8eb6)
-        1.  [Workflow Manager](#org28737b6)
-        2.  [Health](#org371337d)
-        3.  [Time Management](#orgdbc2189)
-        4.  [Organization](#orgecbd97a)
-        5.  [Self-Discipline](#org9045082)
-        6.  [Transportation/Shopping/Errands](#org87df4cf)
-        7.  [Document Management System](#org7c508f2)
-        8.  [Financial Planning System](#org860c0cf)
-        9.  [Emergency Preparedness](#orgacdaf35)
+1.  [The Free Life Planner](#org6fc9c59)
+    1.  [THIS OVERVIEW PAGE IS UNDER CONSTRUCTION](#orgb14a9bf)
+    2.  [Overview](#orgf679d5f)
+    3.  [Status](#org23dcd5a)
+    4.  [Summary of Some Areas that the Free Life Planner helps with:](#orgeb443e2)
+    5.  [In-Depth Overview](#org7b3139e)
+        1.  [Workflow Manager](#org4c67010)
+        2.  [Health](#org014349c)
+        3.  [Time Management](#org14c4966)
+        4.  [Organization](#org26a9a98)
+        5.  [Self-Discipline](#orgae1c647)
+        6.  [Transportation/Shopping/Errands](#org00d05fb)
+        7.  [Document Management](#orgbf03201)
+        8.  [Financial Planner](#org8017684)
+        9.  [Emergency Preparedness](#orgd079303)
 
 
-<a id="org9ce0ee0"></a>
+<a id="org6fc9c59"></a>
 
 # The Free Life Planner
 
 
-<a id="org7dd6dd4"></a>
+<a id="orgb14a9bf"></a>
 
 ## THIS OVERVIEW PAGE IS UNDER CONSTRUCTION
 
 
-<a id="orge932575"></a>
+<a id="orgf679d5f"></a>
 
 ## Overview
 
@@ -37,41 +37,41 @@
 -   Cognitive prosthetic for executive function
 
 
-<a id="org8a222c9"></a>
+<a id="org23dcd5a"></a>
 
 ## Status
 
 -   Currently working to release the latest version of FLP onto GitHub
 
 
-<a id="org1e64cf2"></a>
+<a id="orgeb443e2"></a>
 
 ## Summary of Some Areas that the Free Life Planner helps with:
 
--   [Workflow Manager](#org28737b6) (to control all other systems)
--   [Health](#org371337d) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
+-   [Workflow Manager](#org4c67010) (to control all other systems)
+-   [Health](#org014349c) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
     -   Meal Planning (Nutrition, Taste, Cost, etc)
--   [Time Management](#orgdbc2189) (Recurrences, Calendaring, SPSE2/Verber/FLP/etc)
+-   [Time Management](#org14c4966) (Recurrences, Calendaring, SPSE2/Verber/FLP/etc)
 -   Organization ()
--   [Self-Discipline](#org9045082) ()
+-   [Self-Discipline](#orgae1c647) ()
 -   Paperwork (Mail, Receipts, Doctors Orders etc)
 -   Financial (Bills, Recurrences, Meal)
--   [Emergency Preparedness](#orgacdaf35) ()
+-   [Emergency Preparedness](#orgd079303) ()
 
 
-<a id="org0cd8eb6"></a>
+<a id="org7b3139e"></a>
 
 ## In-Depth Overview
 
 
-<a id="org28737b6"></a>
+<a id="org4c67010"></a>
 
 ### Workflow Manager
 
 -   [ ] An overarching tool which pages through and helps complete all necessary tasks
 
 
-<a id="org371337d"></a>
+<a id="org014349c"></a>
 
 ### Health
 
@@ -84,7 +84,7 @@
     -   [ ] [Meal Planning Resources](https://frdcsa.org/~andrewdo/WebWiki/MealPlanningResources.html)
     -   [ ] Improves nutrition and taste
     -   [ ] Reduces cost and prep time 4X
-    -   [ ] [Self-Discipline](#org9045082) systems helps you achieve the diet you want
+    -   [ ] [Self-Discipline](#orgae1c647) systems helps you achieve the diet you want
     -   [ ] [Show pictures here]
 
 3.  Doctor's Visits and Orders
@@ -101,7 +101,7 @@
     -   [ ] [PDDL+ Medication Management](https://github.com/fareskalaboud/PDDLPlusBenchmarkDomains)
 
 
-<a id="orgdbc2189"></a>
+<a id="org14c4966"></a>
 
 ### Time Management
 
@@ -109,10 +109,11 @@
 
     1.  Planners
     
-        -   10 temporal planners
-            -   CLG, Colin2<sub>CLP</sub>, DNFct, HSPS, LPG, LPG<sub>TD</sub><sub>1</sub><sub>4</sub>, MIPS<sub>XXL</sub>, Metric<sub>FF</sub>, OPTIC<sub>CLP</sub>, SGPlan522
+        -   9 temporal planners
+            -   CLG, Colin2<sub>CLP</sub>, HSPS, LPG, LPG<sub>TD</sub><sub>1</sub><sub>4</sub>, MIPS<sub>XXL</sub>, Metric<sub>FF</sub>, OPTIC<sub>CLP</sub>, SGPlan522
+        -   1 contingent planner
+            -   [X] DNFct
         -   More than 200 temporal life planning domains
-        -   [X] Contingent planning
     
     2.  Plan Monitoring
     
@@ -127,17 +128,17 @@
         	deltaTime([_Year-_Month-1],days(-1),YMD).
 
 
-<a id="orgecbd97a"></a>
+<a id="org26a9a98"></a>
 
 ### Organization
 
 
-<a id="org9045082"></a>
+<a id="orgae1c647"></a>
 
 ### Self-Discipline
 
 
-<a id="org87df4cf"></a>
+<a id="org00d05fb"></a>
 
 ### Transportation/Shopping/Errands
 
@@ -160,9 +161,9 @@
     -   [ ] Integrates with Pantry and Inventory Management
 
 
-<a id="org7c508f2"></a>
+<a id="orgbf03201"></a>
 
-### Document Management System
+### Document Management
 
 -   [X] Scan and OCR all paperwork
 -   [X] Extract dates using TIMEX3 parsers and integrate with planning,
@@ -172,10 +173,11 @@
 -   [ ] Integration of document-related tasks into Workflow Manager
 
 
-<a id="org860c0cf"></a>
+<a id="org8017684"></a>
 
-### Financial Planning System
+### Financial Planner
 
+-   [X] [Financial Planning](https://github.com/aindilis/financial-planning#readme)
 -   [X] Quickly forecast finances almost indefinitely into the future
 -   [ ] Metaplanners help develop contingency plans for different financial problems
     -   [ ] Unexpected delays
@@ -183,7 +185,7 @@
     -   [ ] Cash flow problems and hardships
 
 
-<a id="orgacdaf35"></a>
+<a id="orgd079303"></a>
 
 ### Emergency Preparedness
 
