@@ -1,58 +1,59 @@
 
 # Table of Contents
 
-1.  [The Free Life Planner](#org9012e08)
-2.  [Technical Overview](#org145db92)
-    1.  [Workflow Manager](#org4dc4465)
-    2.  [Health](#org3157153)
-        1.  [Medications](#org01588f6)
-    3.  [Time Management](#org245d040)
-        1.  [Recurrences](#orgd356776)
-        2.  [Calendaring](#org242fb28)
-        3.  [Planning, Scheduling and Execution](#orga6eae61)
-    4.  [Organization](#org2d71320)
-        1.  [Inventory Management](#org10d9bd7)
-    5.  [Self-Discipline](#orgf3c0364)
-        1.  [Self-Discipline State Machine](#orgcc1c2a0)
-    6.  [Transportation/Shopping/Errands](#orge126ac4)
-    7.  [Document Management](#org26dbb48)
-    8.  [Financial Planner](#org1e1d8f6)
-    9.  [Emergency Preparedness](#org33ae556)
+1.  [The Free Life Planner](#org5e4324b)
+2.  [Technical Overview](#orgbd3e848)
+    1.  [Workflow Manager](#org2c6bc62)
+    2.  [Health](#org751bc18)
+        1.  [Medications](#orgef74a20)
+    3.  [Time Management](#org60ffd7b)
+        1.  [Recurrences](#orga0f2552)
+        2.  [Calendaring](#org0762757)
+        3.  [Planning, Scheduling and Execution](#org9f1998a)
+    4.  [Organization](#org0453354)
+        1.  [Inventory Management](#org6bfd480)
+    5.  [Self-Discipline](#org0ebb084)
+        1.  [Self-Discipline State Machine](#org000d788)
+    6.  [Transportation/Shopping/Errands](#orgb0247e9)
+    7.  [Document Management](#org6ae7d07)
+    8.  [Financial Planner](#org302a781)
+    9.  [Emergency Preparedness](#orgc1513be)
+3.  [Technologies Most Used](#org827b844)
 
 
-<a id="org9012e08"></a>
+<a id="org5e4324b"></a>
 
 # The Free Life Planner
 
 
-<a id="org145db92"></a>
+<a id="orgbd3e848"></a>
 
 # Technical Overview
 
 
-<a id="org4dc4465"></a>
+<a id="org2c6bc62"></a>
 
 ## Workflow Manager
 
 
-<a id="org3157153"></a>
+<a id="org751bc18"></a>
 
 ## Health
 
 
-<a id="org01588f6"></a>
+<a id="orgef74a20"></a>
 
 ### Medications
 
 -   [ ] [PDDL+ Medication Management](https://github.com/fareskalaboud/PDDLPlusBenchmarkDomains)
 
 
-<a id="org245d040"></a>
+<a id="org60ffd7b"></a>
 
 ## Time Management
 
 
-<a id="orgd356776"></a>
+<a id="orga0f2552"></a>
 
 ### Recurrences
 
@@ -62,19 +63,25 @@ How to schedule something for the last day of every month:
     	deltaTime([_Year-_Month-1],days(-1),YMD).
 
 
-<a id="org242fb28"></a>
+<a id="org0762757"></a>
 
 ### Calendaring
 
 1.  Integrations
 
-    -   [ ] Google Calendar
-    -   [ ] Org-agenda
-    -   [ ] SPSE2
-    -   [ ] ICS import
+    -   [X] Import from
+        -   [X] Org-agenda
+        -   [X] SPSE2
+        -   [X] Google Calendar
+        -   [X] ICS
+    -   [ ] Export to
+        -   [ ] Org-agenda
+        -   [ ] SPSE2
+        -   [ ] Google Calendar
+        -   [ ] ICS
 
 
-<a id="orga6eae61"></a>
+<a id="org9f1998a"></a>
 
 ### Planning, Scheduling and Execution
 
@@ -131,12 +138,12 @@ How to schedule something for the last day of every month:
             -   [ ] e.g. Stock up on groceries before a major storm hits
 
 
-<a id="org2d71320"></a>
+<a id="org0453354"></a>
 
 ## Organization
 
 
-<a id="org10d9bd7"></a>
+<a id="org6bfd480"></a>
 
 ### Inventory Management
 
@@ -145,32 +152,52 @@ How to schedule something for the last day of every month:
 -   Pantry management
 
 
-<a id="orgf3c0364"></a>
+<a id="org0ebb084"></a>
 
 ## Self-Discipline
 
 
-<a id="orgcc1c2a0"></a>
+<a id="org000d788"></a>
 
 ### Self-Discipline State Machine
 
 
-<a id="orge126ac4"></a>
+<a id="orgb0247e9"></a>
 
 ## Transportation/Shopping/Errands
 
 
-<a id="org26dbb48"></a>
+<a id="org6ae7d07"></a>
 
 ## Document Management
 
 
-<a id="org1e1d8f6"></a>
+<a id="org302a781"></a>
 
 ## Financial Planner
 
 
-<a id="org33ae556"></a>
+<a id="orgc1513be"></a>
 
 ## Emergency Preparedness
+
+
+<a id="org827b844"></a>
+
+# Technologies Most Used
+
+-   [X] SWI-Prolog
+    -   Julian time library
+-   [X] Perl    
+    -   [X] YASWI Perl<->SWI-Prolog Interface
+    -   [X] Catalyst CMS
+        -   [X] ShinyCMS
+-   [X] Java
+    -   [X] JavaPengines (Java<->SWI-Prolog)
+    -   [X] Jason/AgentSpeak(L)
+        -   [X] JPL Java<->SWI-Prolog
+    -   [X] Alexa voice skill interface
+-   [X] PDDL 2.2 temporal metric planning
+    -   [X] LPG-td-1.0
+    -   [X] OPTIC<sub>CLP</sub>
 
