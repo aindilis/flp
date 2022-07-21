@@ -1,59 +1,59 @@
 
 # Table of Contents
 
-1.  [The Free Life Planner](#orgb3353cd)
-2.  [Technical Overview](#orgf57adea)
-    1.  [Workflow Manager](#org863b66a)
-    2.  [Health](#org768183e)
-        1.  [Medications](#org3fdf13b)
-    3.  [Time Management](#orge9e04e0)
-        1.  [Recurrences](#org7cbf9fd)
-        2.  [Calendaring](#orgeb5d9b0)
-        3.  [Planning, Scheduling and Execution](#org339c2d9)
-    4.  [Organization](#org2b11f39)
-        1.  [Inventory Management](#org687160a)
-    5.  [Self-Discipline](#orgf7574a1)
-        1.  [Self-Discipline State Machine](#org9623dc1)
-    6.  [Transportation/Shopping/Errands](#org408f51b)
-    7.  [Document Management](#orge25ce37)
-    8.  [Financial Planner](#org073527e)
-    9.  [Emergency Preparedness](#org6ce64c2)
-3.  [Technologies Most Used](#org4d8f15e)
+1.  [The Free Life Planner](#orgbbb463c)
+2.  [Technical Overview](#org30f722f)
+    1.  [Workflow Manager](#org2d47d0b)
+    2.  [Health](#org209bc1a)
+        1.  [Medications](#org59adbaf)
+    3.  [Time Management](#orgc8aca85)
+        1.  [Recurrences](#org903f754)
+        2.  [Calendaring](#orge4ba15d)
+        3.  [Planning, Scheduling and Execution](#orgfe5d775)
+    4.  [Organization](#orgdf6aa6b)
+        1.  [Inventory Management](#orgf430ffc)
+    5.  [Self-Discipline](#orge233eab)
+        1.  [Self-Discipline State Machine](#org6233c6f)
+    6.  [Transportation/Shopping/Errands](#orgd95ad9b)
+    7.  [Document Management](#org8a04e42)
+    8.  [Financial Planner](#org50fd068)
+    9.  [Emergency Preparedness](#orgbabca63)
+3.  [Technologies Most Used](#org4147605)
 
 
-<a id="orgb3353cd"></a>
+<a id="orgbbb463c"></a>
 
 # The Free Life Planner
 
 
-<a id="orgf57adea"></a>
+<a id="org30f722f"></a>
 
 # Technical Overview
 
 
-<a id="org863b66a"></a>
+<a id="org2d47d0b"></a>
 
 ## Workflow Manager
 
 
-<a id="org768183e"></a>
+<a id="org209bc1a"></a>
 
 ## Health
 
 
-<a id="org3fdf13b"></a>
+<a id="org59adbaf"></a>
 
 ### Medications
 
 -   [ ] [PDDL+ Medication Management](https://github.com/fareskalaboud/PDDLPlusBenchmarkDomains)
 
 
-<a id="orge9e04e0"></a>
+<a id="orgc8aca85"></a>
 
 ## Time Management
 
 
-<a id="org7cbf9fd"></a>
+<a id="org903f754"></a>
 
 ### Recurrences
 
@@ -63,7 +63,7 @@ How to schedule something for the last day of every month:
     	deltaTime([_Year-_Month-1],days(-1),YMD).
 
 
-<a id="orgeb5d9b0"></a>
+<a id="orge4ba15d"></a>
 
 ### Calendaring
 
@@ -81,7 +81,7 @@ How to schedule something for the last day of every month:
         -   [ ] ICS
 
 
-<a id="org339c2d9"></a>
+<a id="orgfe5d775"></a>
 
 ### Planning, Scheduling and Execution
 
@@ -138,12 +138,12 @@ How to schedule something for the last day of every month:
             -   [ ] e.g. Stock up on groceries before a major storm hits
 
 
-<a id="org2b11f39"></a>
+<a id="orgdf6aa6b"></a>
 
 ## Organization
 
 
-<a id="org687160a"></a>
+<a id="orgf430ffc"></a>
 
 ### Inventory Management
 
@@ -152,37 +152,37 @@ How to schedule something for the last day of every month:
 -   Pantry management
 
 
-<a id="orgf7574a1"></a>
+<a id="orge233eab"></a>
 
 ## Self-Discipline
 
 
-<a id="org9623dc1"></a>
+<a id="org6233c6f"></a>
 
 ### Self-Discipline State Machine
 
 
-<a id="org408f51b"></a>
+<a id="orgd95ad9b"></a>
 
 ## Transportation/Shopping/Errands
 
 
-<a id="orge25ce37"></a>
+<a id="org8a04e42"></a>
 
 ## Document Management
 
 
-<a id="org073527e"></a>
+<a id="org50fd068"></a>
 
 ## Financial Planner
 
 
-<a id="org6ce64c2"></a>
+<a id="orgbabca63"></a>
 
 ## Emergency Preparedness
 
 
-<a id="org4d8f15e"></a>
+<a id="org4147605"></a>
 
 # Technologies Most Used
 
