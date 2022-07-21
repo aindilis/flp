@@ -1,79 +1,79 @@
 
 # Table of Contents
 
-1.  [The Free Life Planner](#org83743f1)
-    1.  [THIS README IS UNDER CONSTRUCTION](#orga3cdd39)
-2.  [Introduction](#org85bc774)
-    1.  [Purpose](#orgeba1336)
-    2.  [Sample use cases](#org052db6a)
-    3.  [Status](#org2c1fb88)
-    4.  [Summary](#orgbedfdf9)
-3.  [General Overview](#org3b7cd92)
-    1.  [Workflow Manager](#org8a2de0f)
-    2.  [Health](#orgb95f7a1)
-        1.  [Exercise](#org7175c4b)
-        2.  [Nutrition](#orgac39e62)
-        3.  [Doctor's Visits and Orders](#org26b3d49)
-        4.  [Medications](#orgd5003e5)
-    3.  [Time Management](#org9239c75)
-        1.  [Recurrences](#orga291d88)
-        2.  [Calendaring](#orge33eca8)
-        3.  [Temporal Planning, Scheduling, and Interactive Plan Execution Monitoring](#orgf849926)
-    4.  [Organization](#orge87f52a)
-        1.  [Inventory Management](#org3a7c4f2)
-        2.  [Communication Management](#org8921a5e)
-        3.  [Chore Charting](#orgbd73b6f)
-    5.  [Self-Discipline](#org44221df)
-        1.  [Self-Discipline State Machine](#org3353da2)
-        2.  [Gamification](#org8db4ddb)
-        3.  [Movement Discipline](#org4d5015f)
-    6.  [Transportation/Shopping/Errands](#orgf2a3958)
-        1.  [Transportation](#org9b052d8)
-        2.  [Shopping/Errands](#org0915691)
-    7.  [Document Management](#org31af73a)
-    8.  [Financial Planner](#orgea68563)
-    9.  [Emergency Preparedness](#org09c2661)
-4.  [More Info](#org3054fe8)
-    1.  [More Use Cases](#org1278e45)
-    2.  [User Base](#org99b0545)
-    3.  [Links](#org15fa42a)
-5.  [Technical Overview](#org96621a3)
-    1.  [Workflow Manager](#org9afd382)
-    2.  [Health](#orgb8f8d72)
-        1.  [Medications](#orgc089848)
-    3.  [Time Management](#org5df52dc)
-        1.  [Recurrences](#org94291a4)
-        2.  [Calendaring](#org4d0e242)
-        3.  [Planning, Scheduling and Execution](#org5e66955)
-    4.  [Organization](#org3795d81)
-        1.  [Inventory Management](#orgc7df026)
-    5.  [Self-Discipline](#orgd6d887d)
-        1.  [Self-Discipline State Machine](#orgf25e79e)
-    6.  [Transportation/Shopping/Errands](#org86928b0)
-        1.  [Transportation](#orgb0b31ec)
-        2.  [Shopping/Errands](#orgaed5af5)
-    7.  [Document Management](#orgd3d36c4)
-    8.  [Financial Planner](#orgddb75be)
-    9.  [Emergency Preparedness](#org4cc800b)
-6.  [Technologies Most Used](#org6c54197)
+1.  [The Free Life Planner](#orgcb1a5f5)
+    1.  [THIS README IS UNDER CONSTRUCTION](#org6618d87)
+2.  [Introduction](#org8bf03f7)
+    1.  [Purpose](#org8ef1e06)
+    2.  [Sample use cases](#org2249432)
+    3.  [Status](#orgb720640)
+    4.  [Summary](#org1cd2285)
+3.  [General Overview](#orgf6810fd)
+    1.  [Workflow Manager](#orgb39dbfa)
+    2.  [Health](#org52d183e)
+        1.  [Exercise](#org7c31db0)
+        2.  [Nutrition](#org587909c)
+        3.  [Doctor's Visits and Orders](#org0a49df7)
+        4.  [Medications](#orgbe14fc9)
+    3.  [Time Management](#org811c02e)
+        1.  [Recurrences](#org81ccef0)
+        2.  [Calendaring](#orgb01cf0b)
+        3.  [Temporal Planning, Scheduling, and Interactive Plan Execution Monitoring](#org2b774cd)
+    4.  [Organization](#orgd322a25)
+        1.  [Inventory Management](#orgfe8fc35)
+        2.  [Communication Management](#orgecc1607)
+        3.  [Chore Charting](#orgd1201bb)
+    5.  [Self-Discipline](#org60443de)
+        1.  [Self-Discipline State Machine](#orgfa84bc4)
+        2.  [Gamification](#orgb96c8d2)
+        3.  [Movement Discipline](#orgc824e8b)
+    6.  [Transportation/Shopping/Errands](#org79b110b)
+        1.  [Transportation](#org5e70c3a)
+        2.  [Shopping/Errands](#org6539620)
+    7.  [Document Management](#orgc6ea06f)
+    8.  [Financial Planner](#orgea2cb11)
+    9.  [Emergency Preparedness](#org230d89a)
+4.  [More Info](#org547557b)
+    1.  [More Use Cases](#orga592c6e)
+    2.  [User Base](#org35a84ec)
+    3.  [Links](#orgdad8bd0)
+5.  [Technical Overview](#orgc3cc39f)
+    1.  [Workflow Manager](#orgf3dca9c)
+    2.  [Health](#orgb0dfe09)
+        1.  [Medications](#org8b90aec)
+    3.  [Time Management](#orga4d0494)
+        1.  [Recurrences](#org85cee09)
+        2.  [Calendaring](#org9aab852)
+        3.  [Planning, Scheduling and Execution](#org8b9bac1)
+    4.  [Organization](#orgda32092)
+        1.  [Inventory Management](#org598b64a)
+    5.  [Self-Discipline](#orge788b1c)
+        1.  [Self-Discipline State Machine](#orgebd8a23)
+    6.  [Transportation/Shopping/Errands](#orgf0fca28)
+        1.  [Transportation](#org4470780)
+        2.  [Shopping/Errands](#org50275ea)
+    7.  [Document Management](#org08bc9a3)
+    8.  [Financial Planner](#org0fddeb8)
+    9.  [Emergency Preparedness](#org68a7a8f)
+6.  [Technologies Most Used](#orga6b049f)
 
 
-<a id="org83743f1"></a>
+<a id="orgcb1a5f5"></a>
 
 # The Free Life Planner
 
 
-<a id="orga3cdd39"></a>
+<a id="org6618d87"></a>
 
 ## THIS README IS UNDER CONSTRUCTION
 
 
-<a id="org85bc774"></a>
+<a id="org8bf03f7"></a>
 
 # Introduction
 
 
-<a id="orgeba1336"></a>
+<a id="org8ef1e06"></a>
 
 ## Purpose
 
@@ -82,16 +82,16 @@
 -   Cognitive prosthetic for executive function
 
 
-<a id="org052db6a"></a>
+<a id="org2249432"></a>
 
 ## Sample use cases
 
 -   [Homeless Story](https://frdcsa.org/~andrewdo/writings/homeless-story.html)
 -   [Health Story](https://frdcsa.org/~andrewdo/writings/health-story.html)
--   [More Use Cases](#org1278e45)
+-   [More Use Cases](#orga592c6e)
 
 
-<a id="org2c1fb88"></a>
+<a id="orgb720640"></a>
 
 ## Status
 
@@ -99,39 +99,39 @@
 -   Interoperability between all systems
 
 
-<a id="orgbedfdf9"></a>
+<a id="org1cd2285"></a>
 
 ## Summary
 
--   [Workflow Manager](#org8a2de0f) (Guides user through all other systems)
--   [Health](#orgb95f7a1) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
-    -   [Meal Planner](#org1eb039a) (Nutrition, Taste, Cost, etc)
--   [Time Management](#org9239c75) (Recurrences, Calendaring, Planning, Scheduling and Plan Monitoring)
--   [Organization](#orge87f52a) (Inventory Management)
--   [Self-Discipline](#org44221df) (State Machine)
--   [Paperwork](#org31af73a) (Mail, Receipts, Doctors Orders etc)
--   [Financial](#orgea68563) (Bills, Recurrences, Meal)
--   [Emergency Preparedness](#org09c2661) ()
+-   [Workflow Manager](#orgb39dbfa) (Guides user through all other systems)
+-   [Health](#org52d183e) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
+    -   [Meal Planner](#org454f570) (Nutrition, Taste, Cost, etc)
+-   [Time Management](#org811c02e) (Recurrences, Calendaring, Planning, Scheduling and Plan Monitoring)
+-   [Organization](#orgd322a25) (Inventory Management)
+-   [Self-Discipline](#org60443de) (State Machine)
+-   [Paperwork](#orgc6ea06f) (Mail, Receipts, Doctors Orders etc)
+-   [Financial](#orgea2cb11) (Bills, Recurrences, Meal)
+-   [Emergency Preparedness](#org230d89a) ()
 
 
-<a id="org3b7cd92"></a>
+<a id="orgf6810fd"></a>
 
 # General Overview
 
 
-<a id="org8a2de0f"></a>
+<a id="orgb39dbfa"></a>
 
 ## Workflow Manager
 
 -   [ ] An overarching tool/wizard which pages through and helps complete all necessary tasks
 
 
-<a id="orgb95f7a1"></a>
+<a id="org52d183e"></a>
 
 ## Health
 
 
-<a id="org7175c4b"></a>
+<a id="org7c31db0"></a>
 
 ### Exercise
 
@@ -139,7 +139,7 @@
 -   [X] Alexa interface: "Alexa, tell David - Andrew did his morning exercises"
 
 
-<a id="orgac39e62"></a>
+<a id="org587909c"></a>
 
 ### Nutrition
 
@@ -148,24 +148,24 @@
     -   [ ] [Meal Planning Resources](https://frdcsa.org/~andrewdo/WebWiki/MealPlanningResources.html)
     -   [ ] Improves nutrition and taste
     -   [ ] Reduces cost and prep time 4X
-    -   [ ] [Self-Discipline](#org44221df) for dieting
+    -   [ ] [Self-Discipline](#org60443de) for dieting
     -   [ ] Specialty diets (medical or ethical)
     -   [ ] [Show pictures here]
 
 
-<a id="org26b3d49"></a>
+<a id="org0a49df7"></a>
 
 ### Doctor's Visits and Orders
 
 -   [ ] Symptom and condition tracker
 -   [ ] Patient advocate
 -   [ ] Tracking visits
--   [ ] [Following through on instructions](#org31af73a)
+-   [ ] [Following through on instructions](#orgc6ea06f)
 -   [ ] For when a physician is unavailable
     -   [ ] First aid course of action system
 
 
-<a id="orgd5003e5"></a>
+<a id="orgbe14fc9"></a>
 
 ### Medications
 
@@ -173,22 +173,22 @@
 -   [ ] Medication Management
 
 
-<a id="org9239c75"></a>
+<a id="org811c02e"></a>
 
 ## Time Management
 
 
-<a id="orga291d88"></a>
+<a id="org81ccef0"></a>
 
 ### Recurrences
 
 
-<a id="orge33eca8"></a>
+<a id="orgb01cf0b"></a>
 
 ### Calendaring
 
 
-<a id="orgf849926"></a>
+<a id="org2b774cd"></a>
 
 ### Temporal Planning, Scheduling, and Interactive Plan Execution Monitoring
 
@@ -207,66 +207,66 @@
     -   [X] [Interactive Execution Monitoring](https://frdcsa.org/~andrewdo/iem2-3.mp4)
 
 
-<a id="orge87f52a"></a>
+<a id="orgd322a25"></a>
 
 ## Organization
 
 
-<a id="org3a7c4f2"></a>
+<a id="orgfe8fc35"></a>
 
 ### Inventory Management
 
 -   Pantry management
 
 
-<a id="org8921a5e"></a>
+<a id="orgecc1607"></a>
 
 ### Communication Management
 
 -   Pantry management
 
 
-<a id="orgbd73b6f"></a>
+<a id="orgd1201bb"></a>
 
 ### Chore Charting
 
 
-<a id="org44221df"></a>
+<a id="org60443de"></a>
 
 ## Self-Discipline
 
 
-<a id="org3353da2"></a>
+<a id="orgfa84bc4"></a>
 
 ### Self-Discipline State Machine
 
 
-<a id="org8db4ddb"></a>
+<a id="orgb96c8d2"></a>
 
 ### Gamification
 
 
-<a id="org4d5015f"></a>
+<a id="orgc824e8b"></a>
 
 ### Movement Discipline
 
 
-<a id="orgf2a3958"></a>
+<a id="org79b110b"></a>
 
 ## Transportation/Shopping/Errands
 
 
-<a id="org9b052d8"></a>
+<a id="org5e70c3a"></a>
 
 ### Transportation
 
 
-<a id="org0915691"></a>
+<a id="org6539620"></a>
 
 ### Shopping/Errands
 
 
-<a id="org31af73a"></a>
+<a id="orgc6ea06f"></a>
 
 ## Document Management
 
@@ -279,22 +279,22 @@
     -   [X] Export selected documents and folders
 
 
-<a id="orgea68563"></a>
+<a id="orgea2cb11"></a>
 
 ## Financial Planner
 
 
-<a id="org09c2661"></a>
+<a id="org230d89a"></a>
 
 ## Emergency Preparedness
 
 
-<a id="org3054fe8"></a>
+<a id="org547557b"></a>
 
 # More Info
 
 
-<a id="org1278e45"></a>
+<a id="orga592c6e"></a>
 
 ## More Use Cases
 
@@ -307,7 +307,7 @@
 -   Generating a complex monthly financial plan with contingencies for unexpected expenses and if certain income doesn't come through.
 
 
-<a id="org99b0545"></a>
+<a id="org35a84ec"></a>
 
 ## User Base
 
@@ -318,7 +318,7 @@
 -   People who are homeless.
 
 
-<a id="org15fa42a"></a>
+<a id="orgdad8bd0"></a>
 
 ## Links
 
@@ -407,12 +407,12 @@
 <https://drive.google.com/drive/#folders/0B0QA19UX0ehlV1ZEaXEzc3hjTWM>
 
 
-<a id="org96621a3"></a>
+<a id="orgc3cc39f"></a>
 
 # Technical Overview
 
 
-<a id="org9afd382"></a>
+<a id="orgf3dca9c"></a>
 
 ## Workflow Manager
 
@@ -424,24 +424,24 @@
         'finish-page'('user-agenda').
 
 
-<a id="orgb8f8d72"></a>
+<a id="orgb0dfe09"></a>
 
 ## Health
 
 
-<a id="orgc089848"></a>
+<a id="org8b90aec"></a>
 
 ### Medications
 
 -   [ ] [PDDL+ Medication Management](https://github.com/fareskalaboud/PDDLPlusBenchmarkDomains)
 
 
-<a id="org5df52dc"></a>
+<a id="orga4d0494"></a>
 
 ## Time Management
 
 
-<a id="org94291a4"></a>
+<a id="org85cee09"></a>
 
 ### Recurrences
 
@@ -451,7 +451,7 @@ How to schedule something for the last day of every month:
     	deltaTime([_Year-_Month-1],days(-1),YMD).
 
 
-<a id="org4d0e242"></a>
+<a id="org9aab852"></a>
 
 ### Calendaring
 
@@ -469,7 +469,7 @@ How to schedule something for the last day of every month:
         -   [ ] ICS
 
 
-<a id="org5e66955"></a>
+<a id="org8b9bac1"></a>
 
 ### Planning, Scheduling and Execution
 
@@ -526,12 +526,12 @@ How to schedule something for the last day of every month:
             -   [ ] e.g. Stock up on groceries before a major storm hits
 
 
-<a id="org3795d81"></a>
+<a id="orgda32092"></a>
 
 ## Organization
 
 
-<a id="orgc7df026"></a>
+<a id="org598b64a"></a>
 
 ### Inventory Management
 
@@ -540,22 +540,22 @@ How to schedule something for the last day of every month:
 -   Pantry management
 
 
-<a id="orgd6d887d"></a>
+<a id="orge788b1c"></a>
 
 ## Self-Discipline
 
 
-<a id="orgf25e79e"></a>
+<a id="orgebd8a23"></a>
 
 ### Self-Discipline State Machine
 
 
-<a id="org86928b0"></a>
+<a id="orgf0fca28"></a>
 
 ## Transportation/Shopping/Errands
 
 
-<a id="orgb0b31ec"></a>
+<a id="org4470780"></a>
 
 ### Transportation
 
@@ -578,7 +578,7 @@ How to schedule something for the last day of every month:
 -   [X] Movement Discipline
 
 
-<a id="orgaed5af5"></a>
+<a id="org50275ea"></a>
 
 ### Shopping/Errands
 
@@ -610,12 +610,12 @@ How to schedule something for the last day of every month:
     -   [X] [SHOPS](https://frdcsa.org/frdcsa/internal/shops) point of sale system (for businesses)
 
 
-<a id="orgd3d36c4"></a>
+<a id="org08bc9a3"></a>
 
 ## Document Management
 
 
-<a id="orgddb75be"></a>
+<a id="org0fddeb8"></a>
 
 ## Financial Planner
 
@@ -630,14 +630,14 @@ How to schedule something for the last day of every month:
         -   [ ] Cash flow problems and hardships
 
 
-<a id="org4cc800b"></a>
+<a id="org68a7a8f"></a>
 
 ## Emergency Preparedness
 
 -   [ ] [Personal Emergency Management](https://frdcsa.org/~andrewdo/ontolog-20220410-reduced.mp4)
 
 
-<a id="org6c54197"></a>
+<a id="orga6b049f"></a>
 
 # Technologies Most Used
 
