@@ -1,57 +1,56 @@
 
 # Table of Contents
 
-1.  [The Free Life Planner](#orga41a7e9)
-    1.  [THIS README IS UNDER CONSTRUCTION](#orgfe3d556)
-2.  [Introduction](#orgd24b145)
-    1.  [Purpose](#orga05f7df)
-    2.  [Sample use cases](#orgd8f9827)
-    3.  [Status](#org4be1d68)
-    4.  [Summary](#org9580610)
-3.  [Overview](#org1f2f556)
-    1.  [Workflow Manager](#org4f0403b)
-    2.  [Health](#org0ec675a)
-        1.  [Exercise](#orge6410a2)
-        2.  [Nutrition](#org9fea107)
-        3.  [Doctor's Visits and Orders](#orgde5c979)
-        4.  [Medications](#org422ed33)
-    3.  [Time Management](#org83b23f2)
-        1.  [Recurrences](#orgdc63f1b)
-        2.  [Calendaring](#org108bff1)
-        3.  [Temporal Planning, Scheduling, and Interactive Plan Execution Monitoring](#org87f329e)
-    4.  [Organization](#orgc5b3366)
-        1.  [Inventory Management](#org82df5a7)
-    5.  [Self-Discipline](#orgcc9d243)
-        1.  [Self-Discipline State Machine](#orgb141189)
-    6.  [Transportation/Shopping/Errands](#org5b877b2)
-        1.  [Transportation](#org479f992)
-        2.  [Shopping](#org622f861)
-    7.  [Document Management](#org07f5852)
-    8.  [Financial Planner](#orga402a85)
-    9.  [Emergency Preparedness](#org70ce4b9)
-4.  [Technical Overview](#org4a08f6e)
-5.  [More Info](#org064337b)
-    1.  [More Use Cases](#org8f2fcf2)
-    2.  [User Base](#org04383f1)
-    3.  [Links](#orgf215ec3)
+1.  [The Free Life Planner](#orgc29beb9)
+    1.  [THIS README IS UNDER CONSTRUCTION](#orgb262037)
+2.  [Introduction](#org2bf4d3a)
+    1.  [Purpose](#org20bf226)
+    2.  [Sample use cases](#orgd817da3)
+    3.  [Status](#orga92adac)
+    4.  [Summary](#orgdd71c3f)
+3.  [Overview](#org016ad35)
+    1.  [Workflow Manager](#orgb9972a2)
+    2.  [Health](#orge43a0d4)
+        1.  [Exercise](#org18a71d5)
+        2.  [Nutrition](#orgef2f24a)
+        3.  [Doctor's Visits and Orders](#org616327c)
+        4.  [Medications](#org771052e)
+    3.  [Time Management](#org44e0ebb)
+        1.  [Recurrences](#org3652abd)
+        2.  [Calendaring](#orgb1a29c0)
+        3.  [Temporal Planning, Scheduling, and Interactive Plan Execution Monitoring](#org42fe6d2)
+    4.  [Organization](#org2d48086)
+        1.  [Inventory Management](#orgd890991)
+    5.  [Self-Discipline](#orgaae0554)
+        1.  [Self-Discipline State Machine](#orgd951d61)
+    6.  [Transportation/Shopping/Errands](#orgddc0eae)
+        1.  [Transportation](#orgf1d2158)
+        2.  [Shopping](#orge22bb36)
+    7.  [Document Management](#org127ffcf)
+    8.  [Financial Planner](#org0dc30df)
+    9.  [Emergency Preparedness](#org0c2f246)
+4.  [More Info](#org7942672)
+    1.  [More Use Cases](#orgac4753a)
+    2.  [User Base](#orgfbd67c9)
+    3.  [Links](#org0bd4a18)
 
 
-<a id="orga41a7e9"></a>
+<a id="orgc29beb9"></a>
 
 # The Free Life Planner
 
 
-<a id="orgfe3d556"></a>
+<a id="orgb262037"></a>
 
 ## THIS README IS UNDER CONSTRUCTION
 
 
-<a id="orgd24b145"></a>
+<a id="org2bf4d3a"></a>
 
 # Introduction
 
 
-<a id="orga05f7df"></a>
+<a id="org20bf226"></a>
 
 ## Purpose
 
@@ -60,16 +59,16 @@
 -   Cognitive prosthetic for executive function
 
 
-<a id="orgd8f9827"></a>
+<a id="orgd817da3"></a>
 
 ## Sample use cases
 
 -   [Homeless Story](https://frdcsa.org/~andrewdo/writings/homeless-story.html)
 -   [Health Story](https://frdcsa.org/~andrewdo/writings/health-story.html)
--   [5.1](#org8f2fcf2)
+-   [4.1](#orgac4753a)
 
 
-<a id="org4be1d68"></a>
+<a id="orga92adac"></a>
 
 ## Status
 
@@ -77,39 +76,39 @@
 -   Interoperability between all systems
 
 
-<a id="org9580610"></a>
+<a id="orgdd71c3f"></a>
 
 ## Summary
 
--   [Workflow Manager](#org4f0403b) (Guides user through all other systems)
--   [Health](#org0ec675a) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
-    -   [Meal Planner](#orgb90e295) (Nutrition, Taste, Cost, etc)
--   [Time Management](#org83b23f2) (Recurrences, Calendaring, Planning, Scheduling and Plan Monitoring)
--   [Organization](#orgc5b3366) (Inventory Management)
--   [Self-Discipline](#orgcc9d243) (State Machine)
--   [Paperwork](#org07f5852) (Mail, Receipts, Doctors Orders etc)
--   [Financial](#orga402a85) (Bills, Recurrences, Meal)
--   [Emergency Preparedness](#org70ce4b9) ()
+-   [Workflow Manager](#orgb9972a2) (Guides user through all other systems)
+-   [Health](#orge43a0d4) (Exercise, Nutrition, Doctor's Visits & Orders, Medications)
+    -   [Meal Planner](#orgbded447) (Nutrition, Taste, Cost, etc)
+-   [Time Management](#org44e0ebb) (Recurrences, Calendaring, Planning, Scheduling and Plan Monitoring)
+-   [Organization](#org2d48086) (Inventory Management)
+-   [Self-Discipline](#orgaae0554) (State Machine)
+-   [Paperwork](#org127ffcf) (Mail, Receipts, Doctors Orders etc)
+-   [Financial](#org0dc30df) (Bills, Recurrences, Meal)
+-   [Emergency Preparedness](#org0c2f246) ()
 
 
-<a id="org1f2f556"></a>
+<a id="org016ad35"></a>
 
 # Overview
 
 
-<a id="org4f0403b"></a>
+<a id="orgb9972a2"></a>
 
 ## Workflow Manager
 
 -   [ ] An overarching tool which pages through and helps complete all necessary tasks
 
 
-<a id="org0ec675a"></a>
+<a id="orge43a0d4"></a>
 
 ## Health
 
 
-<a id="orge6410a2"></a>
+<a id="org18a71d5"></a>
 
 ### Exercise
 
@@ -117,7 +116,7 @@
 -   [X] Alexa interface: "Alexa, tell David - Andrew did his morning exercises"
 
 
-<a id="org9fea107"></a>
+<a id="orgef2f24a"></a>
 
 ### Nutrition
 
@@ -126,24 +125,24 @@
     -   [ ] [Meal Planning Resources](https://frdcsa.org/~andrewdo/WebWiki/MealPlanningResources.html)
     -   [ ] Improves nutrition and taste
     -   [ ] Reduces cost and prep time 4X
-    -   [ ] [Self-Discipline](#orgcc9d243) for dieting
+    -   [ ] [Self-Discipline](#orgaae0554) for dieting
     -   [ ] Specialty diets (medical or ethical)
     -   [ ] [Show pictures here]
 
 
-<a id="orgde5c979"></a>
+<a id="org616327c"></a>
 
 ### Doctor's Visits and Orders
 
 -   [ ] Symptom and condition tracker
 -   [ ] Patient advocate
 -   [ ] Tracking visits
--   [ ] [Following through on instructions](#org07f5852)
+-   [ ] [Following through on instructions](#org127ffcf)
 -   [ ] For when a physician is unavailable
     -   [ ] First aid course of action system
 
 
-<a id="org422ed33"></a>
+<a id="org771052e"></a>
 
 ### Medications
 
@@ -151,22 +150,22 @@
 -   [ ] Medication Management
 
 
-<a id="org83b23f2"></a>
+<a id="org44e0ebb"></a>
 
 ## Time Management
 
 
-<a id="orgdc63f1b"></a>
+<a id="org3652abd"></a>
 
 ### Recurrences
 
 
-<a id="org108bff1"></a>
+<a id="orgb1a29c0"></a>
 
 ### Calendaring
 
 
-<a id="org87f329e"></a>
+<a id="org42fe6d2"></a>
 
 ### Temporal Planning, Scheduling, and Interactive Plan Execution Monitoring
 
@@ -185,34 +184,34 @@
     -   [X] [Interactive Execution Monitoring](https://frdcsa.org/~andrewdo/iem2-3.mp4)
 
 
-<a id="orgc5b3366"></a>
+<a id="org2d48086"></a>
 
 ## Organization
 
 
-<a id="org82df5a7"></a>
+<a id="orgd890991"></a>
 
 ### Inventory Management
 
 -   Pantry management
 
 
-<a id="orgcc9d243"></a>
+<a id="orgaae0554"></a>
 
 ## Self-Discipline
 
 
-<a id="orgb141189"></a>
+<a id="orgd951d61"></a>
 
 ### Self-Discipline State Machine
 
 
-<a id="org5b877b2"></a>
+<a id="orgddc0eae"></a>
 
 ## Transportation/Shopping/Errands
 
 
-<a id="org479f992"></a>
+<a id="orgf1d2158"></a>
 
 ### Transportation
 
@@ -228,7 +227,7 @@
         -   [ ] e.g. [Silence my phone when at any movie theater](http://frdcsa.org/~andrewdo/projects/ll-rules.pl)
 
 
-<a id="org622f861"></a>
+<a id="orge22bb36"></a>
 
 ### Shopping
 
@@ -242,7 +241,7 @@
 -   [ ] Integration with pantry and inventory management
 
 
-<a id="org07f5852"></a>
+<a id="org127ffcf"></a>
 
 ## Document Management
 
@@ -255,7 +254,7 @@
     -   [X] Export selected documents and folders
 
 
-<a id="orga402a85"></a>
+<a id="org0dc30df"></a>
 
 ## Financial Planner
 
@@ -267,24 +266,19 @@
         -   [ ] Cash flow problems and hardships
 
 
-<a id="org70ce4b9"></a>
+<a id="org0c2f246"></a>
 
 ## Emergency Preparedness
 
 -   [ ] [Personal Emergency Management](https://frdcsa.org/~andrewdo/ontolog-20220410-reduced.mp4)
 
 
-<a id="org4a08f6e"></a>
-
-# [Technical Overview](https://github.com/aindilis/flp/blob/main/Manual.md)
-
-
-<a id="org064337b"></a>
+<a id="org7942672"></a>
 
 # More Info
 
 
-<a id="org8f2fcf2"></a>
+<a id="orgac4753a"></a>
 
 ## More Use Cases
 
@@ -297,7 +291,7 @@
 -   Generating a complex monthly financial plan with contingencies for unexpected expenses and if certain income doesn't come through.
 
 
-<a id="org04383f1"></a>
+<a id="orgfbd67c9"></a>
 
 ## User Base
 
@@ -308,95 +302,93 @@
 -   People who are homeless.
 
 
-<a id="orgf215ec3"></a>
+<a id="org0bd4a18"></a>
 
 ## Links
 
-Here is the main FLP code site:
+-   [Technical Overview](https://github.com/aindilis/flp/blob/main/Manual.md)
+
+-   Here is the main FLP code site:
 
 <https://github.com/aindilis/free-life-planner>
 
-Here is the release of FRDCSA Panoply Git VM (containing older and stripped down versions of FRDCSA and Free Life Planner):
+-   Here is the release of FRDCSA Panoply Git VM (containing older and stripped down versions of FRDCSA and Free Life Planner):
 
 <https://github.com/aindilis/frdcsa-panoply-git-20200329>
 
-Here is a story describing the Free Life Planner:
+-   Here is a story describing the Free Life Planner:
 
 <https://frdcsa.org/~andrewdo/writings/homeless-story.html>
 
-Here is the most recent talk on FLP.
+-   Here is the most recent talk on FLP.
 
 <https://ontologforum.org/index.php/ConferenceCall_2022_04_20>
 
-Here is the beginning of the release of FRDCSA (marking the Panoply release the official public release and deeming the last five years of work the "private" version of FRDCSA, and backporting from private to public as able):
+-   Here is the beginning of the release of FRDCSA (marking the Panoply release the official public release and deeming the last five years of work the "private" version of FRDCSA, and backporting from private to public as able):
 
 <https://github.com/aindilis/frdcsa-installer>
 
-Here is a recent talk from EmacsConf2019 about FRDCSA/FLP/Panoply:
+-   Here is a recent talk from EmacsConf2019 about FRDCSA/FLP/Panoply:
 
 <https://frdcsa.org/~andrewdo/frdcsa-emacsconf2019-final.webm>
 
-Here is an independent codebase (no dependencies on FRDCSA) for interactive plan monitoring:
+-   Here is an independent codebase (no dependencies on FRDCSA) for interactive plan monitoring:
 
 <https://github.com/aindilis/plan-monitor>
 
-Here is some more recent work on the Interactive Execution Monitor:
+-   Here is some more recent work on the Interactive Execution Monitor:
 
 <https://frdcsa.org/~andrewdo/iem2-2.mp4>
-
 <https://frdcsa.org/~andrewdo/iem2-3.mp4>
 
-Here is a video of an older, much smaller and simpler version of the FLP booting up (be careful, noisy):
+-   Here is a video of an older, much smaller and simpler version of the FLP booting up (be careful, noisy):
 
 <https://www.youtube.com/watch?v=t_dCAlf26LE>
 
-Here is the beginning of a paper on FLP:
+-   Here is the beginning of a paper on FLP:
 
 <https://frdcsa.org/~andrewdo/pioneer/wk1/flp.pdf>
 
-and one on FRDCSA:
+-   and one on FRDCSA:
 
 <https://frdcsa.org/~andrewdo/pioneer/wk1/frdcsa.pdf>
 
-Here is a paper on the SPSE2 subsystem, an early planning system for FRDCSA which inspired parts of FLP:
+-   Here is a paper on the SPSE2 subsystem, an early planning system for FRDCSA which inspired parts of FLP:
 
 <https://frdcsa.org/visual-aid/pdf/Temporal-Planning-and-Inferencing-for-Personal-Task-Management-with-SPSE2.pdf>
 
-Here is a link to the financial planning submodule:
+-   Here is a link to the financial planning submodule:
 
 <https://github.com/aindilis/financial-planning#projected-transactions-for-florence-tucker>
 
-Here is a link to the meal planning submodule:
+-   Here is a link to the meal planning submodule:
 
 <https://frdcsa.org/~andrewdo/WebWiki/MealPlanningResources.html>
 
-Here is a video which shows some progress on the planner systems and also later the meal planner:
+-   Here is a video which shows some progress on the planner systems and also later the meal planner:
 
 <https://www.youtube.com/watch?v=XZh_tHNboCI&t=15s>
 
-Here are some earlier documents about the FLP:
+-   Here are some earlier documents about the FLP:
 
 <https://frdcsa.org/~andrewdo/writings/News-Challenge-2.html>
-
 <https://frdcsa.org/~andrewdo/WebWiki/FreeLifePlanningCoachSoftware.html>
-
 <https://frdcsa.org/~andrewdo/WebWiki/FreeLifePlanningCoachSoftwareUpdate.html>
-
 <https://frdcsa.org/~andrewdo/WebWiki/FreeLifePlanner.html>
 
-Here is the README for Panoply/FRDCSA:
+-   Here is the README for Panoply/FRDCSA:
 
 <https://frdcsa.org/~andrewdo/writings/README.html>
 
-Here is the project blog:
+-   Here is the project blog:
 
 <https://facebook.com/frdcsa>
 
-Here is the LogicMOO system mentioned in the EmacsConf video, which FLP draws heavily upon and intends to integrate with eventually:
+-   Here is the LogicMOO system mentioned in the EmacsConf video, which FLP draws heavily upon and intends to integrate with eventually:
 
 <https://github.com/TeamSPoon/prologmud/wiki>
 
-And here the design docs for LogicMOO:
+-   And here the design docs for LogicMOO:
 
 <https://drive.google.com/drive/#folders/0B0QA19UX0ehlV1ZEaXEzc3hjTWM>
 
