@@ -1,48 +1,48 @@
 
 # Table of Contents
 
-1.  [Technical Overview](#org7af86b8)
-    1.  [Workflow Manager](#org13d9c23)
-    2.  [Health](#org4db34d7)
-        1.  [Exercise](#org023feba)
-        2.  [Nutrition](#org1eda060)
-        3.  [Doctor's Visits and Orders](#orgeab5310)
-        4.  [Medications](#orgdfaf894)
-        5.  [Mental Health](#org8c5aab2)
-    3.  [Time Management](#org18319d3)
-        1.  [Recurrences](#org104340a)
-        2.  [Calendaring](#org7e42146)
-        3.  [Planning, Scheduling and Execution](#org4aa6b44)
-    4.  [Organization](#org5bf6fcb)
-        1.  [Inventory Management](#orgef4e7f1)
-        2.  [Communication Management](#orgc2a66b4)
-        3.  [Chore Charting](#org5769c02)
-        4.  [Maintenance](#org8c42991)
-        5.  [Research and Development](#org4105a67)
-    5.  [Self-Discipline](#orgb3cff8c)
-        1.  [To-Do](#org6b0a529)
-        2.  [Note-Taking](#org464f5fe)
-        3.  [Scheduling](#orga72bef7)
-        4.  [Self-Discipline State Machine](#org459dd3b)
-        5.  [Gamification](#org2fe0663)
-        6.  [Movement Discipline](#org278a9de)
-    6.  [Transportation/Shopping/Errands](#orgc5f9364)
-        1.  [Transportation](#org2fdbd11)
-        2.  [Shopping/Errands](#org2938d4b)
-    7.  [Document Management](#org7c2bc17)
-    8.  [Financial Planner](#orgfea96e0)
-    9.  [Emergency Preparedness](#org8f5ee62)
-2.  [Major Techniques Used](#org7f55fa3)
-3.  [Major Technologies Used](#org63898b6)
-    1.  [README](#org15e81af)
+1.  [Technical Overview](#org998021f)
+    1.  [Workflow Manager](#org7ffbf45)
+    2.  [Health](#org1067726)
+        1.  [Exercise](#orga2015f5)
+        2.  [Nutrition](#orga490db8)
+        3.  [Doctor's Visits and Orders](#orgd487d6a)
+        4.  [Medications](#orgb5367ed)
+        5.  [Mental Health](#orgfc586eb)
+    3.  [Time Management](#org7791e6c)
+        1.  [Recurrences](#org3ccf02a)
+        2.  [Calendaring](#orge8d7038)
+        3.  [Planning, Scheduling and Execution](#org34d3098)
+    4.  [Organization](#org62150f4)
+        1.  [Inventory Management](#orgdaa9eaf)
+        2.  [Communication Management](#orgde1da62)
+        3.  [Chore Charting](#org42ce7bb)
+        4.  [Maintenance](#org8ee1112)
+        5.  [Research and Development](#org88e15a9)
+    5.  [Self-Discipline](#org8937edb)
+        1.  [To-Do](#org8510ff6)
+        2.  [Note-Taking](#org8ce78e8)
+        3.  [Scheduling](#org64ca49f)
+        4.  [Self-Discipline State Machine](#org4518a05)
+        5.  [Gamification](#org2c48249)
+        6.  [Movement Discipline](#orgafc9cfa)
+    6.  [Transportation/Shopping/Errands](#orgc7aa2da)
+        1.  [Transportation](#org962786d)
+        2.  [Shopping/Errands](#orgbc3daa5)
+    7.  [Document Management](#orgc122484)
+    8.  [Financial Planner](#orgd2c0c60)
+    9.  [Emergency Preparedness](#org24624a6)
+2.  [Major Techniques Used](#org3ad49ce)
+3.  [Major Technologies Used](#org8616c8a)
+    1.  [README](#org92a4f6e)
 
 
-<a id="org7af86b8"></a>
+<a id="org998021f"></a>
 
 # Technical Overview
 
 
-<a id="org13d9c23"></a>
+<a id="org7ffbf45"></a>
 
 ## Workflow Manager
 
@@ -54,17 +54,17 @@
         'finish-page'('user-agenda').
 
 
-<a id="org4db34d7"></a>
+<a id="org1067726"></a>
 
 ## Health
 
 
-<a id="org023feba"></a>
+<a id="orga2015f5"></a>
 
 ### Exercise
 
 
-<a id="org1eda060"></a>
+<a id="orga490db8"></a>
 
 ### Nutrition
 
@@ -76,12 +76,12 @@
     -   [ ] Food pantries
 
 
-<a id="orgeab5310"></a>
+<a id="orgd487d6a"></a>
 
 ### Doctor's Visits and Orders
 
 
-<a id="orgdfaf894"></a>
+<a id="orgb5367ed"></a>
 
 ### Medications
 
@@ -89,17 +89,17 @@
     -   [ ] Manage time-dependent effects of medication dosages and half-lives
 
 
-<a id="org8c5aab2"></a>
+<a id="orgfc586eb"></a>
 
 ### Mental Health
 
 
-<a id="org18319d3"></a>
+<a id="org7791e6c"></a>
 
 ## Time Management
 
 
-<a id="org104340a"></a>
+<a id="org3ccf02a"></a>
 
 ### Recurrences
 
@@ -109,7 +109,7 @@ How to schedule something for the last day of every month:
     	deltaTime([_Year-_Month-1],days(-1),YMD).
 
 
-<a id="org7e42146"></a>
+<a id="orge8d7038"></a>
 
 ### Calendaring
 
@@ -128,7 +128,7 @@ How to schedule something for the last day of every month:
             -   [ ] ICS
 
 
-<a id="org4aa6b44"></a>
+<a id="org34d3098"></a>
 
 ### Planning, Scheduling and Execution
 
@@ -188,12 +188,12 @@ How to schedule something for the last day of every month:
             -   [ ] Weather control rules
 
 
-<a id="org5bf6fcb"></a>
+<a id="org62150f4"></a>
 
 ## Organization
 
 
-<a id="orgef4e7f1"></a>
+<a id="orgdaa9eaf"></a>
 
 ### Inventory Management
 
@@ -202,7 +202,7 @@ How to schedule something for the last day of every month:
 -   Pantry management
 
 
-<a id="orgc2a66b4"></a>
+<a id="orgde1da62"></a>
 
 ### Communication Management
 
@@ -224,17 +224,17 @@ How to schedule something for the last day of every month:
         -   [X] [SNA](http://www.casos.cs.cmu.edu/projects/ora/software.php) (Social Network Analysis)
 
 
-<a id="org5769c02"></a>
+<a id="org42ce7bb"></a>
 
 ### Chore Charting
 
 
-<a id="org8c42991"></a>
+<a id="org8ee1112"></a>
 
 ### Maintenance
 
 
-<a id="org4105a67"></a>
+<a id="org88e15a9"></a>
 
 ### Research and Development
 
@@ -244,17 +244,17 @@ How to schedule something for the last day of every month:
 -   [X] Seeker system
 
 
-<a id="orgb3cff8c"></a>
+<a id="org8937edb"></a>
 
 ## Self-Discipline
 
 
-<a id="org6b0a529"></a>
+<a id="org8510ff6"></a>
 
 ### To-Do
 
 
-<a id="org464f5fe"></a>
+<a id="org8ce78e8"></a>
 
 ### Note-Taking
 
@@ -263,7 +263,7 @@ How to schedule something for the last day of every month:
 -   [X] Do to-do list system
 
 
-<a id="orga72bef7"></a>
+<a id="org64ca49f"></a>
 
 ### Scheduling
 
@@ -271,14 +271,14 @@ How to schedule something for the last day of every month:
 -   [ ] Optaplanner
 
 
-<a id="org459dd3b"></a>
+<a id="org4518a05"></a>
 
 ### Self-Discipline State Machine
 
 -   [ ] Use the digital twin and plan to choose from possible things to do
 
 
-<a id="org2fe0663"></a>
+<a id="org2c48249"></a>
 
 ### Gamification
 
@@ -288,17 +288,17 @@ How to schedule something for the last day of every month:
 -   [ ] Rewards for staying productive
 
 
-<a id="org278a9de"></a>
+<a id="orgafc9cfa"></a>
 
 ### Movement Discipline
 
 
-<a id="orgc5f9364"></a>
+<a id="orgc7aa2da"></a>
 
 ## Transportation/Shopping/Errands
 
 
-<a id="org2fdbd11"></a>
+<a id="org962786d"></a>
 
 ### Transportation
 
@@ -323,7 +323,7 @@ How to schedule something for the last day of every month:
 -   [X] Movement Discipline
 
 
-<a id="org2938d4b"></a>
+<a id="orgbc3daa5"></a>
 
 ### Shopping/Errands
 
@@ -358,7 +358,7 @@ How to schedule something for the last day of every month:
             -   [ ] Decide whether to sell
 
 
-<a id="org7c2bc17"></a>
+<a id="orgc122484"></a>
 
 ## Document Management
 
@@ -372,10 +372,10 @@ How to schedule something for the last day of every month:
     -   [X] Digital library system
         -   [X] Equipment manuals
     -   [X] [Book reader](https://frdcsa.org/frdcsa/internal/clear)
-    -   [X] [Information search management](#org4105a67)
+    -   [X] [Information search management](#org88e15a9)
 
 
-<a id="orgfea96e0"></a>
+<a id="orgd2c0c60"></a>
 
 ## Financial Planner
 
@@ -393,7 +393,7 @@ How to schedule something for the last day of every month:
         -   [ ] Cash flow problems and hardships
 
 
-<a id="org8f5ee62"></a>
+<a id="org24624a6"></a>
 
 ## Emergency Preparedness
 
@@ -405,7 +405,7 @@ How to schedule something for the last day of every month:
         -   [ ] Food and water
 
 
-<a id="org7f55fa3"></a>
+<a id="org3ad49ce"></a>
 
 # Major Techniques Used
 
@@ -424,7 +424,7 @@ How to schedule something for the last day of every month:
         	atomic_list_concat([AgentGloss,told,PersonGloss,Statement],' ',Gaeilge).
 
 
-<a id="org63898b6"></a>
+<a id="org8616c8a"></a>
 
 # Major Technologies Used
 
@@ -455,7 +455,7 @@ How to schedule something for the last day of every month:
 -   [ ] [Inform7](https://github.com/ganelson/inform)
 
 
-<a id="org15e81af"></a>
+<a id="org92a4f6e"></a>
 
 ## [README](https://github.com/aindilis/flp/blob/main/README.md)
 
