@@ -1,76 +1,75 @@
-
-# Table of Contents
-
-1.  [Technical Overview](#orgd6d7eed)
-    1.  [THIS REFERENCE MANUAL IS UNDER CONSTRUCTION](#org2d486a4)
-    2.  [Workflow Manager](#org7510b81)
-    3.  [Health](#org21de1d2)
-        1.  [Exercise](#org809c1cf)
-        2.  [Nutrition](#org8001981)
-        3.  [Doctor's Visits and Orders](#org1fc0df3)
-        4.  [Medications](#org01c8de0)
-        5.  [Mental Health](#org35b6f5a)
-    4.  [Time Management](#orgaaa14c4)
-        1.  [Recurrences](#orgac0bd23)
-        2.  [Calendaring](#org0c0c11e)
-        3.  [Planning, Scheduling and Execution](#org68699c9)
-    5.  [Organization](#org52211a3)
-        1.  [Inventory Management](#org186f83e)
-        2.  [Communication Management](#org9d43a51)
-        3.  [Chore Charting](#org88177fe)
-        4.  [Maintenance](#org374fb9f)
-        5.  [Research and Development](#org4627a62)
-    6.  [Self-Discipline](#org9354276)
-        1.  [To-Do](#org7bb0293)
-        2.  [Note-Taking](#org7c19d01)
-        3.  [Scheduling](#org477007f)
-        4.  [Self-Discipline State Machine](#orgee09155)
-        5.  [Gamification](#orgad9a7ba)
-        6.  [Movement Discipline](#orgdc49797)
-    7.  [Transportation/Shopping/Errands](#org186265d)
-        1.  [Transportation](#orgfda5401)
-        2.  [Shopping/Errands](#org28adaa7)
-    8.  [Document Management](#orgdb06856)
-    9.  [Financial Planner](#org84cfadd)
-    10. [Emergency Preparedness](#org208240a)
-2.  [Major Techniques Used](#org1e5f5db)
-3.  [Major Technologies Used](#org9a3eb2f)
-    1.  [README](#org36c7a01)
+- [Technical Overview](#orga584eeb)
+  - [THIS REFERENCE MANUAL IS UNDER CONSTRUCTION](#org03c9d02)
+  - [Workflow Manager](#org05de443)
+  - [Health](#org7c82fcd)
+    - [Exercise](#orgbaf0b59)
+    - [Nutrition](#orgaec23ac)
+    - [Doctor's Visits and Orders](#org0f2c422)
+    - [Medications](#orged835ee)
+    - [Mental Health](#org1493006)
+  - [Time Management](#orgca1cd2d)
+    - [Recurrences](#orge30cb17)
+    - [Calendaring](#org7b07439)
+    - [Planning, Scheduling and Execution](#org8a8d120)
+  - [Organization](#orgc12f17a)
+    - [Inventory Management](#orgd7cbae5)
+    - [Communication Management](#org1e808e1)
+    - [Chore Charting](#org29c1498)
+    - [Maintenance](#org85d1e2c)
+    - [Research and Development](#org8d6692d)
+  - [Self-Discipline](#org4778913)
+    - [To-Do](#org6a27934)
+    - [Note-Taking](#org65357a8)
+    - [Scheduling](#orgf44d2d5)
+    - [Self-Discipline State Machine](#org2300496)
+    - [Gamification](#org4ec40bf)
+    - [Movement Discipline](#org5f89184)
+  - [Transportation/Shopping/Errands](#org6b5795a)
+    - [Transportation](#orgac493e4)
+    - [Shopping/Errands](#orgbae365f)
+  - [Document Management](#orgf5f9da9)
+  - [Financial Planner](#org835344b)
+  - [Emergency Preparedness](#org34a7f8c)
+- [Major Techniques Used](#org8821c53)
+- [Major Technologies Used](#orgda8078c)
+  - [[README](https://github.com/aindilis/flp/blob/main/README.md)](#org978518d)
 
 
-<a id="orgd6d7eed"></a>
+<a id="orga584eeb"></a>
 
 # Technical Overview
 
 
-<a id="org2d486a4"></a>
+<a id="org03c9d02"></a>
 
 ## THIS REFERENCE MANUAL IS UNDER CONSTRUCTION
 
 
-<a id="org7510b81"></a>
+<a id="org05de443"></a>
 
 ## Workflow Manager
 
 -   [ ] e.g.
     
-        'move-to-page'(begin,'user-agenda').  
-        'complete-task'('mark-off-all-completed-from-agenda').  
-        'complete-task'('sort-agenda').  
-        'finish-page'('user-agenda').
+    ```Prolog
+    'move-to-page'(begin,'user-agenda').  
+    'complete-task'('mark-off-all-completed-from-agenda').  
+    'complete-task'('sort-agenda').  
+    'finish-page'('user-agenda').  
+    ```
 
 
-<a id="org21de1d2"></a>
+<a id="org7c82fcd"></a>
 
 ## Health
 
 
-<a id="org809c1cf"></a>
+<a id="orgbaf0b59"></a>
 
 ### Exercise
 
 
-<a id="org8001981"></a>
+<a id="orgaec23ac"></a>
 
 ### Nutrition
 
@@ -82,12 +81,12 @@
     -   [ ] Food pantries
 
 
-<a id="org1fc0df3"></a>
+<a id="org0f2c422"></a>
 
 ### Doctor's Visits and Orders
 
 
-<a id="org01c8de0"></a>
+<a id="orged835ee"></a>
 
 ### Medications
 
@@ -95,27 +94,29 @@
     -   [ ] Manage time-dependent effects of medication dosages and half-lives
 
 
-<a id="org35b6f5a"></a>
+<a id="org1493006"></a>
 
 ### Mental Health
 
 
-<a id="orgaaa14c4"></a>
+<a id="orgca1cd2d"></a>
 
 ## Time Management
 
 
-<a id="orgac0bd23"></a>
+<a id="orge30cb17"></a>
 
 ### Recurrences
 
 How to schedule something for the last day of every month:
 
-    hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
-    	deltaTime([_Year-_Month-1],days(-1),YMD).
+```Prolog
+hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
+	deltaTime([_Year-_Month-1],days(-1),YMD).
+```
 
 
-<a id="org0c0c11e"></a>
+<a id="org7b07439"></a>
 
 ### Calendaring
 
@@ -134,7 +135,7 @@ How to schedule something for the last day of every month:
             -   [ ] ICS
 
 
-<a id="org68699c9"></a>
+<a id="org8a8d120"></a>
 
 ### Planning, Scheduling and Execution
 
@@ -194,21 +195,23 @@ How to schedule something for the last day of every month:
             -   [ ] Weather control rules
 
 
-<a id="org52211a3"></a>
+<a id="orgc12f17a"></a>
 
 ## Organization
 
 
-<a id="org186f83e"></a>
+<a id="orgd7cbae5"></a>
 
 ### Inventory Management
 
+-   [ ] Pantry management
+-   [ ] Executable product manuals and warranties
+    -   [ ] Automatically schedule maintenance
+
 <img src="https://frdcsa.org/~andrewdo/projects/flp-screencaps/14.jpg" width="250px">
 
--   Pantry management
 
-
-<a id="org9d43a51"></a>
+<a id="org1e808e1"></a>
 
 ### Communication Management
 
@@ -230,17 +233,17 @@ How to schedule something for the last day of every month:
         -   [X] [SNA](http://www.casos.cs.cmu.edu/projects/ora/software.php) (Social Network Analysis)
 
 
-<a id="org88177fe"></a>
+<a id="org29c1498"></a>
 
 ### Chore Charting
 
 
-<a id="org374fb9f"></a>
+<a id="org85d1e2c"></a>
 
 ### Maintenance
 
 
-<a id="org4627a62"></a>
+<a id="org8d6692d"></a>
 
 ### Research and Development
 
@@ -250,17 +253,17 @@ How to schedule something for the last day of every month:
 -   [X] Seeker system
 
 
-<a id="org9354276"></a>
+<a id="org4778913"></a>
 
 ## Self-Discipline
 
 
-<a id="org7bb0293"></a>
+<a id="org6a27934"></a>
 
 ### To-Do
 
 
-<a id="org7c19d01"></a>
+<a id="org65357a8"></a>
 
 ### Note-Taking
 
@@ -269,7 +272,7 @@ How to schedule something for the last day of every month:
 -   [X] Do to-do list system
 
 
-<a id="org477007f"></a>
+<a id="orgf44d2d5"></a>
 
 ### Scheduling
 
@@ -277,14 +280,14 @@ How to schedule something for the last day of every month:
 -   [ ] Optaplanner
 
 
-<a id="orgee09155"></a>
+<a id="org2300496"></a>
 
 ### Self-Discipline State Machine
 
 -   [ ] Use the digital twin and plan to choose from possible things to do
 
 
-<a id="orgad9a7ba"></a>
+<a id="org4ec40bf"></a>
 
 ### Gamification
 
@@ -294,17 +297,17 @@ How to schedule something for the last day of every month:
 -   [ ] Rewards for staying productive
 
 
-<a id="orgdc49797"></a>
+<a id="org5f89184"></a>
 
 ### Movement Discipline
 
 
-<a id="org186265d"></a>
+<a id="org6b5795a"></a>
 
 ## Transportation/Shopping/Errands
 
 
-<a id="orgfda5401"></a>
+<a id="orgac493e4"></a>
 
 ### Transportation
 
@@ -321,15 +324,17 @@ How to schedule something for the last day of every month:
     -   [ ] Locational Rules
         -   [ ] e.g. [Silence my phone when at any movie theater](http://frdcsa.org/~andrewdo/projects/ll-rules.pl)
             
-                performAction(addToPendingTasks(unsilenceCellPhoneWhenLeavingMovieTheaters)) :-
-                	leaving(Agent,Location),
-                	isa(Location,movieTheater),
-                	hasPerformedAction(Agent,silenceCellPhoneAtMovieTheater).
+            ```Prolog
+            performAction(addToPendingTasks(unsilenceCellPhoneWhenLeavingMovieTheaters)) :-
+            	leaving(Agent,Location),
+            	isa(Location,movieTheater),
+            	hasPerformedAction(Agent,silenceCellPhoneAtMovieTheater).
+            ```
 
 -   [X] Movement Discipline
 
 
-<a id="org28adaa7"></a>
+<a id="orgbae365f"></a>
 
 ### Shopping/Errands
 
@@ -364,7 +369,7 @@ How to schedule something for the last day of every month:
             -   [ ] Decide whether to sell
 
 
-<a id="orgdb06856"></a>
+<a id="orgf5f9da9"></a>
 
 ## Document Management
 
@@ -378,10 +383,10 @@ How to schedule something for the last day of every month:
     -   [X] Digital library system
         -   [X] Equipment manuals
     -   [X] [Book reader](https://frdcsa.org/frdcsa/internal/clear)
-    -   [X] [Information search management](#org4627a62)
+    -   [X] [Information search management](#org8d6692d)
 
 
-<a id="org84cfadd"></a>
+<a id="org835344b"></a>
 
 ## Financial Planner
 
@@ -391,7 +396,9 @@ How to schedule something for the last day of every month:
         -   [X] Automatically detect recurring transactions from OFX exports and plan for them
             -   e.g.
                 
-                    promiseToPayForSpec('ELEC',andrewDougherty,'<ELECTRICCOMPANY>',dollars(93.00),[can([1]),not(onTime([3])))).
+                ```Prolog
+                promiseToPayForSpec('ELEC',andrewDougherty,'<ELECTRICCOMPANY>',dollars(93.00),[can([1]),not(onTime([3])))).
+                ```
     
     -   [-] Metaplanners help develop contingency plans for different financial problems
         -   [X] Unexpected delays
@@ -406,7 +413,7 @@ How to schedule something for the last day of every month:
             -   [ ] Regulatory compliance (say, to Social Security rules)
 
 
-<a id="org208240a"></a>
+<a id="org34a7f8c"></a>
 
 ## Emergency Preparedness
 
@@ -418,26 +425,28 @@ How to schedule something for the last day of every month:
         -   [ ] Food and water
 
 
-<a id="org1e5f5db"></a>
+<a id="org8821c53"></a>
 
 # Major Techniques Used
 
 -   [ ] Dialog-interface
     
-        hasDialogEntry('tell <PERSON> <THING>').
-        dialogInterfaceQuery(Entry)  --> ([tell];[talk,to]),grabber(Person,person),([about];[]),oneOrMore(token,Tokens),
-        	{getCurrentDateTime(Now),
-        	 currentAgent(Agent),
-        	 Entry = assert(atTime(Now,tell(Agent,Person,Tokens)))}.
-        
-        curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
-        	getGloss(Agent,AgentGloss),
-        	getGloss(Person,PersonGloss),
-        	atomic_list_concat(TokenizedStatement,' ',Statement),
-        	atomic_list_concat([AgentGloss,told,PersonGloss,Statement],' ',Gaeilge).
+    ```Prolog
+    hasDialogEntry('tell <PERSON> <THING>').
+    dialogInterfaceQuery(Entry)  --> ([tell];[talk,to]),grabber(Person,person),([about];[]),oneOrMore(token,Tokens),
+    	{getCurrentDateTime(Now),
+    	 currentAgent(Agent),
+    	 Entry = assert(atTime(Now,tell(Agent,Person,Tokens)))}.
+    
+    curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
+    	getGloss(Agent,AgentGloss),
+    	getGloss(Person,PersonGloss),
+    	atomic_list_concat(TokenizedStatement,' ',Statement),
+    	atomic_list_concat([AgentGloss,told,PersonGloss,Statement],' ',Gaeilge).
+    ```
 
 
-<a id="org9a3eb2f"></a>
+<a id="orgda8078c"></a>
 
 # Major Technologies Used
 
@@ -445,7 +454,7 @@ How to schedule something for the last day of every month:
     -   [Julian](https://fifth-postulate.nl/julian/) time library
     -   [CLP(fd)](https://www.swi-prolog.org/man/clpfd.html) (Constraint Logic Programming)
     -   [QLF](https://www.swi-prolog.org/pldoc/man?section=qlf) (Quick Load Format)
--   [X] Perl    
+-   [X] Perl
     -   [X] [YASWI](https://metacpan.org/pod/Language::Prolog::Yaswi) (Yet Another interface to SWI-Prolog) Perl<->SWI-Prolog Interface
     -   [X] [Catalyst MVC](http://catalyst.perl.org/Catalyst) (Model/View/Controller)
         -   [X] [ShinyCMS](https://shinycms.org/) (Content Management System)
@@ -468,7 +477,6 @@ How to schedule something for the last day of every month:
 -   [ ] [Inform7](https://github.com/ganelson/inform)
 
 
-<a id="org36c7a01"></a>
+<a id="org978518d"></a>
 
 ## [README](https://github.com/aindilis/flp/blob/main/README.md)
-
