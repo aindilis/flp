@@ -1,72 +1,72 @@
-- [Technical Overview](#orga9e76e0)
-  - [THIS REFERENCE MANUAL IS UNDER CONSTRUCTION](#orga162ae8)
-- [[README](https://github.com/aindilis/flp/blob/main/README.md)](#orgfe6c8c2)
-  - [[Broad overview of FLP](https://github.com/aindilis/flp/blob/main/README.md)](#org8a1c71f)
-- [Reference Manual Contents](#org93724e9)
-  - [Workflow Manager](#orgdf1e5bc)
-  - [Health](#orgab197fa)
-    - [Evidence-Based Wellness](#orgf0f8ce4)
-    - [Exercise](#org28d1fb3)
-    - [Nutrition](#orgeeecd39)
-    - [Doctor's Visits and Orders](#orgd02a916)
-    - [Medications](#org7972bcb)
-    - [Mental Health](#org600d3c9)
-  - [Time Management](#org37c9dae)
-    - [Recurrences](#org68e4e13)
-    - [Calendaring](#org957b18a)
-    - [Planning, Scheduling and Execution](#org9376990)
-  - [Organization](#orgb65b747)
-    - [Inventory Management](#org2750b06)
-    - [Communication Management](#orgbf9baeb)
-    - [Chore Charting](#orga3d411e)
-    - [Maintenance](#orgcdc550d)
-    - [Smart Home](#org1672265)
-    - [Research and Development](#org621d279)
-  - [Self-Discipline](#orgb850e2c)
-    - [To-Do](#org2303b55)
-    - [Note-Taking](#org91bd6a4)
-    - [Scheduling](#org234b1bd)
-    - [Self-Discipline State Machine](#org52e7ece)
-    - [Gamification](#orge492d79)
-    - [Movement Discipline](#orgf86ca98)
-  - [Transportation/Shopping/Errands](#org6e81410)
-    - [Transportation](#org2f647a9)
-    - [Shopping/Errands](#org349cc6e)
-  - [Document Management](#org3a0e838)
-  - [Financial Planner](#org4223dbf)
-  - [Emergency Preparedness](#org32d5c62)
-- [Major Techniques Used](#org936a292)
-- [Major Technologies Used](#org877adf6)
-  - [[README](https://github.com/aindilis/flp/blob/main/README.md)](#orgadd10bb)
-    - [[Broad overview of FLP](https://github.com/aindilis/flp/blob/main/README.md)](#orgfcbc79c)
+- [Technical Overview](#org7ce2c19)
+  - [THIS REFERENCE MANUAL IS UNDER CONSTRUCTION](#orgf21982a)
+- [[README](https://github.com/aindilis/flp/blob/main/README.md)](#org902ab1b)
+  - [[Broad overview of FLP](https://github.com/aindilis/flp/blob/main/README.md)](#orgd2ebd7a)
+- [Reference Manual Contents](#orgd58e23c)
+  - [Workflow Manager](#org28f3e70)
+  - [Health](#org7271166)
+    - [Evidence-Based Wellness](#org1f75506)
+    - [Exercise](#org7c3c23a)
+    - [Nutrition](#orgba5e7c0)
+    - [Doctor's Visits and Orders](#orgd594038)
+    - [Medications](#org829b8cc)
+    - [Mental Health](#orgf6f7afd)
+  - [Time Management](#org7004b4d)
+    - [Recurrences](#orgcba4f31)
+    - [Calendaring](#org43ea99f)
+    - [Planning, Scheduling and Execution](#org646c638)
+  - [Organization](#org7202964)
+    - [Inventory Management](#orgd2f06e3)
+    - [Communication Management](#orgeb9dae6)
+    - [Chore Charting](#org80f899a)
+    - [Maintenance](#org5731ce0)
+    - [Smart Home](#org1216741)
+    - [Research and Development](#orgf0910f2)
+  - [Self-Discipline](#org6cb2014)
+    - [To-Do](#org4672bc0)
+    - [Note-Taking](#org6ffd7bc)
+    - [Scheduling](#org42e40b5)
+    - [Self-Discipline State Machine](#org58ce92b)
+    - [Gamification](#org8973067)
+    - [Movement Discipline](#orgbb23b73)
+  - [Transportation/Shopping/Errands](#org2242ea5)
+    - [Transportation](#org794a6c9)
+    - [Shopping/Errands](#org300c36b)
+  - [Document Management](#org21d973e)
+  - [Financial Planner](#orgc8aa26b)
+  - [Emergency Preparedness](#org2b1a735)
+- [Major Techniques Used](#orge2a6fc7)
+- [Major Technologies Used](#org90fc5d6)
+  - [[README](https://github.com/aindilis/flp/blob/main/README.md)](#org93c53ad)
+    - [[Broad overview of FLP](https://github.com/aindilis/flp/blob/main/README.md)](#org1e2768f)
 
 
-<a id="orga9e76e0"></a>
+<a id="org7ce2c19"></a>
 
 # Technical Overview
 
 
-<a id="orga162ae8"></a>
+<a id="orgf21982a"></a>
 
 ## THIS REFERENCE MANUAL IS UNDER CONSTRUCTION
 
 
-<a id="orgfe6c8c2"></a>
+<a id="org902ab1b"></a>
 
 # [README](https://github.com/aindilis/flp/blob/main/README.md)
 
 
-<a id="org8a1c71f"></a>
+<a id="orgd2ebd7a"></a>
 
 ## [Broad overview of FLP](https://github.com/aindilis/flp/blob/main/README.md)
 
 
-<a id="org93724e9"></a>
+<a id="orgd58e23c"></a>
 
 # Reference Manual Contents
 
 
-<a id="orgdf1e5bc"></a>
+<a id="org28f3e70"></a>
 
 ## Workflow Manager
 
@@ -91,12 +91,12 @@
 ```
 
 
-<a id="orgab197fa"></a>
+<a id="org7271166"></a>
 
 ## Health
 
 
-<a id="orgf0f8ce4"></a>
+<a id="org1f75506"></a>
 
 ### Evidence-Based Wellness
 
@@ -114,7 +114,7 @@
         -   [ ] Medical KBS integrations, possibly: MedDRA, LEX, OpenGALEN, RxNorm, UMLS, etc
 
 
-<a id="org28d1fb3"></a>
+<a id="org7c3c23a"></a>
 
 ### Exercise
 
@@ -122,7 +122,7 @@
 -   [ ] <code>[66%]</code> Track daily progress w/ Alexa interface
 
 
-<a id="orgeeecd39"></a>
+<a id="orgba5e7c0"></a>
 
 ### Nutrition
 
@@ -143,18 +143,18 @@
     -   [ ] Food pantries
 
 
-<a id="orgd02a916"></a>
+<a id="orgd594038"></a>
 
 ### Doctor's Visits and Orders
 
 -   [ ] [Medical diagnostics](https://github.com/timhannifan/symptom-tree/issues/1)
 -   [ ] Following orders
-    -   [ ] Scan into [Document Management System](#org3a0e838)
+    -   [ ] Scan into [Document Management System](#org21d973e)
     -   [ ] Ensuring compliance via [Machine Reading Comprehension](https://paperswithcode.com/task/machine-reading-comprehension)
     -   [ ] Converting orders into an SPSE2 planning context
 
 
-<a id="org7972bcb"></a>
+<a id="org829b8cc"></a>
 
 ### Medications
 
@@ -164,7 +164,7 @@
 -   [X] Medication reminders and recording
 
 
-<a id="org600d3c9"></a>
+<a id="orgf6f7afd"></a>
 
 ### Mental Health
 
@@ -193,12 +193,12 @@
     -   [ ] etc
 
 
-<a id="org37c9dae"></a>
+<a id="org7004b4d"></a>
 
 ## Time Management
 
 
-<a id="org68e4e13"></a>
+<a id="orgcba4f31"></a>
 
 ### Recurrences
 
@@ -210,7 +210,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
 ```
 
 
-<a id="org957b18a"></a>
+<a id="org43ea99f"></a>
 
 ### Calendaring
 
@@ -233,7 +233,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
     -   [X] Show on calendar possible date and time ranges for recurring transactions
 
 
-<a id="org9376990"></a>
+<a id="org646c638"></a>
 
 ### Planning, Scheduling and Execution
 
@@ -295,12 +295,12 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
             -   [ ] <code>[50%]</code> Weather control rules
 
 
-<a id="orgb65b747"></a>
+<a id="org7202964"></a>
 
 ## Organization
 
 
-<a id="org2750b06"></a>
+<a id="orgd2f06e3"></a>
 
 ### Inventory Management
 
@@ -322,7 +322,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
 <img src="https://frdcsa.org/~andrewdo/projects/flp-screencaps/14.jpg" width="250px">
 
 
-<a id="orgbf9baeb"></a>
+<a id="orgeb9dae6"></a>
 
 ### Communication Management
 
@@ -346,7 +346,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
         -   [X] [SNA](http://www.casos.cs.cmu.edu/projects/ora/software.php) (Social Network Analysis)
 
 
-<a id="orga3d411e"></a>
+<a id="org80f899a"></a>
 
 ### Chore Charting
 
@@ -359,7 +359,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
     -   [ ] <code>[66%]</code> Interactive plan execution using library of chore BTs (behavior trees)
 
 
-<a id="orgcdc550d"></a>
+<a id="org5731ce0"></a>
 
 ### Maintenance
 
@@ -371,7 +371,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
 -   [X] Automotive maintenance schedule
 
 
-<a id="org1672265"></a>
+<a id="org1216741"></a>
 
 ### Smart Home
 
@@ -398,14 +398,14 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
                     -   [ ] <code>[20%]</code> Weather monitoring
                         -   [ ] Warnings to prepare for storms, extreme weather
             -   [ ] <code>[10%]</code> Complex event detection ([RTEC](https://github.com/aartikis/RTEC) - Run Time Event Calculus)
-    -   [ ] [Home maintenance](#orgcdc550d)
-    -   [ ] [Emergency preparedness](#org32d5c62)
-        -   [ ] SVRE
-            -   [ ] <code>[30%]</code> IPSVRE
-                -   [ ] <code>[90%]</code> Management of many aspects of individual environments including: lighting, climate, distractions, productivity, etc.
+    -   [ ] [Home maintenance](#org5731ce0)
+    -   [ ] [Emergency preparedness](#org2b1a735)
+    -   [ ] SVRE
+        -   [ ] <code>[30%]</code> IPSVRE
+            -   [ ] <code>[90%]</code> Management of many aspects of individual environments including: lighting, climate, distractions, productivity, etc.
 
 
-<a id="org621d279"></a>
+<a id="orgf0910f2"></a>
 
 ### Research and Development
 
@@ -415,12 +415,12 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
 -   [X] Seeker system
 
 
-<a id="orgb850e2c"></a>
+<a id="org6cb2014"></a>
 
 ## Self-Discipline
 
 
-<a id="org2303b55"></a>
+<a id="org4672bc0"></a>
 
 ### To-Do
 
@@ -438,7 +438,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
     -   [ ] ([Score](https://github.com/aindilis/score), Lightspeed, [Normal-Form](https://github.com/aindilis/normal-form)/[Spark](https://github.com/aindilis/spark-frdcsa), Todo, PSE, Agenda, System-Planning, crontab, Task-Manager, PSE-x, todo-list-processor, [SPSE2](https://github.com/aindilis/spse), [SPSE2-Formalog](https://github.com/aindilis/spse2-formalog/), [FLP](https://github.com/aindilis/free-life-planner), [Do-Cyc](https://github.com/aindilis/do-cyc), Do-Pl)
 
 
-<a id="org91bd6a4"></a>
+<a id="org6ffd7bc"></a>
 
 ### Note-Taking
 
@@ -446,7 +446,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
 -   [ ] <code>[10%]</code> Cyc-ZK (Zettelkasten)
 
 
-<a id="org234b1bd"></a>
+<a id="org42e40b5"></a>
 
 ### Scheduling
 
@@ -455,36 +455,36 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
 -   [ ] <code>[05%]</code> [Optaplanner](https://www.optaplanner.org/)
 
 
-<a id="org52e7ece"></a>
+<a id="org58ce92b"></a>
 
 ### Self-Discipline State Machine
 
 -   [ ] <code>[33%]</code> Use the digital twin and plan to choose from possible things to do
 
 
-<a id="orge492d79"></a>
+<a id="org8973067"></a>
 
 ### Gamification
 
 -   [X] Rewards for completing recurrent tasks
 -   [X] Daily penalty for leaving any recurrent tasks incomplete
--   [X] Penalties for lack of [movement discipline](#orgf86ca98)
+-   [X] Penalties for lack of [movement discipline](#orgbb23b73)
 -   [ ] <code>[50%]</code> Rewards for staying productive
 
 
-<a id="orgf86ca98"></a>
+<a id="orgbb23b73"></a>
 
 ### Movement Discipline
 
 -   [ ] Optional mode where one must premeditate before moving to a different location
 
 
-<a id="org6e81410"></a>
+<a id="org2242ea5"></a>
 
 ## Transportation/Shopping/Errands
 
 
-<a id="org2f647a9"></a>
+<a id="org794a6c9"></a>
 
 ### Transportation
 
@@ -509,15 +509,15 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
             	hasPerformedAction(Agent,silenceCellPhoneAtMovieTheater).
             ```
 
--   [X] [Movement discipline](#orgf86ca98)
+-   [X] [Movement discipline](#orgbb23b73)
 
 
-<a id="org349cc6e"></a>
+<a id="org300c36b"></a>
 
 ### Shopping/Errands
 
 -   [X] Shopping list management
--   [X] Integration with [financial management](#org4223dbf)
+-   [X] Integration with [financial management](#orgc8aa26b)
     -   [X] OFX cross-referencing (Open Financial eXchange)
 -   [ ] <code>[33%]</code> Integration with inventory and pantry management
 -   [ ] Buying
@@ -547,7 +547,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
             -   [ ] Decide whether to sell
 
 
-<a id="org3a0e838"></a>
+<a id="org21d973e"></a>
 
 ## Document Management
 
@@ -561,10 +561,10 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
     -   [X] Digital library system
         -   [X] Equipment manuals
     -   [X] [Book reader](https://frdcsa.org/frdcsa/internal/clear)
-    -   [X] [Information search management](#org621d279)
+    -   [X] [Information search management](#orgf0910f2)
 
 
-<a id="org4223dbf"></a>
+<a id="orgc8aa26b"></a>
 
 ## Financial Planner
 
@@ -595,7 +595,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
 -   [ ] Debt tracking
 
 
-<a id="org32d5c62"></a>
+<a id="org2b1a735"></a>
 
 ## Emergency Preparedness
 
@@ -607,7 +607,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
         -   [ ] <code>[10%]</code> Food and water
 
 
-<a id="org936a292"></a>
+<a id="orge2a6fc7"></a>
 
 # Major Techniques Used
 
@@ -628,7 +628,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
     ```
 
 
-<a id="org877adf6"></a>
+<a id="org90fc5d6"></a>
 
 # Major Technologies Used
 
@@ -660,11 +660,11 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
 -   [ ] <code>[33%]</code> [Inform7](https://github.com/ganelson/inform)
 
 
-<a id="orgadd10bb"></a>
+<a id="org93c53ad"></a>
 
 ## [README](https://github.com/aindilis/flp/blob/main/README.md)
 
 
-<a id="orgfcbc79c"></a>
+<a id="org1e2768f"></a>
 
 ### [Broad overview of FLP](https://github.com/aindilis/flp/blob/main/README.md)
