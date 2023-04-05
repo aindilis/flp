@@ -1,61 +1,60 @@
 
 # Table of Contents
 
-1.  [Technical Overview](#orgb11fe2b)
-    1.  [THIS REFERENCE MANUAL IS UNDER CONSTRUCTION](#org579de6e)
-2.  [Links](#org9590495)
-3.  [You are at the ReferenceManual.md](#orgbd3ef8c)
-        1.  [Broad overview of FLP](#org68fc418)
-4.  [Reference Manual Contents](#orgca8724f)
-    1.  [Workflow Manager](#orga3939be)
-    2.  [Health](#org81fd3df)
-        1.  [Evidence-Based Wellness](#orgb05b3a4)
-        2.  [Exercise](#org35cc8cc)
-        3.  [Nutrition](#orgae5f596)
-        4.  [Doctor's Visits and Orders](#org58488ad)
-        5.  [Medications](#org0ffc070)
-        6.  [Mental Health](#orgd20098e)
-    3.  [Time Management](#org8c203f6)
-        1.  [Recurrences](#orgb85f9ab)
-        2.  [Calendaring](#org35b86db)
-        3.  [Planning, Scheduling and Execution](#org7562913)
-    4.  [Organization](#orgf99b7fa)
-        1.  [Inventory Management](#orgdf9322e)
-        2.  [Communication Management](#orgdd58923)
-        3.  [Chore Charting](#orge298009)
-        4.  [Maintenance](#org40768b3)
-        5.  [Smart Home](#org7112201)
-        6.  [Research and Development](#orgea758b1)
-    5.  [Self-Discipline](#org539a986)
-        1.  [To-Do](#org5ecf539)
-        2.  [Note-Taking](#orgf3e4d69)
-        3.  [Scheduling](#orgea05dec)
-        4.  [Self-Discipline State Machine](#org1a7f0fe)
-        5.  [Gamification](#orgcc0ae4f)
-        6.  [Movement Discipline](#orgdfa1801)
-    6.  [Transportation/Shopping/Errands](#orga71a9e5)
-        1.  [Transportation](#org5df2a06)
-        2.  [Shopping/Errands](#org2657464)
-    7.  [Document Management](#org00829c5)
-    8.  [Financial Planner](#org914892f)
-    9.  [Emergency Preparedness](#orgcf56fc8)
-5.  [Major Techniques Used](#org1704e97)
-6.  [Major Technologies Used](#org4c70a42)
-    1.  [README](#orgb46123e)
-        1.  [Broad overview of FLP](#org1a69bf1)
+1.  [Technical Overview](#org101bb46)
+    1.  [THIS REFERENCE MANUAL IS UNDER CONSTRUCTION](#org6fa56ce)
+2.  [Links](#org1d64171)
+3.  [You are at the ReferenceManual.md](#orgd12d5d7)
+4.  [Reference Manual Contents](#orgbb30ecb)
+    1.  [Workflow Manager](#orgaa0aa5d)
+    2.  [Health](#orgf3d061b)
+        1.  [Evidence-Based Wellness](#orgcbae83b)
+        2.  [Exercise](#orgb178727)
+        3.  [Nutrition](#orgbd98df7)
+        4.  [Doctor's Visits and Orders](#org7d8094b)
+        5.  [Medications](#orge5f185b)
+        6.  [Mental Health](#org7c5a4f4)
+    3.  [Time Management](#orgfd28d95)
+        1.  [Recurrences](#orgc4f057a)
+        2.  [Calendaring](#org120b90d)
+        3.  [Planning, Scheduling and Execution](#org10ac523)
+    4.  [Organization](#orgaf496f5)
+        1.  [Inventory Management](#org99652e7)
+        2.  [Communication Management](#org585e86f)
+        3.  [Chore Charting](#orgc151773)
+        4.  [Maintenance](#org27cd2be)
+        5.  [Smart Home](#org373f456)
+        6.  [Research and Development](#org0c714f6)
+    5.  [Self-Discipline](#orge1e6b14)
+        1.  [To-Do](#orge968dba)
+        2.  [Note-Taking](#orga89dab5)
+        3.  [Scheduling](#org0be1e1a)
+        4.  [Self-Discipline State Machine](#org3665220)
+        5.  [Gamification](#org40f35cf)
+        6.  [Movement Discipline](#org3912914)
+    6.  [Transportation/Shopping/Errands](#org0eafbda)
+        1.  [Transportation](#org75ba061)
+        2.  [Shopping/Errands](#org4e69181)
+    7.  [Document Management](#org3ff8105)
+    8.  [Financial Planner](#org4d4a80b)
+    9.  [Emergency Preparedness](#org3ed6d68)
+5.  [Major Techniques Used](#orgbc58958)
+6.  [Major Technologies Used](#orgb948eef)
+    1.  [README](#org2dba7f5)
+        1.  [Broad overview of FLP](#orgeb9c209)
 
 
-<a id="orgb11fe2b"></a>
+<a id="org101bb46"></a>
 
 # Technical Overview
 
 
-<a id="org579de6e"></a>
+<a id="org6fa56ce"></a>
 
 ## THIS REFERENCE MANUAL IS UNDER CONSTRUCTION
 
 
-<a id="org9590495"></a>
+<a id="org1d64171"></a>
 
 # Links
 
@@ -71,22 +70,17 @@
     -   The paper - "The Free Life Planner: A Virtual Secondary Social Safety Net" (will link to when it becomes available)
 
 
-<a id="orgbd3ef8c"></a>
+<a id="orgd12d5d7"></a>
 
 # You are at the ReferenceManual.md
 
 
-<a id="org68fc418"></a>
-
-### [Broad overview of FLP](https://github.com/aindilis/flp/blob/main/README.md)
-
-
-<a id="orgca8724f"></a>
+<a id="orgbb30ecb"></a>
 
 # Reference Manual Contents
 
 
-<a id="orga3939be"></a>
+<a id="orgaa0aa5d"></a>
 
 ## Workflow Manager
 
@@ -106,12 +100,12 @@
             	...
 
 
-<a id="org81fd3df"></a>
+<a id="orgf3d061b"></a>
 
 ## Health
 
 
-<a id="orgb05b3a4"></a>
+<a id="orgcbae83b"></a>
 
 ### Evidence-Based Wellness
 
@@ -129,7 +123,7 @@
         -   [ ] Medical KBS integrations, possibly: MedDRA, LEX, OpenGALEN, RxNorm, UMLS, etc
 
 
-<a id="org35cc8cc"></a>
+<a id="orgb178727"></a>
 
 ### Exercise
 
@@ -137,7 +131,7 @@
 -   [ ] <code>[66%]</code> Track daily progress w/ Alexa interface
 
 
-<a id="orgae5f596"></a>
+<a id="orgbd98df7"></a>
 
 ### Nutrition
 
@@ -159,18 +153,18 @@
     -   [X] Helping w/ Portion control using door sensor alerts on fridge and freezer
 
 
-<a id="org58488ad"></a>
+<a id="org7d8094b"></a>
 
 ### Doctor's Visits and Orders
 
 -   [ ] [Medical diagnostics](https://github.com/timhannifan/symptom-tree/issues/1)
 -   [ ] Following orders
-    -   [ ] Scan into [Document Management System](#org00829c5)
+    -   [ ] Scan into [Document Management System](#org3ff8105)
     -   [ ] Ensuring compliance via [Machine Reading Comprehension](https://paperswithcode.com/task/machine-reading-comprehension)
     -   [ ] Converting orders into an SPSE2 planning context
 
 
-<a id="org0ffc070"></a>
+<a id="orge5f185b"></a>
 
 ### Medications
 
@@ -180,7 +174,7 @@
 -   [X] Medication reminders and recording
 
 
-<a id="orgd20098e"></a>
+<a id="org7c5a4f4"></a>
 
 ### Mental Health
 
@@ -209,12 +203,12 @@
     -   [ ] etc
 
 
-<a id="org8c203f6"></a>
+<a id="orgfd28d95"></a>
 
 ## Time Management
 
 
-<a id="orgb85f9ab"></a>
+<a id="orgc4f057a"></a>
 
 ### Recurrences
 
@@ -224,7 +218,7 @@ How to schedule something for the last day of every month:
     	deltaTime([_Year-_Month-1],days(-1),YMD).
 
 
-<a id="org35b86db"></a>
+<a id="org120b90d"></a>
 
 ### Calendaring
 
@@ -247,7 +241,7 @@ How to schedule something for the last day of every month:
     -   [X] Show on calendar possible date and time ranges for recurring transactions
 
 
-<a id="org7562913"></a>
+<a id="org10ac523"></a>
 
 ### Planning, Scheduling and Execution
 
@@ -265,7 +259,7 @@ How to schedule something for the last day of every month:
         -   [ ] <code>[33%]</code> [AP/3T](https://github.com/aindilis/3t-frdcsa) (Adversarial Planner)
     -   [ ] <code>[90%]</code> [Behavior tree reactive planning](https://frdcsa.org/~andrewdo/writings/behavior-tree-task-manager-for-covid-19.pdf)
         -   [ ] <code>[90%]</code> [Plan Monitor](https://github.com/aindilis/plan-monitor)
-            -   [ ] <code>[33%]</code> [More than 15 BT domains](#orgee9aec8)
+            -   [ ] <code>[33%]</code> [More than 15 BT domains](#org0066759)
             -   [ ] <code>[40%]</code> Execution of generated (PDDL/AgentSpeak(L)/Behavior Tree/etc) plans (similar to [this](https://arxiv.org/pdf/2101.01964.pdf))
     -   [X] BDI Agent (Belief-Desire-Intention)
         -   [X] Jason/AgentSpeak(L) w/ SWIPL integration (SWI-Prolog)
@@ -310,12 +304,12 @@ How to schedule something for the last day of every month:
             -   [ ] <code>[50%]</code> Weather control rules
 
 
-<a id="orgf99b7fa"></a>
+<a id="orgaf496f5"></a>
 
 ## Organization
 
 
-<a id="orgdf9322e"></a>
+<a id="org99652e7"></a>
 
 ### Inventory Management
 
@@ -337,7 +331,7 @@ How to schedule something for the last day of every month:
 <img src="https://frdcsa.org/~andrewdo/projects/flp-screencaps/14.jpg" width="250px">
 
 
-<a id="orgdd58923"></a>
+<a id="org585e86f"></a>
 
 ### Communication Management
 
@@ -361,7 +355,7 @@ How to schedule something for the last day of every month:
         -   [X] [SNA](http://www.casos.cs.cmu.edu/projects/ora/software.php) (Social Network Analysis)
 
 
-<a id="orge298009"></a>
+<a id="orgc151773"></a>
 
 ### Chore Charting
 
@@ -374,7 +368,7 @@ How to schedule something for the last day of every month:
     -   [ ] <code>[66%]</code> Interactive plan execution using library of chore BTs (behavior trees)
 
 
-<a id="org40768b3"></a>
+<a id="org27cd2be"></a>
 
 ### Maintenance
 
@@ -386,7 +380,7 @@ How to schedule something for the last day of every month:
 -   [X] Automotive maintenance schedule
 
 
-<a id="org7112201"></a>
+<a id="org373f456"></a>
 
 ### Smart Home
 
@@ -414,14 +408,14 @@ How to schedule something for the last day of every month:
                         -   [ ] Warnings to prepare for storms, extreme weather
             -   [ ] <code>[10%]</code> Complex event detection
                 -   [ ] <code>[20%]</code> [RTEC](https://github.com/aartikis/RTEC) (Run Time Event Calculus)
-    -   [ ] [Home maintenance](#org40768b3)
-    -   [ ] [Emergency preparedness](#orgcf56fc8)
+    -   [ ] [Home maintenance](#org27cd2be)
+    -   [ ] [Emergency preparedness](#org3ed6d68)
     -   [ ] SVRE
         -   [ ] <code>[30%]</code> IPSVRE
             -   [ ] <code>[90%]</code> Management of many aspects of individual environments including: lighting, climate, distractions, productivity, etc.
 
 
-<a id="orgea758b1"></a>
+<a id="org0c714f6"></a>
 
 ### Research and Development
 
@@ -431,12 +425,12 @@ How to schedule something for the last day of every month:
 -   [X] Seeker system
 
 
-<a id="org539a986"></a>
+<a id="orge1e6b14"></a>
 
 ## Self-Discipline
 
 
-<a id="org5ecf539"></a>
+<a id="orge968dba"></a>
 
 ### To-Do
 
@@ -454,7 +448,7 @@ How to schedule something for the last day of every month:
     -   [ ] ([Score](https://github.com/aindilis/score), Lightspeed, [Normal-Form](https://github.com/aindilis/normal-form)/[Spark](https://github.com/aindilis/spark-frdcsa), Todo, PSE, Agenda, System-Planning, crontab, Task-Manager, PSE-x, todo-list-processor, [SPSE2](https://github.com/aindilis/spse), [SPSE2-Formalog](https://github.com/aindilis/spse2-formalog/), [FLP](https://github.com/aindilis/free-life-planner), [Do-Cyc](https://github.com/aindilis/do-cyc), Do-Pl)
 
 
-<a id="orgf3e4d69"></a>
+<a id="orga89dab5"></a>
 
 ### Note-Taking
 
@@ -462,7 +456,7 @@ How to schedule something for the last day of every month:
 -   [ ] <code>[10%]</code> Cyc-ZK (Zettelkasten)
 
 
-<a id="orgea05dec"></a>
+<a id="org0be1e1a"></a>
 
 ### Scheduling
 
@@ -471,36 +465,36 @@ How to schedule something for the last day of every month:
 -   [ ] <code>[05%]</code> [Optaplanner](https://www.optaplanner.org/)
 
 
-<a id="org1a7f0fe"></a>
+<a id="org3665220"></a>
 
 ### Self-Discipline State Machine
 
 -   [ ] <code>[33%]</code> Use the digital twin and plan to choose from possible things to do
 
 
-<a id="orgcc0ae4f"></a>
+<a id="org40f35cf"></a>
 
 ### Gamification
 
 -   [X] Rewards for completing recurrent tasks
 -   [X] Daily penalty for leaving any recurrent tasks incomplete
--   [X] Penalties for lack of [movement discipline](#orgdfa1801)
+-   [X] Penalties for lack of [movement discipline](#org3912914)
 -   [ ] <code>[50%]</code> Rewards for staying productive
 
 
-<a id="orgdfa1801"></a>
+<a id="org3912914"></a>
 
 ### Movement Discipline
 
 -   [ ] <code>[33%]</code> Optional mode where one must premeditate before moving to a different location
 
 
-<a id="orga71a9e5"></a>
+<a id="org0eafbda"></a>
 
 ## Transportation/Shopping/Errands
 
 
-<a id="org5df2a06"></a>
+<a id="org75ba061"></a>
 
 ### Transportation
 
@@ -524,15 +518,15 @@ How to schedule something for the last day of every month:
                 	isa(Location,movieTheater),
                 	hasRecentlyPerformedAction(Agent,silenceCellPhone(Agent,Phone)).
 
--   [X] [Movement discipline](#orgdfa1801)
+-   [X] [Movement discipline](#org3912914)
 
 
-<a id="org2657464"></a>
+<a id="org4e69181"></a>
 
 ### Shopping/Errands
 
 -   [X] Shopping list management
--   [X] Integration with [financial management](#org914892f)
+-   [X] Integration with [financial management](#org4d4a80b)
     -   [X] OFX cross-referencing (Open Financial eXchange)
 -   [ ] <code>[33%]</code> Integration with inventory and pantry management
 -   [ ] Buying
@@ -562,7 +556,7 @@ How to schedule something for the last day of every month:
             -   [ ] Decide whether to sell
 
 
-<a id="org00829c5"></a>
+<a id="org3ff8105"></a>
 
 ## Document Management
 
@@ -576,10 +570,10 @@ How to schedule something for the last day of every month:
     -   [X] Digital library system
         -   [X] Equipment manuals
     -   [X] [Book reader](https://frdcsa.org/frdcsa/internal/clear)
-    -   [X] [Information search management](#orgea758b1)
+    -   [X] [Information search management](#org0c714f6)
 
 
-<a id="org914892f"></a>
+<a id="org4d4a80b"></a>
 
 ## Financial Planner
 
@@ -608,7 +602,7 @@ How to schedule something for the last day of every month:
 -   [ ] Debt tracking
 
 
-<a id="orgcf56fc8"></a>
+<a id="org3ed6d68"></a>
 
 ## Emergency Preparedness
 
@@ -620,7 +614,7 @@ How to schedule something for the last day of every month:
         -   [ ] <code>[10%]</code> Food and water
 
 
-<a id="org1704e97"></a>
+<a id="orgbc58958"></a>
 
 # Major Techniques Used
 
@@ -639,7 +633,7 @@ How to schedule something for the last day of every month:
         	atomic_list_concat([AgentGloss,told,PersonGloss,Statement],' ',Gaeilge).
 
 
-<a id="org4c70a42"></a>
+<a id="orgb948eef"></a>
 
 # Major Technologies Used
 
@@ -671,12 +665,12 @@ How to schedule something for the last day of every month:
 -   [ ] <code>[33%]</code> [Inform7](https://github.com/ganelson/inform)
 
 
-<a id="orgb46123e"></a>
+<a id="org2dba7f5"></a>
 
 ## [README](https://github.com/aindilis/flp/blob/main/README.md)
 
 
-<a id="org1a69bf1"></a>
+<a id="orgeb9c209"></a>
 
 ### [Broad overview of FLP](https://github.com/aindilis/flp/blob/main/README.md)
 
