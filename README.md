@@ -1,66 +1,66 @@
 
 # Table of Contents
 
-1.  [The Free Life Planner](#orga72753c)
-    1.  [THIS README IS UNDER CONSTRUCTION](#orgebf0fe0)
-2.  [Links](#orgbd948f1)
-3.  [You are at the README.md](#orgb582e24)
-4.  [Introduction](#orgbccd882)
-    1.  [Purpose](#org87ca715)
-    2.  [User Base](#org0ff3708)
-    3.  [Sample use cases](#orgbcc41f7)
-    4.  [Status](#org0a18455)
-5.  [General Overview](#org469a26e)
-    1.  [Workflow Manager](#org9e081f7)
-    2.  [Employment](#orge2b3c59)
-    3.  [Health](#org7ca4f66)
-        1.  [Evidence-Based Wellness](#orga535f13)
-        2.  [Exercise](#orge1a8673)
-        3.  [Nutrition](#org8725314)
-        4.  [Doctor's Visits and Orders](#org0d05f7f)
-        5.  [Medications](#org69f4ac3)
-        6.  [Mental Health](#org1420dc6)
-    4.  [Time Management](#orgd3a398f)
-        1.  [Recurrences](#org07c8b30)
-        2.  [Calendaring](#org9b8fec2)
-        3.  [Planning, Scheduling, and Execution](#org4ab6f6a)
-    5.  [Organization](#org4970bd6)
-        1.  [Financial Planner](#org9ee97d2)
-        2.  [Inventory Management](#org0f2e4df)
-        3.  [Document Management](#org69949ab)
-        4.  [Adulting](#org1650ca8)
-        5.  [Transportation](#org7996c55)
-        6.  [Shopping/Errands](#org7cb36ce)
-        7.  [Maintenance](#orgce4ab8b)
-        8.  [Research and Development](#org462a4c7)
-    6.  [Self-Discipline](#org9bd0a5c)
-        1.  [To-Do](#orgea5df42)
-        2.  [Note-Taking](#orgeca289f)
-        3.  [Scheduling](#org89d0af6)
-        4.  [Executive Function](#org0dfbb41)
-        5.  [Self-Discipline State Machine](#org3eb8ff8)
-        6.  [Gamification](#orgf08311b)
-        7.  [Movement Discipline](#org35b9c93)
-    7.  [Interpersonal](#org6c1b85a)
-    8.  [Emergency Preparedness](#org38403f8)
-6.  [More Info](#org86e5cde)
-    1.  [More Use Cases](#org1861daa)
-    2.  [Links](#org5326252)
-    3.  [Reference Manual](#orgee67f93)
-        1.  [In-depth feature descriptions and implementation details](#orgeeb9c2b)
+1.  [The Free Life Planner](#org960bf74)
+    1.  [THIS README IS UNDER CONSTRUCTION](#org5e329e5)
+2.  [Links](#orgc8bc128)
+3.  [You are at the README.md](#org1413556)
+4.  [Introduction](#org67f3705)
+    1.  [Purpose](#org44e31b3)
+    2.  [User Base](#org690def3)
+    3.  [Sample use cases](#org3fc08a1)
+    4.  [Status](#orge7c1aff)
+5.  [General Overview](#orgdaba60d)
+    1.  [Workflow Manager](#org7fe160f)
+    2.  [Employment](#orgbd1415d)
+    3.  [Health](#org49d4860)
+        1.  [Evidence-Based Wellness](#org6ecd7ad)
+        2.  [Exercise](#org270e08c)
+        3.  [Nutrition](#org5fb15e1)
+        4.  [Doctor's Visits and Orders](#org6ba06ae)
+        5.  [Medications](#org6eb67f3)
+        6.  [Mental Health](#orgd5056c1)
+    4.  [Time Management](#orgeeb1dba)
+        1.  [Recurrences](#org124a34d)
+        2.  [Calendaring](#orgdc69387)
+        3.  [Planning, Scheduling, and Execution](#org2db6bc6)
+    5.  [Organization](#orgba0cbf7)
+        1.  [Financial Planner](#org008ad33)
+        2.  [Inventory Management](#orgfa39280)
+        3.  [Document Management](#orgd20382f)
+        4.  [Adulting](#org65963c3)
+        5.  [Transportation](#orge3ee505)
+        6.  [Shopping/Errands](#org6365f37)
+        7.  [Maintenance](#org2e84427)
+        8.  [Research and Development](#orgc6b8187)
+    6.  [Self-Discipline](#org4db2d0d)
+        1.  [To-Do](#org5b6170a)
+        2.  [Note-Taking](#org76c7f39)
+        3.  [Scheduling](#org3883222)
+        4.  [Executive Function](#orgdae2ab4)
+        5.  [Self-Discipline State Machine](#orgc37f6e2)
+        6.  [Gamification](#org1fffc15)
+        7.  [Movement Discipline](#orgc1b299a)
+    7.  [Interpersonal](#orgf115057)
+    8.  [Emergency Preparedness](#org7d39d2f)
+6.  [More Info](#orgf234b04)
+    1.  [More Use Cases](#orgc65de1a)
+    2.  [Links](#org601a2c8)
+    3.  [Reference Manual](#org5e9410d)
+        1.  [In-depth feature descriptions and implementation details](#orgc701131)
 
 
-<a id="orga72753c"></a>
+<a id="org960bf74"></a>
 
 # The Free Life Planner
 
 
-<a id="orgebf0fe0"></a>
+<a id="org5e329e5"></a>
 
 ## THIS README IS UNDER CONSTRUCTION
 
 
-<a id="orgbd948f1"></a>
+<a id="orgc8bc128"></a>
 
 # Links
 
@@ -76,17 +76,17 @@
     -   The paper - "The Free Life Planner: A Virtual Secondary Social Safety Net" (will link to when it becomes available)
 
 
-<a id="orgb582e24"></a>
+<a id="org1413556"></a>
 
 # You are at the README.md
 
 
-<a id="orgbccd882"></a>
+<a id="org67f3705"></a>
 
 # Introduction
 
 
-<a id="org87ca715"></a>
+<a id="org44e31b3"></a>
 
 ## Purpose
 
@@ -99,7 +99,7 @@
 -   A "life manual" / "skills for living life"
 
 
-<a id="org0ff3708"></a>
+<a id="org690def3"></a>
 
 ## User Base
 
@@ -116,16 +116,16 @@
     -   everyone else
 
 
-<a id="orgbcc41f7"></a>
+<a id="org3fc08a1"></a>
 
 ## Sample use cases
 
 -   [Homeless Story](https://frdcsa.org/~andrewdo/writings/homeless-story.html)
 -   [Health Story](https://frdcsa.org/~andrewdo/writings/health-story.html)
--   [More Use Cases](#org1861daa)
+-   [More Use Cases](#orgc65de1a)
 
 
-<a id="org0a18455"></a>
+<a id="orge7c1aff"></a>
 
 ## Status
 
@@ -133,19 +133,19 @@
 -   Interoperability between all systems
 
 
-<a id="org469a26e"></a>
+<a id="orgdaba60d"></a>
 
 # General Overview
 
 
-<a id="org9e081f7"></a>
+<a id="org7fe160f"></a>
 
 ## Workflow Manager
 
 -   [ ] An overarching tool/wizard which pages through and helps complete all necessary tasks
 
 
-<a id="orge2b3c59"></a>
+<a id="orgbd1415d"></a>
 
 ## Employment
 
@@ -158,12 +158,12 @@
     -   [X] [Negotiation trainer](https://frdcsa.org/~andrewdo/WebWiki/AudienceDialog.html)
 
 
-<a id="org7ca4f66"></a>
+<a id="org49d4860"></a>
 
 ## Health
 
 
-<a id="orga535f13"></a>
+<a id="org6ecd7ad"></a>
 
 ### Evidence-Based Wellness
 
@@ -171,7 +171,7 @@
 -   [ ] Prevention / early detection
 
 
-<a id="orge1a8673"></a>
+<a id="org270e08c"></a>
 
 ### Exercise
 
@@ -179,7 +179,7 @@
 -   [X] Alexa interface: "Alexa, tell David - Andrew did his morning exercises"
 
 
-<a id="org8725314"></a>
+<a id="org5fb15e1"></a>
 
 ### Nutrition
 
@@ -189,26 +189,26 @@
     -   [ ] Improves nutrition and taste 
         -   [ ] <code>[25%]</code> Macros planning and counting
     -   [ ] Reduces cost and prep time 4X
-    -   [ ] [Self-Discipline](#org9bd0a5c) for hitting macros
+    -   [ ] [Self-Discipline](#org4db2d0d) for hitting macros
     -   [ ] <code>[20%]</code> Specialty diets (medical or ethical)
     -   [ ] [<code>[10%]</code> Recipe manager](https://frdcsa.org/%7eandrewdo/gourmet-frontend.webm)
     -   [ ] <code>[10%]</code> [Recommender system](https://frdcsa.org/%7eandrewdo/WebWiki/RecipeRecommendationSystem.html)
 
 
-<a id="org0d05f7f"></a>
+<a id="org6ba06ae"></a>
 
 ### Doctor's Visits and Orders
 
 -   [ ] Symptom and condition tracker
 -   [ ] <code>[10%]</code> Patient advocate
 -   [ ] [Tracking visits](https://github.com/aindilis/akahige)
--   [ ] [Following through on instructions](#org69949ab)
+-   [ ] [Following through on instructions](#orgd20382f)
 -   [ ] For when a physician is unavailable
     -   [ ] Diagnostic expert system
     -   [ ] First aid course of action system
 
 
-<a id="org69f4ac3"></a>
+<a id="org6eb67f3"></a>
 
 ### Medications
 
@@ -216,7 +216,7 @@
 -   [ ] Medication management
 
 
-<a id="org1420dc6"></a>
+<a id="orgd5056c1"></a>
 
 ### Mental Health
 
@@ -232,12 +232,12 @@
     -   [ ] Identifying factors
 
 
-<a id="orgd3a398f"></a>
+<a id="orgeeb1dba"></a>
 
 ## Time Management
 
 
-<a id="org07c8b30"></a>
+<a id="org124a34d"></a>
 
 ### Recurrences
 
@@ -251,7 +251,7 @@
     -   [ ] Durations
 
 
-<a id="org9b8fec2"></a>
+<a id="orgdc69387"></a>
 
 ### Calendaring
 
@@ -260,7 +260,7 @@
 -   [ ] Detect double-booking
 
 
-<a id="org4ab6f6a"></a>
+<a id="org2db6bc6"></a>
 
 ### Planning, Scheduling, and Execution
 
@@ -279,12 +279,12 @@
     -   [X] [Interactive Execution Monitoring](https://frdcsa.org/~andrewdo/iem2-3.mp4)
 
 
-<a id="org4970bd6"></a>
+<a id="orgba0cbf7"></a>
 
 ## Organization
 
 
-<a id="org9ee97d2"></a>
+<a id="org008ad33"></a>
 
 ### Financial Planner
 
@@ -297,7 +297,7 @@
 -   [X] Adds financial reasoning to life-planning problems
 
 
-<a id="org0f2e4df"></a>
+<a id="orgfa39280"></a>
 
 ### Inventory Management
 
@@ -308,7 +308,7 @@
     -   [ ] <code>[80%]</code> Nutrition lookup
 
 
-<a id="org69949ab"></a>
+<a id="orgd20382f"></a>
 
 ### Document Management
 
@@ -320,7 +320,7 @@
     -   [ ] Help the user implement doctors orders
 
 
-<a id="org1650ca8"></a>
+<a id="org65963c3"></a>
 
 ### Adulting
 
@@ -332,7 +332,7 @@
         -   [X] Implement rewards via gamification
 
 
-<a id="org7996c55"></a>
+<a id="orge3ee505"></a>
 
 ### Transportation
 
@@ -343,19 +343,19 @@
     -   [ ] <code>[75%]</code> e.g. Silence one's cell phone in certain types of locations
 
 
-<a id="org7cb36ce"></a>
+<a id="org6365f37"></a>
 
 ### Shopping/Errands
 
 -   [ ] Manage one's shopping list
-    -   [ ] <code>[15%]</code> Integrate with [financial tracking](#org9ee97d2)
-    -   [ ] <code>[25%]</code> Integrate with [pantry management](#org8725314)
+    -   [ ] <code>[15%]</code> Integrate with [financial tracking](#org008ad33)
+    -   [ ] <code>[25%]</code> Integrate with [pantry management](#org5fb15e1)
 -   [ ] <code>[25%]</code> Track all types of receipts
 -   [ ] Buy/sell things as necessary
 -   [ ] <code>[75%]</code> Help boycott products by companies the user doesn't support
 
 
-<a id="orgce4ab8b"></a>
+<a id="org2e84427"></a>
 
 ### Maintenance
 
@@ -365,17 +365,17 @@
 -   [ ] Computer systems
 
 
-<a id="org462a4c7"></a>
+<a id="orgc6b8187"></a>
 
 ### Research and Development
 
 
-<a id="org9bd0a5c"></a>
+<a id="org4db2d0d"></a>
 
 ## Self-Discipline
 
 
-<a id="orgea5df42"></a>
+<a id="org5b6170a"></a>
 
 ### To-Do
 
@@ -384,12 +384,12 @@
     -   [X] In a logical language
 
 
-<a id="orgeca289f"></a>
+<a id="org76c7f39"></a>
 
 ### Note-Taking
 
 
-<a id="org89d0af6"></a>
+<a id="org3883222"></a>
 
 ### Scheduling
 
@@ -399,7 +399,7 @@
 -   [X] Set deadlines
 
 
-<a id="org0dfbb41"></a>
+<a id="orgdae2ab4"></a>
 
 ### Executive Function
 
@@ -413,7 +413,7 @@
     -   [ ] Goal setting
 
 
-<a id="org3eb8ff8"></a>
+<a id="orgc37f6e2"></a>
 
 ### Self-Discipline State Machine
 
@@ -421,21 +421,21 @@
 -   [ ] Assist with follow-through on things like dieting, exercise, etc
 
 
-<a id="orgf08311b"></a>
+<a id="org1fffc15"></a>
 
 ### Gamification
 
 -   [ ] <code>[40%]</code> Apply short, medium and long term reward cycles for task accomplishment
 
 
-<a id="org35b9c93"></a>
+<a id="orgc1b299a"></a>
 
 ### Movement Discipline
 
 -   [ ] Ensure we think before we move
 
 
-<a id="org6c1b85a"></a>
+<a id="orgf115057"></a>
 
 ## Interpersonal
 
@@ -450,7 +450,7 @@
     -   [X] Track birthdays, anniversaries, etc
 
 
-<a id="org38403f8"></a>
+<a id="org7d39d2f"></a>
 
 ## Emergency Preparedness
 
@@ -461,12 +461,12 @@
     -   [ ] Safety plans and drills
 
 
-<a id="org86e5cde"></a>
+<a id="orgf234b04"></a>
 
 # More Info
 
 
-<a id="org1861daa"></a>
+<a id="orgc65de1a"></a>
 
 ## More Use Cases
 
@@ -479,7 +479,7 @@
 -   Generating a complex monthly financial plan with contingencies for unexpected expenses and if certain income doesn't come through
 
 
-<a id="org5326252"></a>
+<a id="org601a2c8"></a>
 
 ## Links
 
@@ -557,12 +557,12 @@
     -   <https://drive.google.com/drive/#folders/0B0QA19UX0ehlV1ZEaXEzc3hjTWM>
 
 
-<a id="orgee67f93"></a>
+<a id="org5e9410d"></a>
 
 ## [Reference Manual](https://github.com/aindilis/flp/blob/main/ReferenceManual.md)
 
 
-<a id="orgeeb9c2b"></a>
+<a id="orgc701131"></a>
 
 ### [In-depth feature descriptions and implementation details](https://github.com/aindilis/flp/blob/main/ReferenceManual.md)
 
