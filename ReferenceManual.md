@@ -1,79 +1,79 @@
 
 # Table of Contents
 
-1.  [The Free Life Planner](#orge8011d1)
-2.  [Technical Overview](#orgae7b46b)
-    1.  [THIS REFERENCE MANUAL IS UNDER CONSTRUCTION](#org6a50fd2)
-3.  [Links](#org631b3aa)
-4.  [You are at the ReferenceManual.md](#orgfe1ed28)
-5.  [Reference Manual Contents](#orgd844fbd)
-6.  [Introduction](#org54c64f1)
-    1.  [Purpose](#org68d7102)
-    2.  [User Base](#org3612bf9)
-    3.  [Sample use cases](#orgd9b39c3)
-    4.  [Status](#org9299fa3)
-7.  [Features](#org4721830)
-    1.  [Voice Assistant](#org19392cd)
-    2.  [Workflow Manager](#org964869f)
-    3.  [Health](#org20e3761)
-        1.  [Evidence-Based Wellness](#org29a1a55)
-        2.  [Exercise](#org9963d41)
-        3.  [Nutrition](#org54d481f)
-        4.  [Doctor's Visits and Orders](#orgf84b6ea)
-        5.  [Medications](#orga072847)
-        6.  [Mental Health](#org04e3565)
-    4.  [Time Management](#org1fe7b11)
-        1.  [Recurrences](#org480d9aa)
-        2.  [Calendaring](#orga09d41d)
-        3.  [Planning, Scheduling and Execution](#orgee018fb)
-    5.  [Organization](#org013f534)
-        1.  [Inventory Management](#orgb04dea2)
-        2.  [Adulting](#org0e20f98)
-    6.  [Interpersonal](#org65fae42)
-        1.  [Communication Management](#orgf2b3826)
-        2.  [Chore Charting](#orgdf564d3)
-        3.  [Maintenance](#org9362866)
-        4.  [Smart Home](#orgecd6fbf)
-        5.  [Research and Development](#orgada6ec5)
-    7.  [Self-Discipline](#orgf4ff1c5)
-        1.  [To-Do](#orgd5ad327)
-        2.  [Note-Taking](#org2193baa)
-        3.  [Scheduling](#org7afb052)
-        4.  [Self-Discipline State Machine](#orgcd8f274)
-        5.  [Gamification](#orgc55beac)
-        6.  [Movement Discipline](#org508e710)
-    8.  [Transportation/Shopping/Errands](#org72280fa)
-        1.  [Transportation](#org96e2b44)
-        2.  [Shopping/Errands](#org50fae9f)
-    9.  [Document Management](#org7ebb1d8)
-    10. [Financial Planner](#org7a7a9b9)
-    11. [Emergency Preparedness](#org90e14c8)
-    12. [Employment](#org7802764)
-    13. [Executive Function](#orgfbe9565)
-    14. [Smart home](#orgc9f8303)
-        1.  [Maintenance](#org5f4f0ac)
-8.  [Major Technologies Used](#org74a99c4)
-9.  [More Info](#org34340bd)
-    1.  [More Use Cases](#orgac7cb0e)
-    2.  [Links](#org265152c)
+1.  [The Free Life Planner](#org7e9b393)
+2.  [Technical Overview](#orgdb59996)
+    1.  [THIS REFERENCE MANUAL IS UNDER CONSTRUCTION](#orgc77f224)
+3.  [Links](#orgea84f81)
+4.  [You are at the ReferenceManual.md](#org49c9ece)
+5.  [Reference Manual Contents](#org930bb82)
+6.  [Introduction](#orgb4640b2)
+    1.  [Purpose](#orgdc4e68f)
+    2.  [User Base](#orgcaa7e38)
+    3.  [Sample use cases](#orge7ed023)
+    4.  [Status](#org5833fa9)
+7.  [Features](#orgad0142f)
+    1.  [Voice Assistant](#orga5297ac)
+    2.  [Workflow Manager](#org6e8bf54)
+    3.  [Health](#org324fcc2)
+        1.  [Evidence-Based Wellness](#org86e7047)
+        2.  [Exercise](#org440e488)
+        3.  [Nutrition](#org231ccd2)
+        4.  [Doctor's Visits and Orders](#org1082713)
+        5.  [Medications](#org4f4af1e)
+        6.  [Mental Health](#org8c4dac0)
+    4.  [Time Management](#orga084a32)
+        1.  [Recurrences](#org1d4c2f6)
+        2.  [Calendaring](#org9a8342f)
+        3.  [Planning, Scheduling and Execution](#org5956669)
+    5.  [Organization](#orge0f718e)
+        1.  [Inventory Management](#org7a2ba4d)
+        2.  [Adulting](#org098a68b)
+    6.  [Interpersonal](#org0658753)
+        1.  [Communication Management](#orga141b95)
+        2.  [Chore Charting](#org41399fe)
+        3.  [Maintenance](#orgdf8836e)
+        4.  [Smart Home](#orgc2e194a)
+        5.  [Research and Development](#org2958d05)
+    7.  [Self-Discipline](#org4537317)
+        1.  [To-Do](#org0e0ff79)
+        2.  [Note-Taking](#org3872936)
+        3.  [Scheduling](#org13b8ece)
+        4.  [Self-Discipline State Machine](#orgb6b92ba)
+        5.  [Gamification](#orga45d350)
+        6.  [Movement Discipline](#org9088282)
+    8.  [Transportation/Shopping/Errands](#orgf1958d6)
+        1.  [Transportation](#orgeba8b8c)
+        2.  [Shopping/Errands](#org2dab91f)
+    9.  [Document Management](#org81d0e17)
+    10. [Financial Planner](#org9e7221f)
+    11. [Emergency Preparedness](#org88456da)
+    12. [Employment](#org1c13214)
+    13. [Executive Function](#org386830d)
+    14. [Smart home](#org5ad2bca)
+        1.  [Maintenance](#orgf3c25f0)
+8.  [Major Technologies Used](#org2003ffe)
+9.  [More Info](#orgec66709)
+    1.  [More Use Cases](#org6aa0d61)
+    2.  [Links](#org55fea97)
 
 
-<a id="orge8011d1"></a>
+<a id="org7e9b393"></a>
 
 # The Free Life Planner
 
 
-<a id="orgae7b46b"></a>
+<a id="orgdb59996"></a>
 
 # Technical Overview
 
 
-<a id="org6a50fd2"></a>
+<a id="orgc77f224"></a>
 
 ## THIS REFERENCE MANUAL IS UNDER CONSTRUCTION
 
 
-<a id="org631b3aa"></a>
+<a id="orgea84f81"></a>
 
 # Links
 
@@ -86,22 +86,22 @@
     -   The paper ["The Free Life Planner: A Virtual Secondary Social Safety Net"](https://frdcsa.org/~andrewdo/flp-jwas-article-draft-1.pdf)
 
 
-<a id="orgfe1ed28"></a>
+<a id="org49c9ece"></a>
 
 # You are at the ReferenceManual.md
 
 
-<a id="orgd844fbd"></a>
+<a id="org930bb82"></a>
 
 # Reference Manual Contents
 
 
-<a id="org54c64f1"></a>
+<a id="orgb4640b2"></a>
 
 # Introduction
 
 
-<a id="org68d7102"></a>
+<a id="orgdc4e68f"></a>
 
 ## Purpose
 
@@ -114,7 +114,7 @@
 -   A "life manual" / "skills for living life"
 
 
-<a id="org3612bf9"></a>
+<a id="orgcaa7e38"></a>
 
 ## User Base
 
@@ -136,16 +136,16 @@
     -   other groups not here accounted for
 
 
-<a id="orgd9b39c3"></a>
+<a id="orge7ed023"></a>
 
 ## Sample use cases
 
 -   [Homeless Story](https://frdcsa.org/~andrewdo/writings/homeless-story.html)
 -   [Health Story](https://frdcsa.org/~andrewdo/writings/health-story.html)
--   [More Use Cases](#orgac7cb0e)
+-   [More Use Cases](#org6aa0d61)
 
 
-<a id="org9299fa3"></a>
+<a id="org5833fa9"></a>
 
 ## Status
 
@@ -153,30 +153,30 @@
 -   Interoperability between all systems
 
 
-<a id="org4721830"></a>
+<a id="orgad0142f"></a>
 
 # Features
 
 
-<a id="org19392cd"></a>
+<a id="orga5297ac"></a>
 
 ## Voice Assistant
 
 -   ✅ Interactive Voice Assistant
-    -   [X] Using [Alexa](https://alexa.amazon.com)
-        -   [X] Networked/online access only
-        -   [X] "Alexa, tell David, Andrew drank another glass of water"
-    -   [X] Using [Rhasspy](https://rhasspy.readthedocs.io)
-        -   [X] Both Air-gapped/offline access oand networked/online access
-        -   [X] "Porcupine, How many glasses of water did Andrew drink today?"
-        -   [X] ASR/STT (Automatic Speech Recognition, Speech To Text)
-            -   [X] Using [tiemajor/whisper-rhasspy-http](https://github.com/seifane/whisper-rhasspy-http)
-        -   [X] TTS
-            -   [X] Using [coqui-ai/TTS](https://github.com/coqui-ai/TTS) server (Text To Speech)
+    -   ✅ Using [Alexa](https://alexa.amazon.com)
+        -   ✅ Networked/online access only
+        -   ✅ "Alexa, tell David, Andrew drank another glass of water"
+    -   ✅ Using [Rhasspy](https://rhasspy.readthedocs.io)
+        -   ✅ Both Air-gapped/offline access oand networked/online access
+        -   ✅ "Porcupine, How many glasses of water did Andrew drink today?"
+        -   ✅ ASR/STT (Automatic Speech Recognition, Speech To Text)
+            -   ✅ Using [tiemajor/whisper-rhasspy-http](https://github.com/seifane/whisper-rhasspy-http)
+        -   ✅ TTS
+            -   ✅ Using [coqui-ai/TTS](https://github.com/coqui-ai/TTS) server (Text To Speech)
             -   [ ] <code>[50%]</code> Using [Bark](https://github.com/suno-ai/bark) (Text To Speech)
 -   [ ] <code>[60%]</code> Dialog manager
--   [X] Dialog manager
-    -   [X] For single-step dialogues
+-   ✅  Dialog manager
+    -   ✅ For single-step dialogues
 
 <pre>
 hasDialogEntry('tell <PERSON> <THING>').
@@ -196,12 +196,12 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
     -   [ ] <code>[10%]</code> [DIT](https://dit.uvt.nl), [Regulus](https://sf.net/p/regulus), [Trindikit](https://sf.net/p/trindikit), etc
 
 
-<a id="org964869f"></a>
+<a id="org6e8bf54"></a>
 
 ## Workflow Manager
 
 -   [ ] An overarching tool/wizard which pages through and helps complete all necessary tasks
-    -   [X] PDDL based planner, which creates a (for now, linear) path through FLP to accomplish all objectives (Planning Domain Description Language)
+    -   ✅ PDDL based planner, which creates a (for now, linear) path through FLP to accomplish all objectives (Planning Domain Description Language)
         -   [ ] <code>[20%]</code> Generating constraints for Workflow Manager's PDDL planner
 
 <pre>
@@ -214,8 +214,8 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
     -   [ ] <code>[60%]</code> [JASWIPL "metaplanning" systems integration](https://github.com/aindilis/jason/tree/master/examples/executive-function-adapter) (Jason/AgentSpeak(L)<->SWIPL)
     -   [ ] <code>[30%]</code> [Jason/AgentSpeak(L)<->Python<->(SuperAGI|BabyAGI|AutoGPT|MetaGPT|BeeBot) LLM-based autonomous agents](https://github.com/aindilis/jason/tree/master/examples/python-adapter)
     -   [ ] <code>[60%]</code> Contingency planning
-        -   [X] WebUI to select ground or unground contingency triggers
-        -   [X] Code Llama generation of NL contingency plans for triggers (Natural Language)
+        -   ✅ WebUI to select ground or unground contingency triggers
+        -   ✅ Code Llama generation of NL contingency plans for triggers (Natural Language)
     -   [ ] <code>[20%]</code> Dynamically add/remove goals and replan
 
 <pre>
@@ -227,12 +227,12 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
 </pre>
 
 
-<a id="org20e3761"></a>
+<a id="org324fcc2"></a>
 
 ## Health
 
 
-<a id="org29a1a55"></a>
+<a id="org86e7047"></a>
 
 ### Evidence-Based Wellness
 
@@ -243,7 +243,7 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
 2.  Data Collection and User Modeling
 
     -   [ ] <code>[50%]</code> Record / create an inventory of all user's medical symptoms
-        -   [ ] List conditions, [medications](#orga072847) and their effects
+        -   [ ] List conditions, [medications](#org4f4af1e) and their effects
         -   [ ] Inventory medication effects, side-effects and risks
     -   [ ] SNA of providers (Social Network Analysis)
         -   [ ] Who they they are, what they do, what they advise and how often we need to visit
@@ -293,21 +293,21 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
         -   [ ] Argumentation-based deliberation regarding the validation of planned treatments
 
 
-<a id="org9963d41"></a>
+<a id="org440e488"></a>
 
 ### Exercise
 
--   [X] Fitness Manager
+-   ✅ Fitness Manager
     -   [ ] <code>[33%]</code> Interactive plan monitoring of exercises
-        -   [X] [exercise.bt](file:///var/lib/myfrdcsa/private/systems/behavior-trees/data-git/bts/p/exercise.bt)
+        -   ✅ [exercise.bt](file:///var/lib/myfrdcsa/private/systems/behavior-trees/data-git/bts/p/exercise.bt)
     -   [ ] <code>[66%]</code> Track daily progress
-        -   [X] Using Rhasspy Voice Assistant
-            -   [X] "Porcupine, Andrew finished daily exercises"
-        -   [X] Using legacy Alexa interface
-            -   [X] "Alexa, tell David - Andrew did his morning exercises"
+        -   ✅ Using Rhasspy Voice Assistant
+            -   ✅ "Porcupine, Andrew finished daily exercises"
+        -   ✅ Using legacy Alexa interface
+            -   ✅ "Alexa, tell David - Andrew did his morning exercises"
 
 
-<a id="org54d481f"></a>
+<a id="org231ccd2"></a>
 
 ### Nutrition
 
@@ -321,22 +321,22 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
             -   [ ] Using [OpenFoodTox](https://www.efsa.europa.eu/en/data-report/chemical-hazards-database-openfoodtox), [Basket](https://github.com/fodmap-diet/basket)
         -   [ ] <code>[66%]</code> [PDDL-based mealplanner](https://frdcsa.org/%7eandrewdo/projects/mealplanning/)
         -   [ ] <code>[25%]</code> [Interactive cooking assistant](https://frdcsa.org/%7eandrewdo/WebWiki/CookingAssistant.html)
-        -   [X] [PGourmet](https://altruisticsoftware.org/frdcsa/internal/pgourmet/)
+        -   ✅ [PGourmet](https://altruisticsoftware.org/frdcsa/internal/pgourmet/)
         -   [ ] [Gourmet](https://altruisticsoftware.org/frdcsa/internal/gourmet)
         -   [ ] [st0opkid's MealSolver](https://github.com/aindilis/mealsolver)
     -   [ ] <code>[85%]</code> Nutrition lookup
-        -   [X] Using [FDC](https://fdc.nal.usda.gov/) csvs converted to Prolog KB (Food Data Central)
-        -   [X] Using Nutritionix
+        -   ✅ Using [FDC](https://fdc.nal.usda.gov/) csvs converted to Prolog KB (Food Data Central)
+        -   ✅ Using Nutritionix
             -   [ ] Working (but offline due to air-gapping development server)
-    -   [ ] [Inventory Management](#orgb04dea2)
+    -   [ ] [Inventory Management](#org7a2ba4d)
         -   [ ] User modeling
-            -   [ ] <code>[40%]</code> [Self-discipline](#orgf4ff1c5) coach software
+            -   [ ] <code>[40%]</code> [Self-discipline](#org4537317) coach software
                 -   [ ] For hitting macros
                 -   [ ] Understanding psychology of users' relationships to food
-            -   [X] Helping w/ Portion control
-                -   [X] Door sensor alerts on fridge and freezer
+            -   ✅ Helping w/ Portion control
+                -   ✅ Door sensor alerts on fridge and freezer
                 -   [ ] <code>[20%]</code> Follow up dialog regarding intent when fridge and freezer accessed
-                -   [ ] [Gamification](#orgc55beac)
+                -   [ ] [Gamification](#orga45d350)
             -   [ ] Specifically checking for common symptoms known to affect the user, like gerd, lactose intolerance, etc
                 -   [ ] Inference existence of food sensitivities
             -   [ ] Nutritional temporal records
@@ -363,8 +363,8 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
                         -   [ ] Food data to food
                         -   [ ] Branded foods to ingredients
             -   [ ] Integration with knowledge sources
-                -   [X] WordNet
-                -   [X] OpenCyc
+                -   ✅ WordNet
+                -   ✅ OpenCyc
         -   [ ] Help with ethical diets like vegan, pescatarian, etc
         -   [ ] Help with medical diets like diabetic, missing gall bladder, etc
     -   [ ] Recipe manager
@@ -382,9 +382,9 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
         -   [ ] Estimate when the user is likely to get tired of some recipe or ingredient(s)
     -   [ ] Comprehensive meal contingent plan generation
     -   [ ] Planning tool to avoid food spoilage and expiration in various storage conditions
-        -   [X] Door sensor alerts on fridge and freezer       
+        -   ✅ Door sensor alerts on fridge and freezer       
             -   [ ] <code>[20%]</code> Follow up dialog regarding intent when fridge and freezer accessed
-                -   [X] Ask user why they triggered door sensors
+                -   ✅ Ask user why they triggered door sensors
         -   [ ] Calculate remaining time before spoilage based on storage condition temporal history
     -   [ ] Rotating emergency food and water provisions
         -   [ ] Stock enough provisions to survive n-months
@@ -394,21 +394,21 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
         -   [ ] <code>[25%]</code> Bill splitter
 
 
-<a id="orgf84b6ea"></a>
+<a id="org1082713"></a>
 
 ### Doctor's Visits and Orders
 
 -   [ ] Symptom and condition tracker
--   [X] Appointment calendar
+-   ✅ Appointment calendar
     -   [ ] Track appointments and avoid double-booking and overbooking
-    -   [X] Verbal and User-Agenda reminders
-    -   [X] Q&A system for asking things like when is my next appointment
+    -   ✅ Verbal and User-Agenda reminders
+    -   ✅ Q&A system for asking things like when is my next appointment
 -   [ ] [Medical diagnostics](https://github.com/timhannifan/symptom-tree/issues/1)
 -   [ ] <code>[40%]</code> Following doctors' orders
-    -   [X] Scan into [Document Management System](#org7ebb1d8) for managing (among other things) medical records
+    -   ✅ Scan into [Document Management System](#org81d0e17) for managing (among other things) medical records
     -   [ ] <code>[90%]</code> Ensuring compliance via [Machine Reading Comprehension](https://paperswithcode.com/task/machine-reading-comprehension)
-        -   [X] Using [WizardLM](https://github.com/nlpxucan/WizardLM) to extract instructions from documents
-        -   [X] Converting orders into an BT (Behavior Tree)
+        -   ✅ Using [WizardLM](https://github.com/nlpxucan/WizardLM) to extract instructions from documents
+        -   ✅ Converting orders into an BT (Behavior Tree)
         -   [ ] Converting orders into an SPSE2 planning context
     -   [ ] Medical question answering in absence of medical professionals using software such as [DoctorGPT](https://github.com/llSourcell/DoctorGPT)
 -   [ ] Medical adherence tracking
@@ -420,15 +420,15 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
     -   [ ] Patient advocate to detect potential confusion or foul-ups due to communication breakdowns between patients, doctors and other doctors
 -   [ ] For when a physician is unavailable
     -   [ ] Diagnostic expert system
-        -   [ ] [Diagnostics and Treatments](#orgcc4970c)
+        -   [ ] [Diagnostics and Treatments](#org7cf6ead)
     -   [ ] First aid course of action system
 
 
-<a id="orga072847"></a>
+<a id="org4f4af1e"></a>
 
 ### Medications
 
--   [X] Medication reminders and recording
+-   ✅ Medication reminders and recording
 -   [ ] Planning, tracking and monitoring of medication and supplement usage
     -   [ ] Complete CLP-based medication manager that understands time management (Constraint Logic Programming)
         -   [ ] Predict when we will run out of various medications
@@ -453,7 +453,7 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
                     -   [ ] <code>[75%]</code> Dialog execution monitoring using cell-phone
 
 
-<a id="org04e3565"></a>
+<a id="org8c4dac0"></a>
 
 ### Mental Health
 
@@ -471,7 +471,7 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
             -   [ ] Pre/pro-active planning
             -   [ ] Root cause analysis for low-productivity
             -   [ ] <code>[75%]</code> Responses to low mood and low productivity
-                -   [X] Elicits how the user is feeling
+                -   ✅ Elicits how the user is feeling
                 -   [ ] <code>[75%]</code> Uses NLI/RTE to fetch from treatment DB (Natural Language Inference / Recognizing Textual Entailment)
             -   [ ] Task tracking and MTTC (Mean Time To Completion)
 -   [ ] Systems for conditions
@@ -479,10 +479,10 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
         -   [ ] Distraction ontology
             -   [ ] <code>[40%]</code> (Pre/re)active planning using [WOPR](https://github.com/aindilis/free-life-planner/blob/master/data-git/systems/planning/free_wopr.pl) to minimize or mitigate distractions (War Operation Plan Response)
         -   [ ] <code>[30%]</code> different FLP modes using environmental anchors
-        -   [X] Automatic priming and transitions
-            -   [X] Change smart lighting colors for different modes, like working, relaxing, etc
-                -   [X] Auto detection of working, relaxing, etc
-            -   [X] Managing music for different modes (using playlists)
+        -   ✅ Automatic priming and transitions
+            -   ✅ Change smart lighting colors for different modes, like working, relaxing, etc
+                -   ✅ Auto detection of working, relaxing, etc
+            -   ✅ Managing music for different modes (using playlists)
     -   [ ] Autism
         -   [ ] Using different tools for and from [Computational Autism](https://link.springer.com/book/10.1007/978-3-319-39972-0)
             -   [ ] [Supplemental materials](https://storage.googleapis.com/springer-extras/zip/2016/978-3-319-39972-0.zip) like NL<sub>MAMS</sub>
@@ -492,22 +492,22 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
     -   [ ] etc
 
 
-<a id="org1fe7b11"></a>
+<a id="orga084a32"></a>
 
 ## Time Management
 
 
-<a id="org480d9aa"></a>
+<a id="org1d4c2f6"></a>
 
 ### Recurrences
 
--   [X] Dates
-    -   [X] On a given date
-    -   [X] On a given day of week
-    -   [X] Through given days of week
-    -   [X] Every n-th week/month/year
+-   ✅ Dates
+    -   ✅ On a given date
+    -   ✅ On a given day of week
+    -   ✅ Through given days of week
+    -   ✅ Every n-th week/month/year
 -   [ ] Times
-    -   [X] Multiple specific time points
+    -   ✅ Multiple specific time points
     -   [ ] Durations
 
 How to schedule something for the last day of every month:
@@ -516,36 +516,36 @@ How to schedule something for the last day of every month:
     	deltaTime([_Year-_Month-1],days(-1),YMD).
 
 
-<a id="orga09d41d"></a>
+<a id="org9a8342f"></a>
 
 ### Calendaring
 
 1.  Capabilities
 
-    -   [X] Scheduling appointments
-    -   [X] Scheduling of chores
+    -   ✅ Scheduling appointments
+    -   ✅ Scheduling of chores
     -   [ ] Detect double-booking
 
 2.  Integrations
 
     -   [ ] With different agenda, calendaring, and planning / scheduling systems
-        -   [X] Import from
-            -   [X] Org-agenda
-            -   [X] SPSE2 (Shared Priority System Editor v2)
-            -   [X] Google Calendar
-            -   [X] ICS (Internet Calendar Scheduling)
+        -   ✅ Import from
+            -   ✅ Org-agenda
+            -   ✅ SPSE2 (Shared Priority System Editor v2)
+            -   ✅ Google Calendar
+            -   ✅ ICS (Internet Calendar Scheduling)
         -   [ ] Export to
-            -   [X] Org-agenda
+            -   ✅ Org-agenda
             -   [ ] <code>[85%]</code> SPSE2
             -   [ ] <code>[33%]</code> Google Calendar
-            -   [X] ICS
+            -   ✅ ICS
 
 3.  Financial Calendar
 
-    -   [X] Show on calendar possible date and time ranges for recurring transactions
+    -   ✅ Show on calendar possible date and time ranges for recurring transactions
 
 
-<a id="orgee018fb"></a>
+<a id="org5956669"></a>
 
 ### Planning, Scheduling and Execution
 
@@ -553,23 +553,23 @@ How to schedule something for the last day of every month:
 
     -   [ ] <code>[25%]</code> Workflow Manager
     -   [ ] <code>[45%]</code> Metaplanning
-    -   [X] Temporal planning
-    -   [X] Contingent planning
+    -   ✅ Temporal planning
+    -   ✅ Contingent planning
     -   [ ] <code>[05%]</code> Temporally-contingent (metric) planning
-    -   [X] Behavior tree reactive planning
-    -   [X] [BDI reactive planning](http://jason.sourceforge.net/) (Belief-Desire-Intention)
+    -   ✅ Behavior tree reactive planning
+    -   ✅ [BDI reactive planning](http://jason.sourceforge.net/) (Belief-Desire-Intention)
 
 2.  Planners
 
-    -   [X] [PDDL](https://en.wikipedia.org/wiki/Planning_Domain_Definition_Language) planning
-        -   [X] LPG<sub>TD</sub><sub>1</sub><sub>0</sub>, LPG<sub>TD</sub><sub>1</sub><sub>4</sub>, OPTIC<sub>CLP</sub>, CLG, Colin2<sub>CLP</sub>, HSPS, MIPS<sub>XXL</sub>, Metric<sub>FF</sub>, SGPlan<sub>522</sub>
-            -   [X] [More than 200 PDDL life planning domains](https://github.com/aindilis/verber/tree/master/data-git/worldmodel/templates)
-        -   [X] [SPSE2](https://frdcsa.org/visual-aid/pdf/Temporal-Planning-and-Inferencing-for-Personal-Task-Management-with-SPSE2.pdf)
-        -   [X] [PDDL plan interactive execution monitoring](https://frdcsa.org/~andrewdo/iem2-3.mp4)
-        -   [X] PSEx3 integrated tasks and finances system
-    -   [X] Contingent planning
-        -   [X] [DNFct](https://github.com/aindilis/dnfct-frdcsa/) (Disjunctive Normal Form: Contingent)
-            -   [X] [More than 10 contingent life planning domains](https://github.com/aindilis/verber/tree/master/data-git/worldmodel/templates/contingent/dnfct)
+    -   ✅ [PDDL](https://en.wikipedia.org/wiki/Planning_Domain_Definition_Language) planning
+        -   ✅ LPG<sub>TD</sub><sub>1</sub><sub>0</sub>, LPG<sub>TD</sub><sub>1</sub><sub>4</sub>, OPTIC<sub>CLP</sub>, CLG, Colin2<sub>CLP</sub>, HSPS, MIPS<sub>XXL</sub>, Metric<sub>FF</sub>, SGPlan<sub>522</sub>
+            -   ✅ [More than 200 PDDL life planning domains](https://github.com/aindilis/verber/tree/master/data-git/worldmodel/templates)
+        -   ✅ [SPSE2](https://frdcsa.org/visual-aid/pdf/Temporal-Planning-and-Inferencing-for-Personal-Task-Management-with-SPSE2.pdf)
+        -   ✅ [PDDL plan interactive execution monitoring](https://frdcsa.org/~andrewdo/iem2-3.mp4)
+        -   ✅ PSEx3 integrated tasks and finances system
+    -   ✅ Contingent planning
+        -   ✅ [DNFct](https://github.com/aindilis/dnfct-frdcsa/) (Disjunctive Normal Form: Contingent)
+            -   ✅ [More than 10 contingent life planning domains](https://github.com/aindilis/verber/tree/master/data-git/worldmodel/templates/contingent/dnfct)
         -   [ ] <code>[33%]</code> [AP/3T](https://github.com/aindilis/3t-frdcsa) (Adversarial Planner)
         -   [ ] Temporally-contingent (metric) planning
             -   [ ] [TraCE](https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?AREA2022.6.pdf)-lite
@@ -577,11 +577,11 @@ How to schedule something for the last day of every month:
                 -   [Compiling Contingent Planning into Temporal Planning for Robust AUV Deployments](https://pure.hw.ac.uk/ws/portalfiles/portal/63630796/ICAPS_PlanRob_2021_TCP_.pdf)
     -   [ ] <code>[90%]</code> [Behavior tree reactive planning](https://frdcsa.org/~andrewdo/writings/behavior-tree-task-manager-for-covid-19.pdf)
         -   [ ] <code>[90%]</code> [Plan Monitor](https://github.com/aindilis/plan-monitor)
-            -   [ ] <code>[33%]</code> [More than 15 BT domains](#org63c5ae9)
+            -   [ ] <code>[33%]</code> [More than 15 BT domains](#org97fd521)
             -   [ ] <code>[40%]</code> Execution of generated (PDDL/AgentSpeak(L)/Behavior Tree/etc) plans (similar to [this](https://arxiv.org/pdf/2101.01964.pdf))
-    -   [X] BDI Agent (Belief-Desire-Intention)
-        -   [X] Jason/AgentSpeak(L) w/ SWIPL integration (SWI-Prolog)
-            -   [X] [More than 10 BDI domains](https://github.com/aindilis/jason/tree/master/examples)
+    -   ✅ BDI Agent (Belief-Desire-Intention)
+        -   ✅ Jason/AgentSpeak(L) w/ SWIPL integration (SWI-Prolog)
+            -   ✅ [More than 10 BDI domains](https://github.com/aindilis/jason/tree/master/examples)
         -   [ ] <code>[30%]</code> [Jason/AgentSpeak(L)<->Python<->(SuperAGI|BabyAGI|AutoGPT|MetaGPT|BeeBot) LLM-based autonomous agents](https://github.com/aindilis/jason/tree/master/examples/python-adapter)
     -   [ ] LLM-based autonomous agents
         -   [ ] [SuperAGI<->Jason/AgentSpeak(L)<->SWIPL<->FLP<->FRDCSA<->OpenCyc integration](https://lablab.ai/event/autonomous-agents-hackathon/frdcsa/agent-speak-toolkitbuilder-and-autopacker)
@@ -589,20 +589,20 @@ How to schedule something for the last day of every month:
 3.  Additional Planning System
 
     -   [ ] Factored planning
-    -   [X] Planning systems
-        -   [X] Verber
-        -   [X] SPSE2
-        -   [X] SPSE2-Formalog
+    -   ✅ Planning systems
+        -   ✅ Verber
+        -   ✅ SPSE2
+        -   ✅ SPSE2-Formalog
     -   [ ] Digital twin
-        -   [X] WSM (World State Monitor)
-        -   [X] Fitness Manager
+        -   ✅ WSM (World State Monitor)
+        -   ✅ Fitness Manager
         -   [ ] <code>[50%]</code> Checklists
     -   [ ] <code>[33%]</code> Kanban
     -   [ ] <code>[33%]</code> Goalban
-    -   [X] User Agenda (for recurrences)
-    -   [X] Habit tracker
+    -   ✅ User Agenda (for recurrences)
+    -   ✅ Habit tracker
         -   [ ] <code>[50%]</code> Allow installation and uninstallation of habits
-        -   [X] Tracks from a growing list of elicited habits, records when engaging in / avoiding behaviors
+        -   ✅ Tracks from a growing list of elicited habits, records when engaging in / avoiding behaviors
     -   [ ] <code>[60%]</code> Resource Manager (plans over inventory/etc)
         -   [ ] <code>[80%]</code> Productivity Requirements
     -   [ ] <code>[25%]</code> Subsystem monitoring
@@ -613,12 +613,12 @@ How to schedule something for the last day of every month:
 4.  Some domains
 
     -   [ ] <code>[50%]</code> Plan cycles (cycle)
-        -   [X] Toy plan cycle
+        -   ✅ Toy plan cycle
         -   [ ] Real-world plan cycle
     -   [ ] <code>[33%]</code> PDDL Standard domain library (basekb)
-        -   [X] [agent, biomaintenance, chores, deontic, economic, food, hygiene, misc, security, space, tool, work](https://github.com/aindilis/verber/tree/master/data-git/worldmodel/worlds/basekb)
+        -   ✅ [agent, biomaintenance, chores, deontic, economic, food, hygiene, misc, security, space, tool, work](https://github.com/aindilis/verber/tree/master/data-git/worldmodel/worlds/basekb)
     -   [ ] <code>[33%]</code> Behavior Tree standard library
-        -   [X] deliveries, electrical, errands, exercise, financial, food-pantries, groceries, hospitalization, hygiene, meal-planning, medication, movement-discipline, paperwork, plumbing, security, sickness, sleep, trip-planning
+        -   ✅ deliveries, electrical, errands, exercise, financial, food-pantries, groceries, hospitalization, hygiene, meal-planning, medication, movement-discipline, paperwork, plumbing, security, sickness, sleep, trip-planning
     -   [ ] <code>[10%]</code> Household emergency preparedness
         -   [ ] Planning ahead for bad weather
             -   [ ] e.g. Stock up on groceries before a major storm hits
@@ -626,16 +626,16 @@ How to schedule something for the last day of every month:
 
 5.  Plan Monitoring
 
-    -   [X] [Plan Monitoring](https://github.com/aindilis/plan-monitor#readme)
-    -   [X] [Interactive Execution Monitoring](https://frdcsa.org/~andrewdo/iem2-3.mp4)
+    -   ✅ [Plan Monitoring](https://github.com/aindilis/plan-monitor#readme)
+    -   ✅ [Interactive Execution Monitoring](https://frdcsa.org/~andrewdo/iem2-3.mp4)
 
 
-<a id="org013f534"></a>
+<a id="orge0f718e"></a>
 
 ## Organization
 
 
-<a id="orgb04dea2"></a>
+<a id="org7a2ba4d"></a>
 
 ### Inventory Management
 
@@ -649,7 +649,7 @@ How to schedule something for the last day of every month:
         -   [ ] <code>[15%]</code> The Platinum dynamic WebUI for walking through the Mermaid graph, and properly processing food inventory addition and removal
         -   [ ] <code>[75%]</code> Barcoded and un-barcoded food items
             -   [ ] <code>[50%]</code> Barcode scanning of food products
-                -   [X] Wireless USB barcode scanner hidraw agent
+                -   ✅ Wireless USB barcode scanner hidraw agent
     -   [ ] <code>[10%]</code> Manage expected expiration dates
         -   [ ] Prevent food loss
             -   [ ] <code>[25%]</code> Help to schedule cooking before food expires
@@ -662,7 +662,7 @@ How to schedule something for the last day of every month:
     -   [ ] Kitchen and appliance cleaning and maintenance tips
 -   [ ] <code>[15%]</code> Executable product manuals
     -   [ ] <code>[60%]</code> Interactively use products
-        -   [X] Use coffeemaker using plan monitor
+        -   ✅ Use coffeemaker using plan monitor
     -   [ ] <code>[90%]</code> Automatically schedule maintenance
     -   [ ] <code>[10%]</code> Interactively perform maintenance
 -   [ ] Executable product warranties
@@ -671,7 +671,7 @@ How to schedule something for the last day of every month:
 <img src="https://frdcsa.org/~andrewdo/projects/flp-screencaps/14.jpg" width="250px">
 
 
-<a id="org0e20f98"></a>
+<a id="org098a68b"></a>
 
 ### Adulting
 
@@ -680,37 +680,37 @@ How to schedule something for the last day of every month:
 -   [ ] IADLs
     -   [ ] Chore charting
         -   [ ] <code>[35%]</code> Track who/what/where/when regarding chores
-        -   [X] Implement rewards via [Gamification](#orgc55beac)
+        -   ✅ Implement rewards via [Gamification](#orga45d350)
 
 
-<a id="org65fae42"></a>
+<a id="org0658753"></a>
 
 ## Interpersonal
 
 -   [ ] Team building
 
 
-<a id="orgf2b3826"></a>
+<a id="orga141b95"></a>
 
 ### Communication Management
 
 -   [Proxy all communications](https://github.com/aindilis/audience)
-    -   [X] Dossier system
+    -   ✅ Dossier system
         -   [ ] Relationship management
             -   [ ] <code>[25%]</code> ACLs (Access Control Lists)
-            -   [X] Talking points
-        -   [X] Memcons (Memorandum of Conversation)
+            -   ✅ Talking points
+        -   ✅ Memcons (Memorandum of Conversation)
         -   [ ] <code>[33%]</code> Commitments extraction
         -   [ ] <code>[33%]</code> Goal/Interest/Ability extraction
     -   [ ] Persuasion
         -   [ ] <code>[10%]</code> A/B Testing
-        -   [X] [Argument mapping](https://argdown.org/)
+        -   ✅ [Argument mapping](https://argdown.org/)
     -   [ ] Relationship management
         -   [ ] Friendships
         -   [ ] Family
         -   [ ] Groups
             -   [ ] Social advocacy/interest groups
-        -   [X] Track birthdays, anniversaries, etc
+        -   ✅ Track birthdays, anniversaries, etc
     -   [ ] Team building
         -   [ ] Networking
         -   [ ] Colleagues
@@ -719,15 +719,15 @@ How to schedule something for the last day of every month:
         -   [ ] [Horn-TeamLog](https://www.mimuw.edu.pl/~nguyen/HornTeamLog-long.pdf)
         -   [ ] [NL<sub>MAMS</sub>](https://link.springer.com/book/10.1007/978-3-319-39972-0) (Natural Language MultiAgent Mental Simulator)
         -   [ ] [Teamwork via Collective Intention](https://github.com/QuMuLab/teamwork-via-collective-intention)
-        -   [X] [SNA](http://www.casos.cs.cmu.edu/projects/ora/software.php) (Social Network Analysis)
+        -   ✅ [SNA](http://www.casos.cs.cmu.edu/projects/ora/software.php) (Social Network Analysis)
 
 
-<a id="orgdf564d3"></a>
+<a id="org41399fe"></a>
 
 ### Chore Charting
 
 -   [ ] <code>[60%]</code> Chore ontology
-    -   [X] Comprehensive chore lists
+    -   ✅ Comprehensive chore lists
     -   [ ] <code>[50%]</code> Household chores
     -   [ ] <code>[80%]</code> Caregiving chores
 -   [ ] <code>[66%]</code> Chore logic
@@ -735,37 +735,37 @@ How to schedule something for the last day of every month:
     -   [ ] <code>[66%]</code> Interactive plan execution using library of chore BTs (behavior trees)
 
 
-<a id="org9362866"></a>
+<a id="orgdf8836e"></a>
 
 ### Maintenance
 
 -   [ ] <code>[33%]</code> Household maintenance
     -   [ ] <code>[50%]</code> Complete list of scheduled home maintenance tasks
         -   [ ] <code>[10%]</code> Test fire alarms
-        -   [X] Furnace maintenance
+        -   ✅ Furnace maintenance
         -   [ ] etc
--   [X] Automotive maintenance schedule
+-   ✅ Automotive maintenance schedule
 
 
-<a id="orgecd6fbf"></a>
+<a id="orgc2e194a"></a>
 
 ### Smart Home
 
 -   [ ] SVRS Integrated shelter management
     -   [ ] Sensor network
-        -   [X] Security and surveillance
-            -   [X] [SDR](https://github.com/merbanan/rtl_433) sensor monitoring (Software Defined Radio)
-            -   [X] Home defense preparations and contingency planning
-            -   [X] Video cameras and perimeter defense sensors
+        -   ✅ Security and surveillance
+            -   ✅ [SDR](https://github.com/merbanan/rtl_433) sensor monitoring (Software Defined Radio)
+            -   ✅ Home defense preparations and contingency planning
+            -   ✅ Video cameras and perimeter defense sensors
                 -   [ ] <code>[20%]</code> Video understanding (similar to [VSAM](http://www.cs.cmu.edu/~vsam/))
-                    -   [X] Object recognition
+                    -   ✅ Object recognition
                     -   [ ] Activity detection
                         -   [ ] <code>[25%]</code> Suspicious/anomalous activity detection
         -   [ ] <code>[50%]</code> Smart lighting control
             -   [ ] <code>[50%]</code>  For managing moods (such as, red - during work) for productivity, relaxation, etc
-            -   [X] Indicating availability to housemates (red - do not disturb, etc)
-        -   [X] [Event logging and inference](https://github.com/aindilis/elog2)
-            -   [X] Action triggers
+            -   ✅ Indicating availability to housemates (red - do not disturb, etc)
+        -   ✅ [Event logging and inference](https://github.com/aindilis/elog2)
+            -   ✅ Action triggers
                 -   [ ] <code>[60%]</code> Changing smart lighting based on detected work activity
                 -   [ ] <code>[50%]</code> Penalization for lack of movement discipline (e.g. left room without plan)
                 -   [ ] Reactive systems
@@ -775,70 +775,70 @@ How to schedule something for the last day of every month:
                         -   [ ] Warnings to prepare for storms, extreme weather
             -   [ ] <code>[10%]</code> Complex event detection
                 -   [ ] <code>[20%]</code> [RTEC](https://github.com/aartikis/RTEC) (Run Time Event Calculus)
-    -   [ ] [Home maintenance](#org9362866)
-    -   [ ] [Emergency preparedness](#org90e14c8)
+    -   [ ] [Home maintenance](#orgdf8836e)
+    -   [ ] [Emergency preparedness](#org88456da)
     -   [ ] SVRE
         -   [ ] <code>[30%]</code> IPSVRE
             -   [ ] <code>[90%]</code> Management of many aspects of individual environments including: lighting, climate, distractions, productivity, etc.
 
 
-<a id="orgada6ec5"></a>
+<a id="org2958d05"></a>
 
 ### Research and Development
 
--   [X] [Academician system](https://github.com/aindilis/academician)
--   [X] [Study system](https://github.com/aindilis/study)
+-   ✅ [Academician system](https://github.com/aindilis/academician)
+-   ✅ [Study system](https://github.com/aindilis/study)
 -   [ ] ITS system (Intelligent Tutoring System)
--   [X] Seeker system
+-   ✅ Seeker system
 
 
-<a id="orgf4ff1c5"></a>
+<a id="org4537317"></a>
 
 ## Self-Discipline
 
 
-<a id="orgd5ad327"></a>
+<a id="org0e0ff79"></a>
 
 ### To-Do
 
 -   [ ] <code>[50%]</code> Org and Org-agenda
 -   [ ] <code>[75%]</code> [Do system (to-do lists)](https://github.com/aindilis/do)
     -   [ ] <code>[50%]</code> Do-convert
-        -   [X] Track millions of goals
+        -   ✅ Track millions of goals
             -   [ ] <code>[60%]</code> Including their interdependencies
-            -   [X] In a logical language
+            -   ✅ In a logical language
         -   [ ] <code>[90%]</code> Convert sexps to Prolog w/ QLF-persistence
     -   [ ] <code>[50%]</code> [Do-convert-logic](//github.com/aindilis/do-convert-logic)
-        -   [X] Unique IDs for goals
-        -   [X] [Track changes to goals](https://github.com/aindilis/do-convert-logic)
-        -   [X] Export to SPSE2/Verb/PDDL
+        -   ✅ Unique IDs for goals
+        -   ✅ [Track changes to goals](https://github.com/aindilis/do-convert-logic)
+        -   ✅ Export to SPSE2/Verb/PDDL
     -   [ ] <code>[33%]</code> Task classification, commitment extraction, dependency elicitation, duration estimation, ontology, prioritization, tagging, inferring completed tasks from changelogs using [LangPro](https://github.com/kovvalsky/LangPro)
 -   [ ] Miscellaneous other partially completed to-do systems
     -   [ ] ([Score](https://github.com/aindilis/score), Lightspeed, [Normal-Form](https://github.com/aindilis/normal-form)/[Spark](https://github.com/aindilis/spark-frdcsa), Todo, PSE, Agenda, System-Planning, crontab, Task-Manager, PSE-x, todo-list-processor, [SPSE2](https://github.com/aindilis/spse), [SPSE2-Formalog](https://github.com/aindilis/spse2-formalog/), [FLP](https://github.com/aindilis/free-life-planner), [Do-Cyc](https://github.com/aindilis/do-cyc), Do-Pl)
 
 
-<a id="org2193baa"></a>
+<a id="org3872936"></a>
 
 ### Note-Taking
 
--   [X] Org-mode
+-   ✅ Org-mode
 -   [ ] <code>[10%]</code> Cyc-ZK (Zettelkasten)
 
 
-<a id="org7afb052"></a>
+<a id="org13b8ece"></a>
 
 ### Scheduling
 
--   [X] PDDL-2.2 (Planning Domain Definition Language)
+-   ✅ PDDL-2.2 (Planning Domain Definition Language)
 -   [ ] <code>[20%]</code> PDDL+ (Planning Domain Definition Language Plus)
 -   [ ] <code>[05%]</code> [Optaplanner](https://www.optaplanner.org/)
 -   [ ] <code>[50%]</code> Automatically schedule tasks using (temporal) planning algorithms
     -   [ ] <code>[10%]</code> A taxonomy of task properties
--   [X] Schedule important tasks
--   [X] Set deadlines
+-   ✅ Schedule important tasks
+-   ✅ Set deadlines
 
 
-<a id="orgcd8f274"></a>
+<a id="orgb6b92ba"></a>
 
 ### Self-Discipline State Machine
 
@@ -847,24 +847,24 @@ How to schedule something for the last day of every month:
 -   [ ] <code>[33%]</code> Use the digital twin and plan to choose from possible things to do
 
 
-<a id="orgc55beac"></a>
+<a id="orga45d350"></a>
 
 ### Gamification
 
--   [X] [Score](https://github.com/aindilis/score)
+-   ✅ [Score](https://github.com/aindilis/score)
 -   [ ] <code>[75%]</code> Rewards/Penalties
--   [X] [Manager](https://github.com/aindilis/manager)
--   [X] Rewards for completing recurrent tasks
--   [X] Daily penalty for leaving any recurrent tasks incomplete
--   [X] Penalties for lack of [movement discipline](#org508e710)
+-   ✅ [Manager](https://github.com/aindilis/manager)
+-   ✅ Rewards for completing recurrent tasks
+-   ✅ Daily penalty for leaving any recurrent tasks incomplete
+-   ✅ Penalties for lack of [movement discipline](#org9088282)
 -   [ ] <code>[50%]</code> Rewards for staying productive
 -   [ ] <code>[60%]</code> Adherence tracker
-    -   [X] Color coded labelled rectangles indicating the last accessed time of various FLP systems
-        -   [X] Determine which systems are not being used correctly
-        -   [X] Determine which sensors have stopped working (e.g. dead battery)
+    -   ✅ Color coded labelled rectangles indicating the last accessed time of various FLP systems
+        -   ✅ Determine which systems are not being used correctly
+        -   ✅ Determine which sensors have stopped working (e.g. dead battery)
 
 
-<a id="org508e710"></a>
+<a id="org9088282"></a>
 
 ### Movement Discipline
 
@@ -872,12 +872,12 @@ How to schedule something for the last day of every month:
     -   [ ] <code>[33%]</code> Optional mode where one must premeditate before moving to a different location
 
 
-<a id="org72280fa"></a>
+<a id="orgf1958d6"></a>
 
 ## Transportation/Shopping/Errands
 
 
-<a id="org96e2b44"></a>
+<a id="orgeba8b8c"></a>
 
 ### Transportation
 
@@ -891,7 +891,7 @@ How to schedule something for the last day of every month:
         -   [ ] "Traveling Salesman"
     -   [ ] <code>[90%]</code> Reverse geocoding
 -   [ ] <code>[66%]</code> [Location logic](https://frdcsa.org/~andrewdo/projects/ll-rules.pl)
-    -   [X] [Owntracks](https://owntracks.org/) integration
+    -   ✅ [Owntracks](https://owntracks.org/) integration
     -   [ ] <code>[75%]</code> Use "Location Logic" to provide reminders
         -   [ ] <code>[50%]</code> Locational rules
             -   [ ] <code>[75%]</code> e.g. Don't forget to bring this with you when you leave
@@ -906,16 +906,16 @@ performAction(addToPendingTasks(Agent,unsilenceCellPhone(Agent,Phone))) :-
 	hasRecentlyPerformedAction(Agent,silenceCellPhone(Agent,Phone)).
 </pre>
 
--   [X] [Movement discipline](#org508e710)
+-   ✅ [Movement discipline](#org9088282)
 
 
-<a id="org50fae9f"></a>
+<a id="org2dab91f"></a>
 
 ### Shopping/Errands
 
--   [X] Shopping list management
-    -   [X] Integration with [financial management](#org7a7a9b9)
-        -   [X] OFX cross-referencing (Open Financial eXchange)
+-   ✅ Shopping list management
+    -   ✅ Integration with [financial management](#org9e7221f)
+        -   ✅ OFX cross-referencing (Open Financial eXchange)
     -   [ ] <code>[33%]</code> Integration with inventory and pantry management
 -   [ ] Buy/sell things as necessary
 -   [ ] Buying
@@ -927,16 +927,16 @@ performAction(addToPendingTasks(Agent,unsilenceCellPhone(Agent,Phone))) :-
         -   [ ] <code>[25%]</code> [Boycott management](https://github.com/aindilis/boycott-manager/tree/main/attempts/1) using Prolog representation
             -   [ ] Collective action trap avoidance
                 -   [ ] Using [Koordinator](https://github.com/koo5/koordinator2000)
-    -   [X] Online Shopping
-        -   [X] Receipts
+    -   ✅ Online Shopping
+        -   ✅ Receipts
             -   [ ] <code>[25%]</code> Track all types of receipts
-            -   [X] Parsers and storage for online store receipts
-        -   [X] Online order tracker
-        -   [X] Online delivery tracker
+            -   ✅ Parsers and storage for online store receipts
+        -   ✅ Online order tracker
+        -   ✅ Online delivery tracker
     -   [ ] Brick and Mortar Shopping
-        -   [X] Receipts
-            -   [X] Parsers for brick and mortar store receipts
-            -   [X] OCR for physical receipts
+        -   ✅ Receipts
+            -   ✅ Parsers for brick and mortar store receipts
+            -   ✅ OCR for physical receipts
         -   [ ] "Traveling Salesman" route planning
             -   [ ] [Open Route Service API (optimization) integration](https://openrouteservice.org/)
 -   [ ] Selling
@@ -946,68 +946,68 @@ performAction(addToPendingTasks(Agent,unsilenceCellPhone(Agent,Phone))) :-
             -   [ ] Decide whether to sell
 
 
-<a id="org7ebb1d8"></a>
+<a id="org81d0e17"></a>
 
 ## Document Management
 
 -   [ ] [Document Management System](https://frdcsa.org/~andrewdo/projects/paperless-office/)
-    -   [X] Scan and OCR all paperwork (Optical Character Recognition)
-        -   [X] Cross reference with schedule
-        -   [X] Ensure confidentiality of information
+    -   ✅ Scan and OCR all paperwork (Optical Character Recognition)
+        -   ✅ Cross reference with schedule
+        -   ✅ Ensure confidentiality of information
     -   [ ] Integration of document-related tasks into Workflow Manager
-        -   [X] [Extract date and time references](https://frdcsa.org/~andrewdo/projects/flp-screencaps/01.jpg) (w/ TIMEX3)
+        -   ✅ [Extract date and time references](https://frdcsa.org/~andrewdo/projects/flp-screencaps/01.jpg) (w/ TIMEX3)
         -   [ ] Integrate with workflow
         -   [ ] Track and help the user implement doctors orders
     -   [ ] <code>[90%]</code> Backup w/ Git
-    -   [X] Export selected documents and folders
-    -   [X] Digital library system
-        -   [X] Equipment manuals
-    -   [X] [Book reader](https://frdcsa.org/frdcsa/internal/clear)
-    -   [X] [Information search management](#orgada6ec5)
+    -   ✅ Export selected documents and folders
+    -   ✅ Digital library system
+        -   ✅ Equipment manuals
+    -   ✅ [Book reader](https://frdcsa.org/frdcsa/internal/clear)
+    -   ✅ [Information search management](#org2958d05)
 
 
-<a id="org7a7a9b9"></a>
+<a id="org9e7221f"></a>
 
 ## Financial Planner
 
 -   [ ] <code>[50%]</code> [Financial Planning](https://github.com/aindilis/financial-planning#readme)
--   [X] Quickly forecast finances almost indefinitely into the future
-    -   [X] Specify recurring transactions
-    -   [X] Automatically detect recurring transactions from OFX exports and plan for them
+-   ✅ Quickly forecast finances almost indefinitely into the future
+    -   ✅ Specify recurring transactions
+    -   ✅ Automatically detect recurring transactions from OFX exports and plan for them
         -   e.g.
             
                 promiseToPayForSpec('ELEC',andrewDougherty,'<ELECTRICCOMPANY>',dollars(93.00),[can([1]),not(onTime([3])))).
-    -   [X] View expected financial transactions along with primary agenda on a calendar
-        -   [X] Calenderical recurrences using CLP (Constraint Logic Programming) 
+    -   ✅ View expected financial transactions along with primary agenda on a calendar
+        -   ✅ Calenderical recurrences using CLP (Constraint Logic Programming) 
             -   [ ] <code>[25%]</code> WebUI for editing financial recurrences
-        -   [X] Predicted transactions' date, description, debit or credit and running balance
-            -   [X] As a list
-            -   [X] As a chart
-        -   [X] Tell us when we're going to run out of money
-            -   [X] Tell us how much we need to raise by when
--   [X] Temporal metric planning for finances
--   [X] Financial reasoning integrated with general planning
-    -   [X] Adds financial reasoning to life-planning problems
-    -   [X] Express expected date ranges of transactions using can, neg(oTime), months, date ranges, etc.
+        -   ✅ Predicted transactions' date, description, debit or credit and running balance
+            -   ✅ As a list
+            -   ✅ As a chart
+        -   ✅ Tell us when we're going to run out of money
+            -   ✅ Tell us how much we need to raise by when
+-   ✅ Temporal metric planning for finances
+-   ✅ Financial reasoning integrated with general planning
+    -   ✅ Adds financial reasoning to life-planning problems
+    -   ✅ Express expected date ranges of transactions using can, neg(oTime), months, date ranges, etc.
 -   [ ] Metaplanners help develop contingency plans for different financial problems
     -   [ ] [TraCE](https://openreview.net/pdf?id=JJYg8KKLJtL) temporally-contingent (metric) planner integration
-    -   [X] Unexpected delays
+    -   ✅ Unexpected delays
     -   [ ] Overcharges and unapproved charges
     -   [ ] Cash flow problems and hardships
-        -   [X] Help manage cash flow in tight situations
--   [X] Abduction of recurrences and predicted events from bank statements in OFX or CSV (Open Financial Exchange, Comma-Separated Values)
+        -   ✅ Help manage cash flow in tight situations
+-   ✅ Abduction of recurrences and predicted events from bank statements in OFX or CSV (Open Financial Exchange, Comma-Separated Values)
     -   [ ] Retrospectively analyze prior predictions
         -   [ ] To update or correct financial recurrences
--   [X] [Interactive Execution Monitor v2](https://frdcsa.org/~andrewdo/iem2-3.mp4) for walking user through plans
+-   ✅ [Interactive Execution Monitor v2](https://frdcsa.org/~andrewdo/iem2-3.mp4) for walking user through plans
     -   [ ] <code>[50%]</code> Verify preconditions
-    -   [X] Update world state with all effects
-        -   [X] Extraction of world state deltas
+    -   ✅ Update world state with all effects
+        -   ✅ Extraction of world state deltas
     -   [ ] <code>[25%]</code> WebUI for IEM2 (using Mock Perl/Tk objects)
 -   [ ] <code>[75%]</code> SPSE2->PSEx3 export (Planning, Scheduling and Execution System (Extended), version 3)
     -   [ ] <code>[75%]</code> Integrating financial reasoning and other domains, with SPSE's to-do dependency graph
--   [X] Modification of PDDL/Verb domain/problem and temporal world state
--   [X] Financial alerts
-    -   [X] Text-to-speech alerts for recurrent transactions
+-   ✅ Modification of PDDL/Verb domain/problem and temporal world state
+-   ✅ Financial alerts
+    -   ✅ Text-to-speech alerts for recurrent transactions
 -   [ ] [Purchase Management](https://frdcsa.org/frdcsa/minor/broker)
     -   [ ] Argumentation-based [PDSS](https://frdcsa.org/frdcsa/minor/purchase-decision-support-system/index.html) (Purchase Deciscion Support System)
         -   [ ] Reasoning over user needs
@@ -1015,13 +1015,13 @@ performAction(addToPendingTasks(Agent,unsilenceCellPhone(Agent,Phone))) :-
             -   [ ] Is this purchase [ethical](https://frdcsa.org/frdcsa/minor/ethical-consumer-system/index.html)/necessary/within-budget?
                 -   [ ] Product and seller comparison
                 -   [ ] Payment plan management
-    -   [X] Tracking purchases and deliveries
-    -   [ ] Inventory/pantry [Inventory Management](#orgb04dea2) integration
+    -   ✅ Tracking purchases and deliveries
+    -   [ ] Inventory/pantry [Inventory Management](#org7a2ba4d) integration
     -   [ ] Resource manager (automatic reordering and stock management)
     -   [ ] Receipt tracker
         -   [ ] <code>[50%]</code> Online
         -   [ ] <code>[50%]</code> Brick and mortar
-        -   [X] Matching bank records to receipts
+        -   ✅ Matching bank records to receipts
 -   [ ] Alerts for anticipated upcoming overdrafts
 -   [ ] <code>[10%]</code> Displaying live/real-time bank information
     -   [ ] <code>[20%]</code> Check current account balance automatically
@@ -1037,7 +1037,7 @@ performAction(addToPendingTasks(Agent,unsilenceCellPhone(Agent,Phone))) :-
 -   [ ] Bill payment subsystem
 
 
-<a id="org90e14c8"></a>
+<a id="org88456da"></a>
 
 ## Emergency Preparedness
 
@@ -1054,20 +1054,20 @@ performAction(addToPendingTasks(Agent,unsilenceCellPhone(Agent,Phone))) :-
         -   [ ] <code>[10%]</code> Food and water
 
 
-<a id="org7802764"></a>
+<a id="org1c13214"></a>
 
 ## Employment
 
--   [X] [Time tracking](https://altruisticsoftware.org/frdcsa/minor/consultant-support/)
+-   ✅ [Time tracking](https://altruisticsoftware.org/frdcsa/minor/consultant-support/)
 -   [ ] Acquiring income
 -   [ ] Job search
-    -   [X] [Semi-automatic job applications](https://www.youtube.com/watch?v=qFRSwRVFuhE&feature=youtu.be)
+    -   ✅ [Semi-automatic job applications](https://www.youtube.com/watch?v=qFRSwRVFuhE&feature=youtu.be)
     -   [ ] [<code>[90%]</code> Resume generation](https://github.com/aindilis/job-search)
         -   [ ] <code>[30%]</code> Dynamic resumes tailored to specific job posts
-    -   [X] [Negotiation trainer](https://frdcsa.org/~andrewdo/WebWiki/AudienceDialog.html)
+    -   ✅ [Negotiation trainer](https://frdcsa.org/~andrewdo/WebWiki/AudienceDialog.html)
 
 
-<a id="orgfbe9565"></a>
+<a id="org386830d"></a>
 
 ## Executive Function
 
@@ -1081,12 +1081,12 @@ performAction(addToPendingTasks(Agent,unsilenceCellPhone(Agent,Phone))) :-
     -   [ ] Goal setting
 
 
-<a id="orgc9f8303"></a>
+<a id="org5ad2bca"></a>
 
 ## Smart home
 
 
-<a id="org5f4f0ac"></a>
+<a id="orgf3c25f0"></a>
 
 ### Maintenance
 
@@ -1095,64 +1095,64 @@ performAction(addToPendingTasks(Agent,unsilenceCellPhone(Agent,Phone))) :-
 
 1.  Home Maintenance
 
-    -   [X] Home
+    -   ✅ Home
 
 2.  Equipment Maintenance
 
-    -   [X] Automotive
+    -   ✅ Automotive
 
 
-<a id="org74a99c4"></a>
+<a id="org2003ffe"></a>
 
 # Major Technologies Used
 
 -   [ ] [SWI-Prolog](https://www.swi-prolog.org/) (Sociaal-Wetenschappelijke Informatica)
-    -   [X] [Julian](https://fifth-postulate.nl/julian/) time library
-    -   [X] [CLP(fd)](https://www.swi-prolog.org/man/clpfd.html) (Constraint Logic Programming)
+    -   ✅ [Julian](https://fifth-postulate.nl/julian/) time library
+    -   ✅ [CLP(fd)](https://www.swi-prolog.org/man/clpfd.html) (Constraint Logic Programming)
     -   [ ] <code>[50%]</code> [QLF](https://www.swi-prolog.org/pldoc/man?section=qlf) (Quick Load Format)
--   [X] [Perl](https://www.perl.org/)
-    -   [X] [YASWI](https://metacpan.org/pod/Language::Prolog::Yaswi) (Yet Another interface to SWI-Prolog) Perl<->SWI-Prolog Interface
-    -   [X] [Catalyst MVC](http://catalyst.perl.org/Catalyst) (Model/View/Controller)
-        -   [X] [ShinyCMS](https://shinycms.org/) (Content Management System)
-    -   [X] [Mojolicious](https://www.mojolicious.org/)
--   [X] [Java](https://www.java.com/en/)
-    -   [X] [JavaPengine](https://github.com/aindilis/JavaPengine) (Java<->SWI-Prolog)
-    -   [X] [Jason/AgentSpeak(L)](http://jason.sourceforge.net/wp/)
-        -   [X] [JPL](https://jpl7.org/) (Java Prolog Library?) Java<->SWI-Prolog
-    -   [X] [Alexa](https://github.com/alexa/alexa-skills-kit-sdk-for-java) voice skill interface
-    -   [X] Cyc Java API<->Inline Perl
--   [X] [Python](https://www.python.org/)
-    -   [X] [Py4J](https://py4j.org/") Python<->Java integration (Python For Java)
+-   ✅ [Perl](https://www.perl.org/)
+    -   ✅ [YASWI](https://metacpan.org/pod/Language::Prolog::Yaswi) (Yet Another interface to SWI-Prolog) Perl<->SWI-Prolog Interface
+    -   ✅ [Catalyst MVC](http://catalyst.perl.org/Catalyst) (Model/View/Controller)
+        -   ✅ [ShinyCMS](https://shinycms.org/) (Content Management System)
+    -   ✅ [Mojolicious](https://www.mojolicious.org/)
+-   ✅ [Java](https://www.java.com/en/)
+    -   ✅ [JavaPengine](https://github.com/aindilis/JavaPengine) (Java<->SWI-Prolog)
+    -   ✅ [Jason/AgentSpeak(L)](http://jason.sourceforge.net/wp/)
+        -   ✅ [JPL](https://jpl7.org/) (Java Prolog Library?) Java<->SWI-Prolog
+    -   ✅ [Alexa](https://github.com/alexa/alexa-skills-kit-sdk-for-java) voice skill interface
+    -   ✅ Cyc Java API<->Inline Perl
+-   ✅ [Python](https://www.python.org/)
+    -   ✅ [Py4J](https://py4j.org/") Python<->Java integration (Python For Java)
     -   [ ] [python-agentspeak](https://github.com/niklasf/python-agentspeak)
--   [X] [Bash](https://www.gnu.org/software/bash/) scripting
--   [X] [Emacs integration](https://www.youtube.com/watch?v=0l3K__C9Dkc)
--   [X] [PDDL 2.2](https://planning.wiki/ref/pddl22/domain) temporal metric planning
-    -   [X] [LPG-td-1.0](https://lpg.unibs.it/lpg/)
-    -   [X] [OPTIC<sub>CLP</sub>](https://nms.kcl.ac.uk/planning/software/optic.html) (Optimizing Preferences and Time-Dependent Costs) (Coin-or Linear Programming)
--   [X] [Vampire-KIF](https://en.wikipedia.org/wiki/Vampire_(theorem_prover)) (Knowledge Interchange Format) ATP (Automated Theorem Proving) system
--   [X] [SUMO](https://github.com/ontologyportal/sumo)
--   [X] [OpenCyc](https://sourceforge.net/projects/opencyc/)
+-   ✅ [Bash](https://www.gnu.org/software/bash/) scripting
+-   ✅ [Emacs integration](https://www.youtube.com/watch?v=0l3K__C9Dkc)
+-   ✅ [PDDL 2.2](https://planning.wiki/ref/pddl22/domain) temporal metric planning
+    -   ✅ [LPG-td-1.0](https://lpg.unibs.it/lpg/)
+    -   ✅ [OPTIC<sub>CLP</sub>](https://nms.kcl.ac.uk/planning/software/optic.html) (Optimizing Preferences and Time-Dependent Costs) (Coin-or Linear Programming)
+-   ✅ [Vampire-KIF](https://en.wikipedia.org/wiki/Vampire_(theorem_prover)) (Knowledge Interchange Format) ATP (Automated Theorem Proving) system
+-   ✅ [SUMO](https://github.com/ontologyportal/sumo)
+-   ✅ [OpenCyc](https://sourceforge.net/projects/opencyc/)
 -   [ ] [MariaDB/MySQL](https://mariadb.org/) persistence
-    -   [X] Through [UniLang](https://github.com/aindilis/unilang)/[FreeKBS2](https://github.com/aindilis/freekbs2) (Universal Language) (Free Knowledge Based System v2)
+    -   ✅ Through [UniLang](https://github.com/aindilis/unilang)/[FreeKBS2](https://github.com/aindilis/freekbs2) (Universal Language) (Free Knowledge Based System v2)
     -   [ ] [<code>[50%]</code> Directly from SWI-Prolog using ODBC](https://github.com/aindilis/data-integration) (Open DataBase Connectivity)
 -   [ ] <code>[33%]</code> [Inform7](https://github.com/ganelson/inform)
--   [X] [LLMs](https://en.wikipedia.org/wiki/Large_language_model) (Large Language Models)
-    -   [X] [Code Llama](https://ai.meta.com/blog/code-llama-large-language-model-coding/) 34B
-        -   [X] [Llama.cpp](https://github.com/ggerganov/llama.cpp)
-    -   [X] [WizardLM](https://github.com/nlpxucan/WizardLM)
--   [X] [Rhasspy](https://rhasspy.readthedocs.io/en/latest/) Voice Assistant integration
-    -   [X] [whisper-rhasspy-http](https://github.com/tiemajor/whisper-rhasspy-http) plugin
-        -   [X] [Whisper](https://openai.com/research/whisper) ASR/STT plugin (Automatic Speech Recognition, Speech To Text)
-    -   [X] [coqui-ai/TTS](https://github.com/coqui-ai/TTS) (Text To Speech)
-        -   [X] [Bark](https://github.com/suno-ai/bark) TTS (Text To Speech)
+-   ✅ [LLMs](https://en.wikipedia.org/wiki/Large_language_model) (Large Language Models)
+    -   ✅ [Code Llama](https://ai.meta.com/blog/code-llama-large-language-model-coding/) 34B
+        -   ✅ [Llama.cpp](https://github.com/ggerganov/llama.cpp)
+    -   ✅ [WizardLM](https://github.com/nlpxucan/WizardLM)
+-   ✅ [Rhasspy](https://rhasspy.readthedocs.io/en/latest/) Voice Assistant integration
+    -   ✅ [whisper-rhasspy-http](https://github.com/tiemajor/whisper-rhasspy-http) plugin
+        -   ✅ [Whisper](https://openai.com/research/whisper) ASR/STT plugin (Automatic Speech Recognition, Speech To Text)
+    -   ✅ [coqui-ai/TTS](https://github.com/coqui-ai/TTS) (Text To Speech)
+        -   ✅ [Bark](https://github.com/suno-ai/bark) TTS (Text To Speech)
 
 
-<a id="org34340bd"></a>
+<a id="orgec66709"></a>
 
 # More Info
 
 
-<a id="orgac7cb0e"></a>
+<a id="org6aa0d61"></a>
 
 ## More Use Cases
 
@@ -1165,7 +1165,7 @@ performAction(addToPendingTasks(Agent,unsilenceCellPhone(Agent,Phone))) :-
 -   Generating a complex monthly financial plan with contingencies for unexpected expenses and if certain income doesn't come through
 
 
-<a id="org265152c"></a>
+<a id="org55fea97"></a>
 
 ## Links
 
