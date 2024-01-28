@@ -1,89 +1,89 @@
 
 # Table of Contents
 
-1.  [The Free Life Planner](#org332f62f)
-2.  [Technical Overview](#orgd801abc)
-    1.  [THIS REFERENCE MANUAL IS UNDER CONSTRUCTION](#org4f30c69)
-3.  [Links](#orga3ed699)
-4.  [You are at the ReferenceManual.md](#orgd46229c)
-5.  [Reference Manual Contents](#org17b0c34)
-6.  [Introduction](#org8151283)
-    1.  [Purpose](#org63dcc83)
-    2.  [User Base](#org9cbb165)
-    3.  [Sample Use Cases](#orgdc00d24)
-    4.  [Status](#org59f4d3f)
-7.  [Features](#org05229a8)
-    1.  [Voice Assistant](#orgef32c56)
-    2.  [Workflow Manager](#orgae4c337)
-    3.  [Health](#orgd0e4b48)
-        1.  [Evidence-Based Wellness](#orged6770e)
-        2.  [Exercise](#org2131667)
-        3.  [Nutrition](#org4b0b9e4)
-        4.  [Doctor's Visits and Orders](#org37665b1)
-        5.  [Medications](#org0e62bed)
-        6.  [Mental Health](#org229aa0e)
-    4.  [Time Management](#org05f6454)
-        1.  [Recurrences](#org34a0813)
-        2.  [Calendaring](#org14f5dfa)
-        3.  [Planning, Scheduling and Execution](#org6a82a7a)
-    5.  [Organization](#orgc86732f)
-        1.  [Inventory Management](#orgd9f681c)
-        2.  [Adulting](#org50381b2)
-        3.  [Communication Management](#org4bd24b0)
-        4.  [Chore Charting](#orga52f672)
-        5.  [Maintenance](#orgce1e731)
-        6.  [Smart Home](#org43550e6)
-        7.  [Research and Development](#org7d56b7d)
-    6.  [Self-Discipline](#org08bb263)
-        1.  [To-Do](#org404f472)
-        2.  [Checklists](#org749aa84)
-        3.  [Note-Taking](#org69a81ec)
-        4.  [Scheduling](#org5d627e8)
-        5.  [Self-Discipline State Machine](#org3fb2e91)
-        6.  [Gamification](#orgb2e0a00)
-        7.  [Movement Discipline](#org3cd9560)
-    7.  [Transportation/Shopping/Errands](#org470ed0e)
-        1.  [Transportation](#orgc1cff8f)
-        2.  [Shopping/Errands](#org3e6198e)
-    8.  [Document Management](#orgcf70ff9)
-    9.  [Financial Planner](#orga40f7c8)
-    10. [Emergency Preparedness](#org2be1af7)
-    11. [Employment](#org79c3c25)
-    12. [Executive Function](#org41c2dd1)
-8.  [Future Work](#org03fd3e4)
-    1.  [Integrations](#org618082e)
-9.  [Special Use Cases](#org5a1e90b)
-    1.  [Homelessness](#org9954674)
-    2.  [Illness](#orgab74560)
-    3.  [Insolvency](#orge043c82)
-    4.  [Abuse](#orgb1871dd)
-    5.  [Climate Change and Disaster Management](#org4a24f1b)
-10. [Major Technologies Used](#orgb7e0dc3)
-11. [More Info](#org089a396)
-    1.  [More Use Cases](#org064d04c)
-    2.  [Recognition](#org3c63d9a)
-    3.  [Links](#orgb3bcb47)
-        1.  [Screenshots](#org8a82486)
-        2.  [Subsystems](#org23cc105)
-        3.  [More Links](#orgdcdff77)
+1.  [The Free Life Planner](#orgb81360c)
+2.  [Technical Overview](#orgef9ff6d)
+    1.  [THIS REFERENCE MANUAL IS UNDER CONSTRUCTION](#orge24a292)
+3.  [Links](#org762786f)
+4.  [You are at the ReferenceManual.md](#org35e0744)
+5.  [Reference Manual Contents](#orgb213bf3)
+6.  [Introduction](#org5add565)
+    1.  [Purpose](#org4ed0f91)
+    2.  [User Base](#org253c4eb)
+    3.  [Sample Use Cases](#org62d5c58)
+    4.  [Status](#org71a5322)
+7.  [Features](#orgd9a73e3)
+    1.  [Voice Assistant](#org61a5285)
+    2.  [Workflow Manager](#org55e649e)
+    3.  [Health](#orga80c047)
+        1.  [Evidence-Based Wellness](#org5e393f2)
+        2.  [Exercise](#org726e849)
+        3.  [Nutrition](#org5bc21a7)
+        4.  [Doctor's Visits and Orders](#org2d2581c)
+        5.  [Medications](#orgaf92f3a)
+        6.  [Mental Health](#org1d6adbb)
+    4.  [Time Management](#org089cf85)
+        1.  [Recurrences](#org2e391f8)
+        2.  [Calendaring](#orgc422958)
+        3.  [Planning, Scheduling and Execution](#orgb18bd50)
+    5.  [Organization](#orgde11349)
+        1.  [Inventory Management](#org1c7ce1f)
+        2.  [Adulting](#org98e1653)
+        3.  [Communication Management](#org5499cd1)
+        4.  [Chore Charting](#orgd6ac071)
+        5.  [Maintenance](#org3b8b42d)
+        6.  [Smart Home](#org432df8c)
+        7.  [Research and Development](#org09cc8de)
+    6.  [Self-Discipline](#orgd1fde28)
+        1.  [To-Do](#org525a31d)
+        2.  [Checklists](#orgf981bec)
+        3.  [Note-Taking](#orged0adf9)
+        4.  [Scheduling](#org7f46b48)
+        5.  [Self-Discipline State Machine](#orge576505)
+        6.  [Gamification](#orgf190ce4)
+        7.  [Movement Discipline](#orgd79c783)
+    7.  [Transportation/Shopping/Errands](#org8c01c78)
+        1.  [Transportation](#org1b76b9c)
+        2.  [Shopping/Errands](#org3056b15)
+    8.  [Document Management](#org5b65629)
+    9.  [Financial Planner](#orgf052ff9)
+    10. [Emergency Preparedness](#org6947960)
+    11. [Employment](#orgff5f326)
+    12. [Executive Function](#org8cf9fde)
+8.  [Future Work](#orgfd2c86e)
+    1.  [Integrations](#orgc62a639)
+9.  [Special Use Cases](#org35e3651)
+    1.  [Homelessness](#org8089d52)
+    2.  [Illness](#org35ea5e4)
+    3.  [Insolvency](#orgfdce376)
+    4.  [Abuse](#orgdbb00b5)
+    5.  [Climate Change and Disaster Management](#orgbf45bc9)
+10. [Major Technologies Used](#orgc5b5d59)
+11. [More Info](#orgf09ce7c)
+    1.  [More Use Cases](#org9623d71)
+    2.  [Recognition](#orgf25844b)
+    3.  [Links](#orga7e0087)
+        1.  [Screenshots](#org93e855d)
+        2.  [Subsystems](#org9359f3a)
+        3.  [More Links](#org631962d)
 
 
-<a id="org332f62f"></a>
+<a id="orgb81360c"></a>
 
 # The Free Life Planner
 
 
-<a id="orgd801abc"></a>
+<a id="orgef9ff6d"></a>
 
 # Technical Overview
 
 
-<a id="org4f30c69"></a>
+<a id="orge24a292"></a>
 
 ## THIS REFERENCE MANUAL IS UNDER CONSTRUCTION
 
 
-<a id="orga3ed699"></a>
+<a id="org762786f"></a>
 
 # Links
 
@@ -96,22 +96,22 @@
     -   The paper ["The Free Life Planner: A Virtual Secondary Social Safety Net"](https://frdcsa.org/~andrewdo/flp-jwas-article-draft-1.pdf)
 
 
-<a id="orgd46229c"></a>
+<a id="org35e0744"></a>
 
 # You are at the ReferenceManual.md
 
 
-<a id="org17b0c34"></a>
+<a id="orgb213bf3"></a>
 
 # Reference Manual Contents
 
 
-<a id="org8151283"></a>
+<a id="org5add565"></a>
 
 # Introduction
 
 
-<a id="org63dcc83"></a>
+<a id="org4ed0f91"></a>
 
 ## Purpose
 
@@ -124,7 +124,7 @@
 -   A "life manual" / "skills for living life"
 
 
-<a id="org9cbb165"></a>
+<a id="org253c4eb"></a>
 
 ## User Base
 
@@ -147,16 +147,16 @@
     -   Other demographics not here accounted for
 
 
-<a id="orgdc00d24"></a>
+<a id="org62d5c58"></a>
 
 ## Sample Use Cases
 
 -   [Homeless Story](https://frdcsa.org/~andrewdo/writings/homeless-story.html)
 -   [Health Story](https://frdcsa.org/~andrewdo/writings/health-story.html)
--   [More Use Cases](#org064d04c)
+-   [More Use Cases](#org9623d71)
 
 
-<a id="org59f4d3f"></a>
+<a id="org71a5322"></a>
 
 ## Status
 
@@ -164,12 +164,12 @@
 -   Interoperability between all systems
 
 
-<a id="org05229a8"></a>
+<a id="orgd9a73e3"></a>
 
 # Features
 
 
-<a id="orgef32c56"></a>
+<a id="org61a5285"></a>
 
 ## Voice Assistant
 
@@ -210,7 +210,7 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
     -   [ ] <code>[10%]</code> [DIT](https://dit.uvt.nl), [Regulus](https://sf.net/p/regulus), [Trindikit](https://sf.net/p/trindikit), etc
 
 
-<a id="orgae4c337"></a>
+<a id="org55e649e"></a>
 
 ## Workflow Manager
 
@@ -255,12 +255,12 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
 </pre>
 
 
-<a id="orgd0e4b48"></a>
+<a id="orga80c047"></a>
 
 ## Health
 
 
-<a id="orged6770e"></a>
+<a id="org5e393f2"></a>
 
 ### Evidence-Based Wellness
 
@@ -271,7 +271,7 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
 2.  Data Collection and User Modeling
 
     -   [ ] <code>[50%]</code> Record / create an inventory of all user's medical symptoms
-        -   [ ] List conditions, [medications](#org0e62bed) and their effects
+        -   [ ] List conditions, [medications](#orgaf92f3a) and their effects
         -   [ ] Inventory medication effects, side-effects and risks
     -   [ ] SNA of providers (Social Network Analysis)
         -   [ ] Who they they are, what they do, what they advise and how often we need to visit
@@ -321,7 +321,7 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
         -   [ ] Argumentation-based deliberation regarding the validation of planned treatments
 
 
-<a id="org2131667"></a>
+<a id="org726e849"></a>
 
 ### Exercise
 
@@ -335,7 +335,7 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
             -   ✅ "Alexa, tell David - Andrew did his morning exercises"
 
 
-<a id="org4b0b9e4"></a>
+<a id="org5bc21a7"></a>
 
 ### Nutrition
 
@@ -356,15 +356,15 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
         -   ✅ Using [FDC](https://fdc.nal.usda.gov/) csvs converted to Prolog KB (Food Data Central)
         -   ✅ Using Nutritionix
             -   [ ] Working (but offline due to air-gapping development server)
-    -   [ ] [Inventory Management](#orgd9f681c)
+    -   [ ] [Inventory Management](#org1c7ce1f)
         -   [ ] User modeling
-            -   [ ] <code>[40%]</code> [Self-discipline](#org08bb263) coach software
+            -   [ ] <code>[40%]</code> [Self-discipline](#orgd1fde28) coach software
                 -   [ ] For hitting macros
                 -   [ ] Understanding psychology of users' relationships to food
             -   ✅ Helping w/ Portion control
                 -   ✅ Door sensor alerts on fridge and freezer
                 -   [ ] <code>[20%]</code> Follow up dialog regarding intent when fridge and freezer accessed
-                -   [ ] [Gamification](#orgb2e0a00)
+                -   [ ] [Gamification](#orgf190ce4)
             -   [ ] Specifically checking for common symptoms known to affect the user, like gerd, lactose intolerance, etc
                 -   [ ] Inference existence of food sensitivities
             -   [ ] Nutritional temporal records
@@ -422,7 +422,7 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
         -   [ ] <code>[25%]</code> Bill splitter
 
 
-<a id="org37665b1"></a>
+<a id="org2d2581c"></a>
 
 ### Doctor's Visits and Orders
 
@@ -433,7 +433,7 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
     -   ✅ Q&A system for asking things like when is my next appointment
 -   [ ] [Medical diagnostics](https://github.com/timhannifan/symptom-tree/issues/1)
 -   [ ] <code>[40%]</code> Following doctors' orders
-    -   ✅ Scan into [Document Management System](#orgcf70ff9) for managing (among other things) medical records
+    -   ✅ Scan into [Document Management System](#org5b65629) for managing (among other things) medical records
     -   [ ] <code>[90%]</code> Ensuring compliance via [Machine Reading Comprehension](https://paperswithcode.com/task/machine-reading-comprehension)
         -   ✅ Using [WizardLM](https://github.com/nlpxucan/WizardLM) to extract instructions from documents
         -   ✅ Converting orders into an BT (Behavior Tree)
@@ -448,11 +448,11 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
     -   [ ] Patient advocate to detect potential confusion or foul-ups due to communication breakdowns between patients, doctors and other doctors
 -   [ ] For when a physician is unavailable
     -   [ ] Diagnostic expert system
-        -   [ ] [Diagnostics and Treatments](#org26819d1)
+        -   [ ] [Diagnostics and Treatments](#org3996c8e)
     -   [ ] First aid course of action system
 
 
-<a id="org0e62bed"></a>
+<a id="orgaf92f3a"></a>
 
 ### Medications
 
@@ -481,7 +481,7 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
                     -   [ ] <code>[75%]</code> Dialog execution monitoring using cell-phone
 
 
-<a id="org229aa0e"></a>
+<a id="org1d6adbb"></a>
 
 ### Mental Health
 
@@ -523,12 +523,12 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
     -   [ ] etc
 
 
-<a id="org05f6454"></a>
+<a id="org089cf85"></a>
 
 ## Time Management
 
 
-<a id="org34a0813"></a>
+<a id="org2e391f8"></a>
 
 ### Recurrences
 
@@ -549,7 +549,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
 </pre>
 
 
-<a id="org14f5dfa"></a>
+<a id="orgc422958"></a>
 
 ### Calendaring
 
@@ -578,7 +578,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
     -   ✅ Show on calendar possible date and time ranges for recurring transactions
 
 
-<a id="org6a82a7a"></a>
+<a id="orgb18bd50"></a>
 
 ### Planning, Scheduling and Execution
 
@@ -663,7 +663,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
         -   [ ] Planning ahead for bad weather
             -   [ ] e.g. Stock up on groceries before a major storm hits
             -   [ ] <code>[50%]</code> Weather control rules
-    -   [ ] <code>[15%]</code> 27 [Prolog-Agent](https://github.com/aindilis/prolog-agent)/SPAMI/Autonomous LLM agents
+    -   [ ] <code>[15%]</code> [27 Prolog-Agent/SPAMI/Autonomous LLM agents](https://github.com/aindilis/autonomous-ai-agent)
         -   [ ] <code>[15%]</code> Academician - Research topics completely on its own.
         -   [ ] <code>[15%]</code> Agent Smith - Install FRDCSA on a remote system.
         -   [ ] <code>[15%]</code> API Learner - Maps APIs by reading API documentation and examples.
@@ -698,12 +698,12 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
     -   ✅ [Interactive Execution Monitoring](https://frdcsa.org/~andrewdo/iem2-3.mp4)
 
 
-<a id="orgc86732f"></a>
+<a id="orgde11349"></a>
 
 ## Organization
 
 
-<a id="orgd9f681c"></a>
+<a id="org1c7ce1f"></a>
 
 ### Inventory Management
 
@@ -737,7 +737,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
     -   [ ] Integration with planning and scheduling
 
 
-<a id="org50381b2"></a>
+<a id="org98e1653"></a>
 
 ### Adulting
 
@@ -746,10 +746,10 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
 -   [ ] IADLs
     -   [ ] Chore charting
         -   [ ] <code>[35%]</code> Track who/what/where/when regarding chores
-        -   ✅ Implement rewards via [Gamification](#orgb2e0a00)
+        -   ✅ Implement rewards via [Gamification](#orgf190ce4)
 
 
-<a id="org4bd24b0"></a>
+<a id="org5499cd1"></a>
 
 ### Communication Management
 
@@ -781,7 +781,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
         -   ✅ [SNA](http://www.casos.cs.cmu.edu/projects/ora/software.php) (Social Network Analysis)
 
 
-<a id="orga52f672"></a>
+<a id="orgd6ac071"></a>
 
 ### Chore Charting
 
@@ -794,7 +794,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
     -   [ ] <code>[66%]</code> Interactive plan execution using library of chore BTs (behavior trees)
 
 
-<a id="orgce1e731"></a>
+<a id="org3b8b42d"></a>
 
 ### Maintenance
 
@@ -806,7 +806,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
 -   ✅ Automotive maintenance schedule
 
 
-<a id="org43550e6"></a>
+<a id="org432df8c"></a>
 
 ### Smart Home
 
@@ -844,8 +844,8 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
             
             -   [ ] <code>[10%]</code> Complex event detection
                 -   [ ] <code>[20%]</code> [RTEC](https://github.com/aartikis/RTEC) (Run Time Event Calculus)
-    -   [ ] [Home maintenance](#orgce1e731)
-    -   [ ] [Emergency preparedness](#org2be1af7)
+    -   [ ] [Home maintenance](#org3b8b42d)
+    -   [ ] [Emergency preparedness](#org6947960)
     -   [ ] SVRE
         -   [ ] <code>[30%]</code> IPSVRE
             -   [ ] <code>[90%]</code> Management of many aspects of individual environments including: lighting, climate, distractions, productivity, etc.
@@ -865,7 +865,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
     -   ✅ Automotive
 
 
-<a id="org7d56b7d"></a>
+<a id="org09cc8de"></a>
 
 ### Research and Development
 
@@ -877,12 +877,12 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
 -   Automatic Arugument Mining and Construction
 
 
-<a id="org08bb263"></a>
+<a id="orgd1fde28"></a>
 
 ## Self-Discipline
 
 
-<a id="org404f472"></a>
+<a id="org525a31d"></a>
 
 ### To-Do
 
@@ -902,7 +902,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
     -   [ ] ([Score](https://github.com/aindilis/score), Lightspeed, [Normal-Form](https://github.com/aindilis/normal-form)/[Spark](https://github.com/aindilis/spark-frdcsa), Todo, PSE, Agenda, System-Planning, crontab, Task-Manager, PSE-x, todo-list-processor, [SPSE2](https://github.com/aindilis/spse), [SPSE2-Formalog](https://github.com/aindilis/spse2-formalog/), [FLP](https://github.com/aindilis/free-life-planner), [Do-Cyc](https://github.com/aindilis/do-cyc), Do-Pl)
 
 
-<a id="org749aa84"></a>
+<a id="orgf981bec"></a>
 
 ### Checklists
 
@@ -913,7 +913,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
         -   <code>[80%]</code> FCMS WebUI log
 
 
-<a id="org69a81ec"></a>
+<a id="orged0adf9"></a>
 
 ### Note-Taking
 
@@ -921,7 +921,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
 -   [ ] <code>[10%]</code> Cyc-ZK (Zettelkasten)
 
 
-<a id="org5d627e8"></a>
+<a id="org7f46b48"></a>
 
 ### Scheduling
 
@@ -934,7 +934,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
 -   ✅ Set deadlines
 
 
-<a id="org3fb2e91"></a>
+<a id="orge576505"></a>
 
 ### Self-Discipline State Machine
 
@@ -943,7 +943,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
 -   [ ] <code>[33%]</code> Use the digital twin and plan to choose from possible things to do
 
 
-<a id="orgb2e0a00"></a>
+<a id="orgf190ce4"></a>
 
 ### Gamification
 
@@ -952,7 +952,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
 -   ✅ [Manager](https://github.com/aindilis/manager)
 -   ✅ Rewards for completing recurrent tasks
 -   ✅ Daily penalty for leaving any recurrent tasks incomplete
--   ✅ Penalties for lack of [movement discipline](#org3cd9560)
+-   ✅ Penalties for lack of [movement discipline](#orgd79c783)
 -   [ ] <code>[50%]</code> Rewards for staying productive
 -   [ ] <code>[60%]</code> Adherence tracker
     -   ✅ Color coded labelled rectangles indicating the last accessed time of various FLP systems
@@ -960,7 +960,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
         -   ✅ Determine which sensors have stopped working (e.g. dead battery)
 
 
-<a id="org3cd9560"></a>
+<a id="orgd79c783"></a>
 
 ### Movement Discipline
 
@@ -968,12 +968,12 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
     -   [ ] <code>[33%]</code> Optional mode where one must premeditate before moving to a different location
 
 
-<a id="org470ed0e"></a>
+<a id="org8c01c78"></a>
 
 ## Transportation/Shopping/Errands
 
 
-<a id="orgc1cff8f"></a>
+<a id="org1b76b9c"></a>
 
 ### Transportation
 
@@ -1002,15 +1002,15 @@ performAction(addToPendingTasks(Agent,unsilenceCellPhone(Agent,Phone))) :-
         hasRecentlyPerformedAction(Agent,silenceCellPhone(Agent,Phone)).
 </pre>
 
--   ✅ [Movement discipline](#org3cd9560)
+-   ✅ [Movement discipline](#orgd79c783)
 
 
-<a id="org3e6198e"></a>
+<a id="org3056b15"></a>
 
 ### Shopping/Errands
 
 -   ✅ Shopping list management
-    -   ✅ Integration with [financial management](#orga40f7c8)
+    -   ✅ Integration with [financial management](#orgf052ff9)
         -   ✅ OFX cross-referencing (Open Financial eXchange)
     -   [ ] <code>[33%]</code> Integration with inventory and pantry management
 -   [ ] Buy/sell things as necessary
@@ -1042,7 +1042,7 @@ performAction(addToPendingTasks(Agent,unsilenceCellPhone(Agent,Phone))) :-
             -   [ ] Decide whether to sell
 
 
-<a id="orgcf70ff9"></a>
+<a id="org5b65629"></a>
 
 ## Document Management
 
@@ -1059,10 +1059,10 @@ performAction(addToPendingTasks(Agent,unsilenceCellPhone(Agent,Phone))) :-
     -   ✅ Digital library system
         -   ✅ Equipment manuals
     -   ✅ [Book reader](https://frdcsa.org/frdcsa/internal/clear)
-    -   ✅ [Information search management](#org7d56b7d)
+    -   ✅ [Information search management](#org09cc8de)
 
 
-<a id="orga40f7c8"></a>
+<a id="orgf052ff9"></a>
 
 ## Financial Planner
 
@@ -1122,7 +1122,7 @@ promiseToPayForSpec('ELEC',andrewDougherty,'<ELECTRICCOMPANY>',dollars(93.00),[c
                     -   [ ] Product and seller comparison
                     -   [ ] Payment plan management
     -   ✅ Tracking purchases and deliveries
-    -   [ ] Inventory/pantry [Inventory Management](#orgd9f681c) integration
+    -   [ ] Inventory/pantry [Inventory Management](#org1c7ce1f) integration
     -   [ ] Resource manager (automatic reordering and stock management)
     -   [ ] Receipt tracker
         -   [ ] <code>[50%]</code> Online
@@ -1143,7 +1143,7 @@ promiseToPayForSpec('ELEC',andrewDougherty,'<ELECTRICCOMPANY>',dollars(93.00),[c
 -   [ ] Bill payment subsystem
 
 
-<a id="org2be1af7"></a>
+<a id="org6947960"></a>
 
 ## Emergency Preparedness
 
@@ -1160,7 +1160,7 @@ promiseToPayForSpec('ELEC',andrewDougherty,'<ELECTRICCOMPANY>',dollars(93.00),[c
         -   [ ] <code>[10%]</code> Food and water
 
 
-<a id="org79c3c25"></a>
+<a id="orgff5f326"></a>
 
 ## Employment
 
@@ -1173,7 +1173,7 @@ promiseToPayForSpec('ELEC',andrewDougherty,'<ELECTRICCOMPANY>',dollars(93.00),[c
     -   ✅ [Negotiation trainer](https://frdcsa.org/~andrewdo/WebWiki/AudienceDialog.html)
 
 
-<a id="org41c2dd1"></a>
+<a id="org8cf9fde"></a>
 
 ## Executive Function
 
@@ -1188,12 +1188,12 @@ promiseToPayForSpec('ELEC',andrewDougherty,'<ELECTRICCOMPANY>',dollars(93.00),[c
     -   [ ] Goal setting
 
 
-<a id="org03fd3e4"></a>
+<a id="orgfd2c86e"></a>
 
 # Future Work
 
 
-<a id="org618082e"></a>
+<a id="orgc62a639"></a>
 
 ## Integrations
 
@@ -1215,12 +1215,12 @@ promiseToPayForSpec('ELEC',andrewDougherty,'<ELECTRICCOMPANY>',dollars(93.00),[c
         -   [ ] Additional security partitioning
 
 
-<a id="org5a1e90b"></a>
+<a id="org35e3651"></a>
 
 # Special Use Cases
 
 
-<a id="org9954674"></a>
+<a id="org8089d52"></a>
 
 ## Homelessness
 
@@ -1230,7 +1230,7 @@ promiseToPayForSpec('ELEC',andrewDougherty,'<ELECTRICCOMPANY>',dollars(93.00),[c
 -   [ ] [Pioneer Application](https://frdcsa.org/~andrewdo/writings/pioneer.app/Application.html)
 
 
-<a id="orgab74560"></a>
+<a id="org35ea5e4"></a>
 
 ## Illness
 
@@ -1238,28 +1238,28 @@ promiseToPayForSpec('ELEC',andrewDougherty,'<ELECTRICCOMPANY>',dollars(93.00),[c
 -   [ ] <code>[10%]</code> [Akahige](https://frdcsa.org/frdcsa/internal/akahige)
 
 
-<a id="orge043c82"></a>
+<a id="orgfdce376"></a>
 
 ## Insolvency
 
--   [ ] <code>[25%]</code> [Financial Planner](#orga40f7c8)
+-   [ ] <code>[25%]</code> [Financial Planner](#orgf052ff9)
 
 
-<a id="orgb1871dd"></a>
+<a id="orgdbb00b5"></a>
 
 ## Abuse
 
 -   [ ] <code>[25%]</code> <https://github.com/RescueSocialTech/Domestic_Abuse_Simulations>
 
 
-<a id="org4a24f1b"></a>
+<a id="orgbf45bc9"></a>
 
 ## Climate Change and Disaster Management
 
 -   [ ] <code>[10%]</code> [Personal Emergency Management](https://frdcsa.org/~andrewdo/ontolog-20220410-reduced.mp4)
 
 
-<a id="orgb7e0dc3"></a>
+<a id="orgc5b5d59"></a>
 
 # Major Technologies Used
 
@@ -1306,12 +1306,12 @@ promiseToPayForSpec('ELEC',andrewDougherty,'<ELECTRICCOMPANY>',dollars(93.00),[c
         -   ✅ [Bark](https://github.com/suno-ai/bark) TTS (Text To Speech)
 
 
-<a id="org089a396"></a>
+<a id="orgf09ce7c"></a>
 
 # More Info
 
 
-<a id="org064d04c"></a>
+<a id="org9623d71"></a>
 
 ## More Use Cases
 
@@ -1324,7 +1324,7 @@ promiseToPayForSpec('ELEC',andrewDougherty,'<ELECTRICCOMPANY>',dollars(93.00),[c
 -   Generating a complex monthly financial plan with contingencies for unexpected expenses and if certain income doesn't come through
 
 
-<a id="org3c63d9a"></a>
+<a id="orgf25844b"></a>
 
 ## Recognition
 
@@ -1333,26 +1333,26 @@ promiseToPayForSpec('ELEC',andrewDougherty,'<ELECTRICCOMPANY>',dollars(93.00),[c
 -   [Testimonials](https://altruisticsoftware.org/frdcsa/#testimonials)
 
 
-<a id="orgb3bcb47"></a>
+<a id="orga7e0087"></a>
 
 ## Links
 
 
-<a id="org8a82486"></a>
+<a id="org93e855d"></a>
 
 ### Screenshots
 
 -   <https://github.com/aindilis/free-life-planner#a-few-screenshots>
 
 
-<a id="org23cc105"></a>
+<a id="org9359f3a"></a>
 
 ### Subsystems
 
 -   <https://github.com/aindilis/free-life-planner#flp-subsystems>
 
 
-<a id="orgdcdff77"></a>
+<a id="org631962d"></a>
 
 ### More Links
 
