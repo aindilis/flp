@@ -1,635 +1,83 @@
 
 # Table of Contents
 
-    1.  [Overview](#org30ca07d)
-        1.  [🌟 Introduction <a name="introduction"></a>](#orgbabab74)
-        2.  [🏗️ System Architecture <a name="system-architecture"></a>](#org4dd7111)
-        3.  [🧩 Key Components <a name="key-components"></a>](#org82c826f)
-        4.  [🔍 Subsystem Overview <a name="subsystem-overview"></a>](#org6a9e541)
-        5.  [🛣️ Development Roadmap <a name="development-roadmap"></a>](#orgbaa0b2c)
-        6.  [🤝 Contributing <a name="contributing"></a>](#org4f3eefa)
-        7.  [📜 License <a name="license"></a>](#orgedcfeac)
-1.  [Summarized Reference](#org25596cf)
-    1.  [1. Introduction <a name="introduction"></a>](#org0d400f8)
-        1.  [Purpose](#org8df11b7)
-        2.  [User Base](#org4f6c906)
-        3.  [Sample Use Cases](#org779a31e)
-        4.  [Status](#orgf17fdd7)
-    2.  [2. Features <a name="features"></a>](#orge5b7105)
-        1.  [Voice Assistant <a name="voice-assistant"></a>](#org9d1672a)
-        2.  [Workflow Manager <a name="workflow-manager"></a>](#orgcc14e1d)
-        3.  [Health <a name="health"></a>](#org534544c)
-        4.  [Time Management <a name="time-management"></a>](#org2255721)
-        5.  [Organization <a name="organization"></a>](#org3152437)
-        6.  [Self-Discipline <a name="self-discipline"></a>](#org9266632)
-        7.  [Transportation, Shopping, and Errands <a name="transportation-shopping-errands"></a>](#org1df0bee)
-        8.  [Document Management <a name="document-management"></a>](#org3796a98)
-        9.  [Financial Planner <a name="financial-planner"></a>](#org04d4637)
-        10. [Emergency Preparedness <a name="emergency-preparedness"></a>](#org761733a)
-        11. [Employment <a name="employment"></a>](#orga7fa8cb)
-        12. [Executive Function <a name="executive-function"></a>](#org20801d8)
-    3.  [3. Future Work <a name="future-work"></a>](#org2ba44e4)
-    4.  [4. Special Use Cases <a name="special-use-cases"></a>](#orge35485d)
-    5.  [5. Major Technologies Used <a name="major-technologies"></a>](#orga7e4db3)
-    6.  [6. Additional Resources <a name="additional-resources"></a>](#orgf6a129a)
-        1.  [Use Cases <a name="use-cases"></a>](#org6ee5f16)
-        2.  [Recognition <a name="recognition"></a>](#orge6e9afc)
-        3.  [Links <a name="links"></a>](#orgaf85214)
-2.  [Technical Overview](#org6bd5a3e)
-    1.  [THIS REFERENCE MANUAL IS UNDER CONSTRUCTION](#orga7d0fef)
-3.  [Links](#org6d94052)
-4.  [You are at the ReferenceManual.md](#orge5b26f0)
-5.  [Reference Manual Contents](#org708a22d)
-6.  [Introduction](#org1c6b6f4)
-    1.  [Purpose](#org0f8bb51)
-    2.  [User Base](#orge58ade1)
-    3.  [Sample Use Cases](#orgce1a673)
-    4.  [Status](#orga001f40)
-7.  [Features](#org63c475d)
-    1.  [Voice Assistant](#orgd03f320)
-    2.  [Workflow Manager](#org250cbbb)
-    3.  [Health](#org8db0096)
-        1.  [Evidence-Based Wellness](#orgf41eba4)
-        2.  [Exercise](#org1a3c2bf)
-        3.  [Nutrition](#org35a3521)
-        4.  [Doctor's Visits and Orders](#org6243786)
-        5.  [Medications](#org265d686)
-        6.  [Mental Health](#org4d9a2ea)
-    4.  [Time Management](#org8f0ab44)
-        1.  [Recurrences](#orgdf56513)
-        2.  [Calendaring](#orgd2e40af)
-        3.  [Planning, Scheduling and Execution](#orged7fd83)
-    5.  [Organization](#org5eef719)
-        1.  [Inventory Management](#org1e9a6b6)
-        2.  [Adulting](#org49724d3)
-        3.  [Communication Management](#org761c646)
-        4.  [Chore Charting](#org30b4ab8)
-        5.  [Maintenance](#orgbc3e55d)
-        6.  [Smart Home](#orgc7a0067)
-        7.  [Research and Development](#orgf2c3fc0)
-    6.  [Self-Discipline](#org7c536e3)
-        1.  [To-Do](#org52e9f5e)
-        2.  [Checklists](#orgc70609b)
-        3.  [Note-Taking](#orgc5be000)
-        4.  [Scheduling](#org27470b2)
-        5.  [Self-Discipline State Machine](#orgd7810c0)
-        6.  [Gamification](#orgdb3bcc8)
-        7.  [Movement Discipline](#org2121f01)
-    7.  [Transportation/Shopping/Errands](#org2177195)
-        1.  [Transportation](#orgbd1b9ef)
-        2.  [Shopping/Errands](#org9f39b6c)
-    8.  [Document Management](#org2d271c6)
-    9.  [Financial Planner](#orgc98b0d9)
-    10. [Emergency Preparedness](#org3b8c6ad)
-    11. [Employment](#orgd80ceba)
-    12. [Executive Function](#org24d05d0)
-8.  [Future Work](#org7692ccc)
-    1.  [Integrations](#org549d8ee)
-9.  [Special Use Cases](#org62ca0e3)
-    1.  [Homelessness](#orgb65cc5f)
-    2.  [Illness](#orgce3b95a)
-    3.  [Insolvency](#org1d9c0a9)
-    4.  [Abuse](#org97f836f)
-    5.  [Climate Change and Disaster Management](#org8465c3e)
-10. [Major Technologies Used](#org452076c)
-11. [More Info](#orga4cbcc4)
-    1.  [More Use Cases](#org4504b99)
-    2.  [Recognition](#orgc6a49a1)
-    3.  [Links](#org3fbecd3)
-        1.  [Screenshots](#org6c6ed0c)
-        2.  [Subsystems](#org2c7aa9f)
-        3.  [More Links](#orgc1e6343)
-
-
-<a id="org30ca07d"></a>
-
-## Overview
-
-Welcome to the Free Life Planner (FLP) Reference Manual! This
-comprehensive guide is designed to provide a detailed overview of
-FLP's architecture, capabilities, and ongoing development. Whether
-you're a developer, researcher, or simply curious about the project,
-this manual will help you understand the inner workings of FLP and how
-it can be leveraged to improve lives.
-
-
-<a id="orgbabab74"></a>
-
-### 🌟 Introduction <a name="introduction"></a>
-
-The Free Life Planner (FLP) is an ambitious artificial intelligence
-project aimed at providing a comprehensive, open-source life
-management system. By integrating a wide range of AI techniques and
-tools, FLP empowers individuals, particularly those facing challenges
-or disadvantages, to navigate the complexities of daily life with
-greater ease and confidence.
-
-At its core, FLP is driven by the belief that everyone deserves access
-to the benefits of cutting-edge technology, regardless of their
-background or circumstances. By harnessing the power of AI for social
-good, FLP seeks to create a virtual safety net that promotes
-self-reliance, improves quality of life, and ultimately saves lives.
-
-
-<a id="org4dd7111"></a>
-
-### 🏗️ System Architecture <a name="system-architecture"></a>
-
-FLP is built upon a modular, extensible architecture that allows for
-the integration of diverse AI components and the continuous evolution
-of the system. The key architectural elements include:
-
--   **Knowledge Base**: A central repository of structured and
-    unstructured data that serves as the foundation for FLP's reasoning
-    and decision-making capabilities.
-
--   **Reasoning Engine**: A suite of AI algorithms and techniques,
-    including rule-based systems, machine learning models, and natural
-    language processing, that enable FLP to analyze, interpret, and draw
-    insights from the knowledge base.
-
--   **Planning and Scheduling**: Advanced planning and scheduling
-    algorithms that allow FLP to generate optimal strategies and action
-    sequences for achieving user goals and managing complex tasks.
-
--   **User Interface**: A multi-modal, intuitive interface that
-    facilitates seamless interaction between users and the FLP system,
-    including natural language communication, visual displays, and
-    mobile accessibility.
-
--   **Data Integration**: Robust mechanisms for integrating data from
-    various sources, such as sensors, databases, and APIs, to ensure
-    FLP's knowledge base remains up-to-date and comprehensive.
-
-
-<a id="org82c826f"></a>
-
-### 🧩 Key Components <a name="key-components"></a>
-
-FLP comprises several key components that work together to deliver its
-powerful capabilities:
-
-1.  **Prolog-Agent**: An intelligent situated agent that can navigate
-    computing environments, understand natural language, synthesize
-    programs, and learn through experimentation and study.
-
-2.  **Gourmet**: A sophisticated meal planning system that optimizes
-    nutrition, taste, cost, and effort using advanced AI techniques.
-
-3.  **Verber**: A powerful contingency planning and crisis management
-    system that models potential consequences of actions and generates
-    robust, fault-tolerant plans.
-
-4.  **Sayer and Thinker**: Cognitive systems that analyze and interpret
-    the meaning of arbitrary data structures and text, integrating
-    machine learning, natural language processing, and knowledge
-    representation.
-
-5.  **Temporal Reasoning**: Advanced techniques for reasoning about time,
-    events, and causality, enabling FLP to make informed decisions in
-    dynamic, evolving contexts.
-
-
-<a id="org6a9e541"></a>
-
-### 🔍 Subsystem Overview <a name="subsystem-overview"></a>
-
-FLP encompasses a wide array of subsystems, each focusing on a
-specific aspect of life management. Some of the key subsystems
-include:
-
--   **Finance**: Comprehensive tools for financial planning, budgeting,
-    and decision support.
-
--   **Health**: Modules for tracking medications, managing appointments,
-    and providing personalized health insights.
-
--   **Nutrition**: Advanced meal planning and pantry management
-    capabilities, powered by Gourmet.
-
--   **Transportation**: Intelligent tools for optimizing travel,
-    scheduling, and route planning.
-
--   **Home Automation**: Integration with smart home devices and sensors
-    for enhanced convenience and efficiency.
-
--   **Productivity**: Features for task management, goal setting, and
-    habit tracking, all designed to boost personal and professional
-    productivity.
-
-For a complete list of subsystems and their current development
-status, please refer to the [Subsystem
-Directory](<https://github.com/aindilis/free-life-planner#flp-subsystems>).
-
-
-<a id="orgbaa0b2c"></a>
-
-### 🛣️ Development Roadmap <a name="development-roadmap"></a>
-
-FLP is an ongoing, evolving project with an ambitious development
-roadmap. Some of the key milestones and priorities include:
-
-1.  **Enhanced Natural Language Interaction**: Improving FLP's ability to
-    understand and communicate using natural language, making the
-    system more accessible and user-friendly.
-
-2.  **Expanded Knowledge Base**: Continuously growing and refining FLP's
-    knowledge base to cover a broader range of domains and provide more
-    comprehensive support.
-
-3.  **Advanced Learning Capabilities**: Implementing advanced machine
-    learning techniques to enable FLP to learn from user interactions
-    and adapt to individual needs and preferences.
-
-4.  **Collaborative Planning**: Developing features that allow multiple
-    users to collaborate on shared goals and plans, fostering teamwork
-    and collective problem-solving.
-
-5.  **Mobile Optimization**: Enhancing FLP's mobile accessibility and
-    performance to ensure seamless usage across devices.
-
-For a more detailed breakdown of planned features and enhancements,
-please consult the [Development
-Roadmap](<https://github.com/aindilis/free-life-planner#development-roadmap>).
-
-
-<a id="org4f3eefa"></a>
-
-### 🤝 Contributing <a name="contributing"></a>
-
-FLP thrives on collaboration and community involvement. We welcome
-contributions from developers, researchers, domain experts, and anyone
-passionate about harnessing AI for social good. Some ways to get
-involved include:
-
--   **Code Contributions**: Help us improve FLP's codebase by submitting
-    pull requests, fixing bugs, or implementing new features.
-
--   **Testing and Feedback**: Participate in testing FLP's components and
-    provide valuable feedback to help us refine the system.
-
--   **Documentation**: Assist in creating and maintaining comprehensive
-    documentation to make FLP more accessible and understandable.
-
--   **Research**: Contribute to advancing the underlying AI techniques and
-    approaches that power FLP.
-
--   **Outreach**: Help spread the word about FLP and advocate for its
-    adoption in communities that could benefit from its capabilities.
-
-For detailed guidelines on how to contribute, please refer to our
-[Contributing
-Guide](<https://github.com/aindilis/free-life-planner#contributing>).
-
-
-<a id="orgedcfeac"></a>
-
-### 📜 License <a name="license"></a>
-
-FLP is released under the [GNU General Public License
-v3.0](<https://www.gnu.org/licenses/gpl-3.0.en.html>), ensuring that it
-remains free and open-source software. By contributing to FLP, you
-agree to release your contributions under the same license.
-
----
-
-We hope this Reference Manual serves as a valuable resource for
-understanding and engaging with the Free Life Planner
-project. Together, we can leverage the power of AI to create a more
-equitable, supportive, and opportunity-filled world for all.
-
-If you have any questions, ideas, or feedback, please don't hesitate
-to reach out to our team. Thank you for your interest in FLP, and we
-look forward to collaborating with you!
-
----
-
-
-<a id="org25596cf"></a>
-
-# Summarized Reference
-
-🌟 Free Life Planner (FLP) Summarized Reference Manual 🌟
-
-
-<a id="org0d400f8"></a>
-
-## 1. Introduction <a name="introduction"></a>
-
-The Free Life Planner (FLP) is a comprehensive, AI-driven life management system designed to help individuals navigate the complexities of daily life. By integrating a wide array of tools and technologies, FLP aims to provide personalized support and guidance across various domains, promoting self-reliance and improving overall quality of life.
-
-
-<a id="org8df11b7"></a>
-
-### Purpose
-
--   Assist with the logistics of daily living, such as securing food, medicine, finances, transportation, and health
--   Offer short, medium, and long-term life planning capabilities
--   Serve as a cognitive prosthesis for executive function, particularly for individuals with ADHD, autism, schizophrenia, dementia, and other conditions
--   Function as a "life manual" or "skills for living life" resource
-
-
-<a id="org4f6c906"></a>
-
-### User Base
-
-While FLP is intended for general use, it is particularly beneficial for individuals facing challenges or disadvantages, such as:
-
--   People with disabilities or pervasive developmental disorders
--   Those living in poverty or experiencing financial hardship
--   Individuals with chronic illnesses or medical conditions
--   People experiencing homelessness
--   Victims of relationship violence, persecution, hate, war, political oppression, or natural/man-made disasters
--   Immigrants and refugees
-
-
-<a id="org779a31e"></a>
-
-### Sample Use Cases
-
-For a more detailed look at how FLP can be applied in real-life scenarios, please refer to the following:
-
--   [Homeless Story](<https://frdcsa.org/~andrewdo/writings/homeless-story.html>)
--   [Health Story](<https://frdcsa.org/~andrewdo/writings/health-story.html>)
--   [More Use Cases](#use-cases)
-
-
-<a id="orgf17fdd7"></a>
-
-### Status
-
-The FLP team is currently working on releasing the latest version of the system on GitHub, with a focus on ensuring interoperability between all subsystems.
-
-
-<a id="orge5b7105"></a>
-
-## 2. Features <a name="features"></a>
-
-
-<a id="org9d1672a"></a>
-
-### Voice Assistant <a name="voice-assistant"></a>
-
-FLP includes an interactive voice assistant, powered by both Alexa and Rhasspy, which offers:
-
--   Networked/online access (Alexa) and air-gapped/offline access (Rhasspy)
--   Automatic speech recognition and speech-to-text capabilities
--   Text-to-speech functionality using coqui-ai/TTS and Bark
--   Support for single-step and multi-step dialogues
--   Integration with large language models for question answering
-
-
-<a id="orgcc14e1d"></a>
-
-### Workflow Manager <a name="workflow-manager"></a>
-
-The Workflow Manager is an overarching tool that guides users through necessary tasks, featuring:
-
--   PDDL-based planning for creating linear paths through FLP to achieve objectives
--   Integration with AgentSpeak for metaplanning and contingency planning
--   Support for dynamic addition and removal of goals with replanning capabilities
-
-
-<a id="org534544c"></a>
-
-### Health <a name="health"></a>
-
-FLP's health-related features cover a wide range of areas, including:
-
--   Evidence-based wellness: Medical Q&A, data collection, user modeling, prevention, early detection, diagnostics, and treatments
--   Exercise: Fitness manager, interactive plan monitoring, and progress tracking
--   Nutrition: Comprehensive meal planning system (Gourmet), inventory management, specialty diet support, and recipe management
--   Doctor's visits and orders: Appointment scheduling, medical diagnostics, adherence tracking, and question answering
--   Medications: Reminders, planning, tracking, monitoring, and refill management
--   Mental health: Psychotherapy aid, emotional security, psychometric reporting, symptom tracking, and condition-specific support
-
-
-<a id="org2255721"></a>
-
-### Time Management <a name="time-management"></a>
-
-FLP offers a suite of tools for effective time management, such as:
-
--   Recurrences: Support for scheduling tasks and events on specific dates, days of the week, and at regular intervals
--   Calendaring: Appointment scheduling, chore scheduling, and integration with various calendar formats (e.g., Org-agenda, Google Calendar, ICS)
--   Planning, scheduling, and execution: Workflow management, metaplanning, temporal planning, contingent planning, oversubscription planning, behavior tree reactive planning, and BDI reactive planning
-
-
-<a id="org3152437"></a>
-
-### Organization <a name="organization"></a>
-
-FLP assists users with various organizational tasks, including:
-
--   Inventory management: Supplier tracking, pantry management, expiration date tracking, and shopping list generation
--   Adulting: Support for activities of daily living (ADLs) and instrumental activities of daily living (IADLs)
--   Communication management: Proxying communications, dossier system, relationship management, persuasion, and team building
--   Chore charting: Comprehensive chore lists, scheduling, reminders, tracking, and gamification
--   Maintenance: Household and automotive maintenance scheduling and tracking
--   Smart home: Integrated shelter management, sensor networks, security and surveillance, smart lighting control, event logging and inference, and reactive systems
--   Research and development: Academician system, study system, intelligent tutoring, and automatic argument mining and construction
-
-
-<a id="org9266632"></a>
-
-### Self-Discipline <a name="self-discipline"></a>
-
-FLP includes various tools to help users develop and maintain self-discipline, such as:
-
--   To-do lists: Org and Org-agenda, the "Do" system, and integration with other task management tools
--   Checklists: Daily activity checklists and interfaces for marking off completed items
--   Note-taking: Org-mode and Zettelkasten (Cyc-ZK) support
--   Scheduling: PDDL-based scheduling, automatic task scheduling using temporal planning algorithms, and deadline management
--   Self-discipline state machine: Ensuring user readiness for tasks and assisting with habit formation
--   Gamification: Rewards, penalties, adherence tracking, and productivity incentives
--   Movement discipline: Optional mode requiring premeditation before changing locations
-
-
-<a id="org1df0bee"></a>
-
-### Transportation, Shopping, and Errands <a name="transportation-shopping-errands"></a>
-
-FLP offers support for transportation, shopping, and errands, including:
-
--   Transportation: Developing transportation plans, API mashups for hours of operation, weather, and route planning, reverse geocoding, and location-based reminders
--   Shopping and errands: Shopping list management, financial integration, inventory and pantry management, ethical consumerism, online and brick-and-mortar shopping support, and personal selling system
-
-
-<a id="org3796a98"></a>
-
-### Document Management <a name="document-management"></a>
-
-FLP's document management capabilities include:
-
--   Scanning and OCR for paperwork, with cross-referencing to schedules and confidentiality maintenance
--   Integration of document-related tasks into the Workflow Manager
--   Date and time reference extraction (using TIMEX3)
--   Git-based backup and version control
--   Digital library system for equipment manuals and other documents
-
-
-<a id="org04d4637"></a>
-
-### Financial Planner <a name="financial-planner"></a>
-
-FLP's financial planner offers a wide range of features, such as:
-
--   Long-term financial forecasting based on recurring transactions and automated detection from OFX exports
--   Integration of expected financial transactions with the primary agenda on a calendar
--   Temporal metric planning for finances
--   Purchase decision support system and broker buy/sell system
--   Contingency planning for various financial problems (e.g., unexpected delays, overcharges, cash flow issues)
--   Abduction of recurrences and predicted events from bank statements
--   Interactive execution monitoring (IEM2) for guiding users through financial plans
--   Integration with SPSE2 and PSEx3 for comprehensive task and finance management
--   Financial alerts and real-time bank information display
--   Personal accounting, budgeting, and bill payment subsystem
-
-
-<a id="org761733a"></a>
-
-### Emergency Preparedness <a name="emergency-preparedness"></a>
-
-FLP assists users with emergency preparedness by:
-
--   Helping users stay on top of emergency planning and analyzing situation-specific risks
--   Providing guidance on preparing emergency kits, "bug-out bags," and food and water supplies
--   Offering safety plans and drills for various emergencies (e.g., fire, pandemic, food and water shortages)
--   Utilizing recurrences for reminders to maintain equipment, supplies, plans, and drills
-
-
-<a id="orga7fa8cb"></a>
-
-### Employment <a name="employment"></a>
-
-FLP's employment-related features include:
-
--   Time tracking for work-related tasks
--   Job search assistance, including semi-automatic job applications, resume generation, and tailored resumes for specific job postings
--   Negotiation training and support
-
-
-<a id="org20801d8"></a>
-
-### Executive Function <a name="executive-function"></a>
-
-FLP serves as a cognitive prosthesis for executive function, offering:
-
--   Intelligence augmentation through learning (educational and empirical)
--   Problem-solving support and goal-setting assistance
--   Integration with the Prolog-Agent intelligent situated agent/softbot for enhanced reasoning and task completion
-
-
-<a id="org2ba44e4"></a>
-
-## 3. Future Work <a name="future-work"></a>
-
-The FLP team is continuously working on improving and expanding the system's capabilities. Some planned future work includes:
-
--   FLP-2.0 automatic refactoring/rewrite using MetaGPT-like program synthesis
--   Integration with Eurisko and AM-UTEXAS for IAEC (Intelligent Autonomous Exploratory Creativity)
--   Incorporation of TraCE-lite and Symbolic-OSP for enhanced planning capabilities
--   Integration with s(CASP) for Event Calculus and commonsense reasoning
--   FreeKBS2/Prolog context/microtheory support for more efficient knowledge representation
--   Improved privacy features, including HIPAA compliance, encryption (data-at-rest, in-memory, and full-disk), and enhanced security methodologies (principle of least privilege, additional security partitioning)
-
-
-<a id="orge35485d"></a>
-
-## 4. Special Use Cases <a name="special-use-cases"></a>
-
-FLP is designed to be particularly helpful for individuals facing specific challenges, such as:
-
--   Homelessness: [Homeless Story](<https://frdcsa.org/~andrewdo/writings/homeless-story.html>), [Helping the Homeless](<https://frdcsa.org/~andrewdo/WebWiki/FreeLifePlanner.html>), [Pioneer Contest Week 4 Update](<https://frdcsa.org/~andrewdo/writings/flp-update-4.html>), [Pioneer Application](<https://frdcsa.org/~andrewdo/writings/pioneer.app/Application.html>)
--   Illness: [Health Story](<https://frdcsa.org/~andrewdo/writings/health-story.html>), [Akahige](<https://frdcsa.org/frdcsa/internal/akahige>) (10% complete)
--   Insolvency: [Financial Planner](#financial-planner) (25% complete)
--   Abuse: [Domestic Abuse Simulations](<https://github.com/RescueSocialTech/Domestic_Abuse_Simulations>) (25% complete)
--   Climate Change and Disaster Management: [Personal Emergency Management](<https://frdcsa.org/~andrewdo/ontolog-20220410-reduced.mp4>) (10% complete)
-
-
-<a id="orga7e4db3"></a>
-
-## 5. Major Technologies Used <a name="major-technologies"></a>
-
-FLP integrates a wide range of technologies, including but not limited to:
-
--   SWI-Prolog: Julian time library, CLP(fd) (Constraint Logic Programming), QLF (Quick Load Format) (50% complete)
--   Perl: YASWI (Yet Another interface to SWI-Prolog), Catalyst MVC (Model/View/Controller), ShinyCMS (Content Management System), Mojolicious
--   Java: JavaPengine (Java<->SWI-Prolog), Jason/AgentSpeak(L), JPL (Java Prolog Library?), Alexa voice skill interface, Cyc Java API<->Inline Perl
--   Python: Py4J (Python For Java), python-agentspeak
--   Bash scripting
--   Emacs integration
--   PDDL 2.2 temporal metric planning: LPG-td-1.0, OPTICCLP (Optimizing Preferences and Time-Dependent Costs)
--   Vampire-KIF (Knowledge Interchange Format) ATP (Automated Theorem Proving) system
--   SUMO (Suggested Upper Merged Ontology)
--   OpenCyc
--   MariaDB/MySQL persistence: Through UniLang/FreeKBS2 (Universal Language) (Free Knowledge Based System v2), directly from SWI-Prolog using ODBC (Open DataBase Connectivity) (50% complete)
--   Inform7 (33% complete)
--   Large Language Models (LLMs): Mistral Instruct 7B, WizardLM, Code Llama 34B (Llama.cpp), LLEMMA 7B
--   Rhasspy Voice Assistant integration: whisper-rhasspy-http plugin, Whisper ASR/STT plugin (Automatic Speech Recognition, Speech To Text), coqui-ai/TTS (Text To Speech), Bark TTS (Text To Speech)
-
-
-<a id="orgf6a129a"></a>
-
-## 6. Additional Resources <a name="additional-resources"></a>
-
-
-<a id="org6ee5f16"></a>
-
-### Use Cases <a name="use-cases"></a>
-
--   Remembering to take the trash out before the trash truck arrives
--   Getting an automatic notification to stock up on groceries before a predicted storm hits, including the list of groceries needed
--   Remembering to send a copy of completed paperwork to one's doctor
--   Recalling and adhering to doctor's instructions, aided by machine comprehension software in a paperless office setting
--   Reminders for working on taxes and changing air filters
--   Identifying plans that violate moral and ethical constraints
--   Generating a complex monthly financial plan with contingencies for unexpected expenses and potential income disruptions
-
-
-<a id="orge6e9afc"></a>
-
-### Recognition <a name="recognition"></a>
-
--   [Pioneer Results](![img](https://frdcsa.org/~andrewdo/projects/1stPlace.jpg))
--   [Pioneer Email](<https://frdcsa.org/~andrewdo/projects/pioneer-email.txt>)
--   [Testimonials](<https://altruisticsoftware.org/frdcsa/#testimonials>)
-
-
-<a id="orgaf85214"></a>
-
-### Links <a name="links"></a>
-
--   [FLP Paper](<https://frdcsa.org/~andrewdo/flp-jwas-article-draft-1.pdf>)
--   [FLP Code Repository](<https://github.com/aindilis/free-life-planner>)
--   [FRDCSA Panoply Git VM](<https://github.com/aindilis/frdcsa-panoply-git-20200329>)
--   [Homeless Story](<https://frdcsa.org/~andrewdo/writings/homeless-story.html>)
--   [Recent FLP Talk](<https://ontologforum.org/index.php/ConferenceCall_2022_04_20>) ([Video](<https://frdcsa.org/~andrewdo/ontolog-20220410-reduced.mp4>))
--   [FRDCSA Release](<https://github.com/aindilis/frdcsa-installer>)
--   [EmacsConf2019 Talk on FRDCSA/FLP/Panoply](<https://frdcsa.org/~andrewdo/frdcsa-emacsconf2019-final.webm>)
--   [Interactive Plan Monitoring](<https://github.com/aindilis/plan-monitor>)
--   [Interactive Execution Monitor (IEM) Demo 1](<https://frdcsa.org/~andrewdo/iem2-2.mp4>), [IEM Demo 2](<https://frdcsa.org/~andrewdo/iem2-3.mp4>)
--   [Early FLP Demo](<https://www.youtube.com/watch?v=t_dCAlf26LE>)
--   [FRDCSA Paper](<https://frdcsa.org/~andrewdo/pioneer/wk1/frdcsa.pdf>)
--   [FLP Paper (outdated)](<https://frdcsa.org/~andrewdo/pioneer/wk1/flp.pdf>)
--   [SPSE2 Paper](<https://frdcsa.org/visual-aid/pdf/Temporal-Planning-and-Inferencing-for-Personal-Task-Management-with-SPSE2.pdf>)
--   [Financial Planning Submodule](<https://github.com/aindilis/financial-planning#projected-transactions-for-florence-tucker>)
--   [Meal Planning Submodule](<https://frdcsa.org/~andrewdo/WebWiki/MealPlanningResources.html>)
-
----
-
-
-<a id="org6bd5a3e"></a>
+1.  [Technical Overview](#orge46999d)
+    1.  [THIS REFERENCE MANUAL IS UNDER CONSTRUCTION](#orgffe3882)
+2.  [Links](#org4dfea1b)
+3.  [You are at the ReferenceManual.md](#org65f3974)
+4.  [Reference Manual Contents](#org4ada07d)
+5.  [Introduction](#orgfe14406)
+    1.  [Purpose](#orgad3899a)
+    2.  [User Base](#org7f80e4c)
+    3.  [Sample Use Cases](#org9f21846)
+    4.  [Status](#org540c664)
+6.  [Features](#org361b422)
+    1.  [Voice Assistant](#orga2d05a3)
+    2.  [Workflow Manager](#orgaf08aa9)
+    3.  [Health](#org02206b8)
+        1.  [Evidence-Based Wellness](#org47e794f)
+        2.  [Exercise](#orgb3fe7c4)
+        3.  [Nutrition](#org177f4df)
+        4.  [Doctor's Visits and Orders](#orgd760240)
+        5.  [Medications](#org42ec1d8)
+        6.  [Mental Health](#org488f490)
+    4.  [Time Management](#orgf344e3a)
+        1.  [Recurrences](#org7f8a967)
+        2.  [Calendaring](#org747c555)
+        3.  [Planning, Scheduling and Execution](#org822eb07)
+    5.  [Organization](#org18e0c72)
+        1.  [Inventory Management](#org5c252fc)
+        2.  [Adulting](#orgab29cdc)
+        3.  [Communication Management](#org6932ed4)
+        4.  [Chore Charting](#org6b6b829)
+        5.  [Maintenance](#org3e3c3a0)
+        6.  [Smart Home](#org5b0de8a)
+        7.  [Research and Development](#org8add76f)
+    6.  [Self-Discipline](#orgd10b28a)
+        1.  [To-Do](#org44118ce)
+        2.  [Checklists](#orgcb0e9d9)
+        3.  [Note-Taking](#org3782950)
+        4.  [Scheduling](#org03ea38b)
+        5.  [Self-Discipline State Machine](#org91438bb)
+        6.  [Gamification](#org0ac19e1)
+        7.  [Movement Discipline](#org7be2a6d)
+    7.  [Transportation/Shopping/Errands](#orgc0d0c43)
+        1.  [Transportation](#orgc4893b3)
+        2.  [Shopping/Errands](#orgccc27a6)
+    8.  [Document Management](#org3ec204b)
+    9.  [Financial Planner](#org4fed8ae)
+    10. [Emergency Preparedness](#orga732622)
+    11. [Employment](#orgcce44a7)
+    12. [Executive Function](#orgcb18567)
+7.  [Future Work](#orgb0a186b)
+    1.  [Integrations](#orga593c9d)
+8.  [Special Use Cases](#org0218dda)
+    1.  [Homelessness](#org24097b4)
+    2.  [Illness](#org8076662)
+    3.  [Insolvency](#orgd008c2a)
+    4.  [Abuse](#orgdcec5ac)
+    5.  [Climate Change and Disaster Management](#org6e6d768)
+9.  [Major Technologies Used](#orgc95c72b)
+10. [More Info](#org499290e)
+    1.  [More Use Cases](#org12cba62)
+    2.  [Recognition](#org7becf39)
+    3.  [Links](#org9d46ae8)
+        1.  [Screenshots](#org105e2d2)
+        2.  [Subsystems](#orgffcd9e3)
+        3.  [More Links](#org0ac9635)
+
+
+<a id="orge46999d"></a>
 
 # Technical Overview
 
 
-<a id="orga7d0fef"></a>
+<a id="orgffe3882"></a>
 
 ## THIS REFERENCE MANUAL IS UNDER CONSTRUCTION
 
 
-<a id="org6d94052"></a>
+<a id="org4dfea1b"></a>
 
 # Links
 
@@ -642,22 +90,22 @@ FLP integrates a wide range of technologies, including but not limited to:
     -   The paper ["The Free Life Planner: A Virtual Secondary Social Safety Net"](https://frdcsa.org/~andrewdo/flp-jwas-article-draft-1.pdf)
 
 
-<a id="orge5b26f0"></a>
+<a id="org65f3974"></a>
 
 # You are at the ReferenceManual.md
 
 
-<a id="org708a22d"></a>
+<a id="org4ada07d"></a>
 
 # Reference Manual Contents
 
 
-<a id="org1c6b6f4"></a>
+<a id="orgfe14406"></a>
 
 # Introduction
 
 
-<a id="org0f8bb51"></a>
+<a id="orgad3899a"></a>
 
 ## Purpose
 
@@ -670,7 +118,7 @@ FLP integrates a wide range of technologies, including but not limited to:
 -   A "life manual" / "skills for living life"
 
 
-<a id="orge58ade1"></a>
+<a id="org7f80e4c"></a>
 
 ## User Base
 
@@ -693,16 +141,16 @@ FLP integrates a wide range of technologies, including but not limited to:
     -   Other demographics not here accounted for
 
 
-<a id="orgce1a673"></a>
+<a id="org9f21846"></a>
 
 ## Sample Use Cases
 
 -   [Homeless Story](https://frdcsa.org/~andrewdo/writings/homeless-story.html)
 -   [Health Story](https://frdcsa.org/~andrewdo/writings/health-story.html)
--   [More Use Cases](#org4504b99)
+-   [More Use Cases](#org12cba62)
 
 
-<a id="orga001f40"></a>
+<a id="org540c664"></a>
 
 ## Status
 
@@ -710,12 +158,12 @@ FLP integrates a wide range of technologies, including but not limited to:
 -   Interoperability between all systems
 
 
-<a id="org63c475d"></a>
+<a id="org361b422"></a>
 
 # Features
 
 
-<a id="orgd03f320"></a>
+<a id="orga2d05a3"></a>
 
 ## Voice Assistant
 
@@ -756,7 +204,7 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
     -   [ ] <code>[10%]</code> [DIT](https://dit.uvt.nl), [Regulus](https://sf.net/p/regulus), [Trindikit](https://sf.net/p/trindikit), etc
 
 
-<a id="org250cbbb"></a>
+<a id="orgaf08aa9"></a>
 
 ## Workflow Manager
 
@@ -801,12 +249,12 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
 </pre>
 
 
-<a id="org8db0096"></a>
+<a id="org02206b8"></a>
 
 ## Health
 
 
-<a id="orgf41eba4"></a>
+<a id="org47e794f"></a>
 
 ### Evidence-Based Wellness
 
@@ -817,7 +265,7 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
 2.  Data Collection and User Modeling
 
     -   [ ] <code>[50%]</code> Record / create an inventory of all user's medical symptoms
-        -   [ ] List conditions, [medications](#org265d686) and their effects
+        -   [ ] List conditions, [medications](#org42ec1d8) and their effects
         -   [ ] Inventory medication effects, side-effects and risks
     -   [ ] SNA of providers (Social Network Analysis)
         -   [ ] Who they they are, what they do, what they advise and how often we need to visit
@@ -867,7 +315,7 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
         -   [ ] Argumentation-based deliberation regarding the validation of planned treatments
 
 
-<a id="org1a3c2bf"></a>
+<a id="orgb3fe7c4"></a>
 
 ### Exercise
 
@@ -881,7 +329,7 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
             -   ✅ "Alexa, tell David - Andrew did his morning exercises"
 
 
-<a id="org35a3521"></a>
+<a id="org177f4df"></a>
 
 ### Nutrition
 
@@ -902,15 +350,15 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
         -   ✅ Using [FDC](https://fdc.nal.usda.gov/) csvs converted to Prolog KB (Food Data Central)
         -   ✅ Using Nutritionix
             -   [ ] Working (but offline due to air-gapping development server)
-    -   [ ] [Inventory Management](#org1e9a6b6)
+    -   [ ] [Inventory Management](#org5c252fc)
         -   [ ] User modeling
-            -   [ ] <code>[40%]</code> [Self-discipline](#org7c536e3) coach software
+            -   [ ] <code>[40%]</code> [Self-discipline](#orgd10b28a) coach software
                 -   [ ] For hitting macros
                 -   [ ] Understanding psychology of users' relationships to food
             -   ✅ Helping w/ Portion control
                 -   ✅ Door sensor alerts on fridge and freezer
                 -   [ ] <code>[20%]</code> Follow up dialog regarding intent when fridge and freezer accessed
-                -   [ ] [Gamification](#orgdb3bcc8)
+                -   [ ] [Gamification](#org0ac19e1)
             -   [ ] Specifically checking for common symptoms known to affect the user, like gerd, lactose intolerance, etc
                 -   [ ] Inference existence of food sensitivities
             -   [ ] Nutritional temporal records
@@ -968,7 +416,7 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
         -   [ ] <code>[25%]</code> Bill splitter
 
 
-<a id="org6243786"></a>
+<a id="orgd760240"></a>
 
 ### Doctor's Visits and Orders
 
@@ -979,7 +427,7 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
     -   ✅ Q&A system for asking things like when is my next appointment
 -   [ ] [Medical diagnostics](https://github.com/timhannifan/symptom-tree/issues/1)
 -   [ ] <code>[40%]</code> Following doctors' orders
-    -   ✅ Scan into [Document Management System](#org2d271c6) for managing (among other things) medical records
+    -   ✅ Scan into [Document Management System](#org3ec204b) for managing (among other things) medical records
     -   [ ] <code>[90%]</code> Ensuring compliance via [Machine Reading Comprehension](https://paperswithcode.com/task/machine-reading-comprehension)
         -   ✅ Using [WizardLM](https://github.com/nlpxucan/WizardLM) to extract instructions from documents
         -   ✅ Converting orders into an BT (Behavior Tree)
@@ -994,11 +442,11 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
     -   [ ] Patient advocate to detect potential confusion or foul-ups due to communication breakdowns between patients, doctors and other doctors
 -   [ ] For when a physician is unavailable
     -   [ ] Diagnostic expert system
-        -   [ ] [Diagnostics and Treatments](#org99ac97f)
+        -   [ ] [Diagnostics and Treatments](#org218ea61)
     -   [ ] First aid course of action system
 
 
-<a id="org265d686"></a>
+<a id="org42ec1d8"></a>
 
 ### Medications
 
@@ -1027,7 +475,7 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
                     -   [ ] <code>[75%]</code> Dialog execution monitoring using cell-phone
 
 
-<a id="org4d9a2ea"></a>
+<a id="org488f490"></a>
 
 ### Mental Health
 
@@ -1069,12 +517,12 @@ curGaeilgeArSeo(tell(Agent,Person,TokenizedStatement),Gaeilge) :-
     -   [ ] etc
 
 
-<a id="org8f0ab44"></a>
+<a id="orgf344e3a"></a>
 
 ## Time Management
 
 
-<a id="orgdf56513"></a>
+<a id="org7f8a967"></a>
 
 ### Recurrences
 
@@ -1095,7 +543,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
 </pre>
 
 
-<a id="orgd2e40af"></a>
+<a id="org747c555"></a>
 
 ### Calendaring
 
@@ -1124,7 +572,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
     -   ✅ Show on calendar possible date and time ranges for recurring transactions
 
 
-<a id="orged7fd83"></a>
+<a id="org822eb07"></a>
 
 ### Planning, Scheduling and Execution
 
@@ -1244,12 +692,12 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
     -   ✅ [Interactive Execution Monitoring](https://frdcsa.org/~andrewdo/iem2-3.mp4)
 
 
-<a id="org5eef719"></a>
+<a id="org18e0c72"></a>
 
 ## Organization
 
 
-<a id="org1e9a6b6"></a>
+<a id="org5c252fc"></a>
 
 ### Inventory Management
 
@@ -1283,7 +731,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
     -   [ ] Integration with planning and scheduling
 
 
-<a id="org49724d3"></a>
+<a id="orgab29cdc"></a>
 
 ### Adulting
 
@@ -1292,10 +740,10 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
 -   [ ] IADLs
     -   [ ] Chore charting
         -   [ ] <code>[35%]</code> Track who/what/where/when regarding chores
-        -   ✅ Implement rewards via [Gamification](#orgdb3bcc8)
+        -   ✅ Implement rewards via [Gamification](#org0ac19e1)
 
 
-<a id="org761c646"></a>
+<a id="org6932ed4"></a>
 
 ### Communication Management
 
@@ -1327,7 +775,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
         -   ✅ [SNA](http://www.casos.cs.cmu.edu/projects/ora/software.php) (Social Network Analysis)
 
 
-<a id="org30b4ab8"></a>
+<a id="org6b6b829"></a>
 
 ### Chore Charting
 
@@ -1340,7 +788,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
     -   [ ] <code>[66%]</code> Interactive plan execution using library of chore BTs (behavior trees)
 
 
-<a id="orgbc3e55d"></a>
+<a id="org3e3c3a0"></a>
 
 ### Maintenance
 
@@ -1352,7 +800,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
 -   ✅ Automotive maintenance schedule
 
 
-<a id="orgc7a0067"></a>
+<a id="org5b0de8a"></a>
 
 ### Smart Home
 
@@ -1390,8 +838,8 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
             
             -   [ ] <code>[10%]</code> Complex event detection
                 -   [ ] <code>[20%]</code> [RTEC](https://github.com/aartikis/RTEC) (Run Time Event Calculus)
-    -   [ ] [Home maintenance](#orgbc3e55d)
-    -   [ ] [Emergency preparedness](#org3b8c6ad)
+    -   [ ] [Home maintenance](#org3e3c3a0)
+    -   [ ] [Emergency preparedness](#orga732622)
     -   [ ] SVRE
         -   [ ] <code>[30%]</code> IPSVRE
             -   [ ] <code>[90%]</code> Management of many aspects of individual environments including: lighting, climate, distractions, productivity, etc.
@@ -1411,7 +859,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
     -   ✅ Automotive
 
 
-<a id="orgf2c3fc0"></a>
+<a id="org8add76f"></a>
 
 ### Research and Development
 
@@ -1423,12 +871,12 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
 -   Automatic Arugument Mining and Construction
 
 
-<a id="org7c536e3"></a>
+<a id="orgd10b28a"></a>
 
 ## Self-Discipline
 
 
-<a id="org52e9f5e"></a>
+<a id="org44118ce"></a>
 
 ### To-Do
 
@@ -1448,7 +896,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
     -   [ ] ([Score](https://github.com/aindilis/score), Lightspeed, [Normal-Form](https://github.com/aindilis/normal-form)/[Spark](https://github.com/aindilis/spark-frdcsa), Todo, PSE, Agenda, System-Planning, crontab, Task-Manager, PSE-x, todo-list-processor, [SPSE2](https://github.com/aindilis/spse), [SPSE2-Formalog](https://github.com/aindilis/spse2-formalog/), [FLP](https://github.com/aindilis/free-life-planner), [Do-Cyc](https://github.com/aindilis/do-cyc), Do-Pl)
 
 
-<a id="orgc70609b"></a>
+<a id="orgcb0e9d9"></a>
 
 ### Checklists
 
@@ -1459,7 +907,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
         -   <code>[80%]</code> FCMS WebUI log
 
 
-<a id="orgc5be000"></a>
+<a id="org3782950"></a>
 
 ### Note-Taking
 
@@ -1467,7 +915,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
 -   [ ] <code>[10%]</code> Cyc-ZK (Zettelkasten)
 
 
-<a id="org27470b2"></a>
+<a id="org03ea38b"></a>
 
 ### Scheduling
 
@@ -1480,7 +928,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
 -   ✅ Set deadlines
 
 
-<a id="orgd7810c0"></a>
+<a id="org91438bb"></a>
 
 ### Self-Discipline State Machine
 
@@ -1489,7 +937,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
 -   [ ] <code>[33%]</code> Use the digital twin and plan to choose from possible things to do
 
 
-<a id="orgdb3bcc8"></a>
+<a id="org0ac19e1"></a>
 
 ### Gamification
 
@@ -1498,7 +946,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
 -   ✅ [Manager](https://github.com/aindilis/manager)
 -   ✅ Rewards for completing recurrent tasks
 -   ✅ Daily penalty for leaving any recurrent tasks incomplete
--   ✅ Penalties for lack of [movement discipline](#org2121f01)
+-   ✅ Penalties for lack of [movement discipline](#org7be2a6d)
 -   [ ] <code>[50%]</code> Rewards for staying productive
 -   [ ] <code>[60%]</code> Adherence tracker
     -   ✅ Color coded labelled rectangles indicating the last accessed time of various FLP systems
@@ -1506,7 +954,7 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
         -   ✅ Determine which sensors have stopped working (e.g. dead battery)
 
 
-<a id="org2121f01"></a>
+<a id="org7be2a6d"></a>
 
 ### Movement Discipline
 
@@ -1514,12 +962,12 @@ hasRecurrenceSpec(critical(closeTheBooks),onDate(YMD),[9:0:0,13:0:0,17:0:0]) :-
     -   [ ] <code>[33%]</code> Optional mode where one must premeditate before moving to a different location
 
 
-<a id="org2177195"></a>
+<a id="orgc0d0c43"></a>
 
 ## Transportation/Shopping/Errands
 
 
-<a id="orgbd1b9ef"></a>
+<a id="orgc4893b3"></a>
 
 ### Transportation
 
@@ -1548,15 +996,15 @@ performAction(addToPendingTasks(Agent,unsilenceCellPhone(Agent,Phone))) :-
         hasRecentlyPerformedAction(Agent,silenceCellPhone(Agent,Phone)).
 </pre>
 
--   ✅ [Movement discipline](#org2121f01)
+-   ✅ [Movement discipline](#org7be2a6d)
 
 
-<a id="org9f39b6c"></a>
+<a id="orgccc27a6"></a>
 
 ### Shopping/Errands
 
 -   ✅ Shopping list management
-    -   ✅ Integration with [financial management](#orgc98b0d9)
+    -   ✅ Integration with [financial management](#org4fed8ae)
         -   ✅ OFX cross-referencing (Open Financial eXchange)
     -   [ ] <code>[33%]</code> Integration with inventory and pantry management
 -   [ ] Buy/sell things as necessary
@@ -1588,7 +1036,7 @@ performAction(addToPendingTasks(Agent,unsilenceCellPhone(Agent,Phone))) :-
             -   [ ] Decide whether to sell
 
 
-<a id="org2d271c6"></a>
+<a id="org3ec204b"></a>
 
 ## Document Management
 
@@ -1605,10 +1053,10 @@ performAction(addToPendingTasks(Agent,unsilenceCellPhone(Agent,Phone))) :-
     -   ✅ Digital library system
         -   ✅ Equipment manuals
     -   ✅ [Book reader](https://frdcsa.org/frdcsa/internal/clear)
-    -   ✅ [Information search management](#orgf2c3fc0)
+    -   ✅ [Information search management](#org8add76f)
 
 
-<a id="orgc98b0d9"></a>
+<a id="org4fed8ae"></a>
 
 ## Financial Planner
 
@@ -1668,7 +1116,7 @@ promiseToPayForSpec('ELEC',andrewDougherty,'<ELECTRICCOMPANY>',dollars(93.00),[c
                     -   [ ] Product and seller comparison
                     -   [ ] Payment plan management
     -   ✅ Tracking purchases and deliveries
-    -   [ ] Inventory/pantry [Inventory Management](#org1e9a6b6) integration
+    -   [ ] Inventory/pantry [Inventory Management](#org5c252fc) integration
     -   [ ] Resource manager (automatic reordering and stock management)
     -   [ ] Receipt tracker
         -   [ ] <code>[50%]</code> Online
@@ -1689,7 +1137,7 @@ promiseToPayForSpec('ELEC',andrewDougherty,'<ELECTRICCOMPANY>',dollars(93.00),[c
 -   [ ] Bill payment subsystem
 
 
-<a id="org3b8c6ad"></a>
+<a id="orga732622"></a>
 
 ## Emergency Preparedness
 
@@ -1706,7 +1154,7 @@ promiseToPayForSpec('ELEC',andrewDougherty,'<ELECTRICCOMPANY>',dollars(93.00),[c
         -   [ ] <code>[10%]</code> Food and water
 
 
-<a id="orgd80ceba"></a>
+<a id="orgcce44a7"></a>
 
 ## Employment
 
@@ -1719,7 +1167,7 @@ promiseToPayForSpec('ELEC',andrewDougherty,'<ELECTRICCOMPANY>',dollars(93.00),[c
     -   ✅ [Negotiation trainer](https://frdcsa.org/~andrewdo/WebWiki/AudienceDialog.html)
 
 
-<a id="org24d05d0"></a>
+<a id="orgcb18567"></a>
 
 ## Executive Function
 
@@ -1734,12 +1182,12 @@ promiseToPayForSpec('ELEC',andrewDougherty,'<ELECTRICCOMPANY>',dollars(93.00),[c
     -   [ ] Goal setting
 
 
-<a id="org7692ccc"></a>
+<a id="orgb0a186b"></a>
 
 # Future Work
 
 
-<a id="org549d8ee"></a>
+<a id="orga593c9d"></a>
 
 ## Integrations
 
@@ -1761,12 +1209,12 @@ promiseToPayForSpec('ELEC',andrewDougherty,'<ELECTRICCOMPANY>',dollars(93.00),[c
         -   [ ] Additional security partitioning
 
 
-<a id="org62ca0e3"></a>
+<a id="org0218dda"></a>
 
 # Special Use Cases
 
 
-<a id="orgb65cc5f"></a>
+<a id="org24097b4"></a>
 
 ## Homelessness
 
@@ -1776,7 +1224,7 @@ promiseToPayForSpec('ELEC',andrewDougherty,'<ELECTRICCOMPANY>',dollars(93.00),[c
 -   [ ] [Pioneer Application](https://frdcsa.org/~andrewdo/writings/pioneer.app/Application.html)
 
 
-<a id="orgce3b95a"></a>
+<a id="org8076662"></a>
 
 ## Illness
 
@@ -1784,28 +1232,28 @@ promiseToPayForSpec('ELEC',andrewDougherty,'<ELECTRICCOMPANY>',dollars(93.00),[c
 -   [ ] <code>[10%]</code> [Akahige](https://frdcsa.org/frdcsa/internal/akahige)
 
 
-<a id="org1d9c0a9"></a>
+<a id="orgd008c2a"></a>
 
 ## Insolvency
 
--   [ ] <code>[25%]</code> [Financial Planner](#orgc98b0d9)
+-   [ ] <code>[25%]</code> [Financial Planner](#org4fed8ae)
 
 
-<a id="org97f836f"></a>
+<a id="orgdcec5ac"></a>
 
 ## Abuse
 
 -   [ ] <code>[25%]</code> <https://github.com/RescueSocialTech/Domestic_Abuse_Simulations>
 
 
-<a id="org8465c3e"></a>
+<a id="org6e6d768"></a>
 
 ## Climate Change and Disaster Management
 
 -   [ ] <code>[10%]</code> [Personal Emergency Management](https://frdcsa.org/~andrewdo/ontolog-20220410-reduced.mp4)
 
 
-<a id="org452076c"></a>
+<a id="orgc95c72b"></a>
 
 # Major Technologies Used
 
@@ -1852,12 +1300,12 @@ promiseToPayForSpec('ELEC',andrewDougherty,'<ELECTRICCOMPANY>',dollars(93.00),[c
         -   ✅ [Bark](https://github.com/suno-ai/bark) TTS (Text To Speech)
 
 
-<a id="orga4cbcc4"></a>
+<a id="org499290e"></a>
 
 # More Info
 
 
-<a id="org4504b99"></a>
+<a id="org12cba62"></a>
 
 ## More Use Cases
 
@@ -1870,7 +1318,7 @@ promiseToPayForSpec('ELEC',andrewDougherty,'<ELECTRICCOMPANY>',dollars(93.00),[c
 -   Generating a complex monthly financial plan with contingencies for unexpected expenses and if certain income doesn't come through
 
 
-<a id="orgc6a49a1"></a>
+<a id="org7becf39"></a>
 
 ## Recognition
 
@@ -1879,26 +1327,26 @@ promiseToPayForSpec('ELEC',andrewDougherty,'<ELECTRICCOMPANY>',dollars(93.00),[c
 -   [Testimonials](https://altruisticsoftware.org/frdcsa/#testimonials)
 
 
-<a id="org3fbecd3"></a>
+<a id="org9d46ae8"></a>
 
 ## Links
 
 
-<a id="org6c6ed0c"></a>
+<a id="org105e2d2"></a>
 
 ### Screenshots
 
 -   <https://github.com/aindilis/free-life-planner#a-few-screenshots>
 
 
-<a id="org2c7aa9f"></a>
+<a id="orgffcd9e3"></a>
 
 ### Subsystems
 
 -   <https://github.com/aindilis/free-life-planner#flp-subsystems>
 
 
-<a id="orgc1e6343"></a>
+<a id="org0ac9635"></a>
 
 ### More Links
 
